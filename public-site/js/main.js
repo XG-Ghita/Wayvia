@@ -20,10 +20,13 @@ const loading = document.getElementById("loading");
 // VIDEO FILES
 // ==========================================
 
-const scene1 = "../assets/videos/scene1.mp4";
-const scene2Main = "../assets/videos/scene2-main.mp4";
-const scene3 = "../assets/videos/scene3.mp4";
+const BASE_PATH = window.location.pathname.startsWith("/Wayvia/")
+    ? "/Wayvia/"
+    : "/";
 
+const scene1 = `${BASE_PATH}assets/videos/scene1.mp4`;
+const scene2Main = `${BASE_PATH}assets/videos/scene2-main.mp4`;
+const scene3 = `${BASE_PATH}assets/videos/scene3.mp4`;
 
 // ==========================================
 // SETTINGS

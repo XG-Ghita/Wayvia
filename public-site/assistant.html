@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WayVia — AI Career Assistant</title>
+
+    <!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Assistant CSS -->
+    <link rel="stylesheet" href="css/assistant.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         NAVBAR
+    ====================================================== -->
+
+    <header class="navbar">
+
+        <div class="navbar-inner">
+
+            <!-- Your logo image already contains WayVia -->
+            <a href="index.html" class="brand">
+                <img
+                    src="assets/images/wayvia-logo_dark.png"
+                    alt="WayVia"
+                    class="brand-logo"
+                >
+            </a>
+
+
+            <nav class="main-nav">
+
+                <a href="index.html" class="nav-link">
+                    Home
+                </a>
+
+                <a href="search.html" class="nav-link">
+                    Search
+                </a>
+
+                <a href="assistant.html" class="nav-link active">
+                    Chat
+                </a>
+
+                <a href="insights.html" class="nav-link">
+                    Insights
+                </a>
+
+            </nav>
+
+
+            <button
+                class="profile-button"
+                id="profileButton"
+                aria-label="Open profile"
+            >
+                <span class="profile-icon">G</span>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+    <main class="assistant-page">
+
+        <section class="assistant-window">
+
+
+            <!-- =================================================
+                 ASSISTANT HEADER
+            ================================================== -->
+
+            <header class="assistant-header">
+
+                <div class="assistant-identity">
+
+                    <div class="assistant-avatar">
+
+                        <svg
+                            width="22"
+                            height="22"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.8"
+                        >
+                            <path
+                                d="M12 3L19 6V11C19 15.5 16.2 19.2 12 21C7.8 19.2 5 15.5 5 11V6L12 3Z"
+                            />
+
+                            <circle
+                                cx="12"
+                                cy="11"
+                                r="2.5"
+                            />
+
+                        </svg>
+
+                    </div>
+
+
+                    <div class="assistant-title">
+
+                        <h1>
+                            AI Career Assistant
+                        </h1>
+
+                        <div class="online-status">
+
+                            <span class="status-dot"></span>
+
+                            Online
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <button
+                    class="header-action"
+                    id="clearChat"
+                    aria-label="Clear conversation"
+                >
+                    ↗
+                </button>
+
+            </header>
+
+
+            <!-- =================================================
+                 CHAT AREA
+            ================================================== -->
+
+            <div
+                class="chat-area"
+                id="chatArea"
+            >
+
+
+                <!-- =================================================
+                     ASSISTANT MESSAGE
+                ================================================== -->
+
+                <div class="message-row assistant-row">
+
+                    <div class="message-avatar">
+
+                        <svg
+                            width="17"
+                            height="17"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.8"
+                        >
+                            <circle
+                                cx="12"
+                                cy="8"
+                                r="3"
+                            />
+
+                            <path
+                                d="M5 21C5.8 16.8 8.2 15 12 15C15.8 15 18.2 16.8 19 21"
+                            />
+
+                        </svg>
+
+                    </div>
+
+
+                    <div class="message-content">
+
+                        <div class="message-bubble assistant-bubble">
+
+                            Hi! I'm your AI career assistant. 👋
+
+                            <br>
+
+                            Tell me about your skills, interests or what you're
+                            looking for, and I'll help you find the best
+                            companies and opportunities.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     USER MESSAGE
+                ================================================== -->
+
+                <div class="message-row user-row">
+
+                    <div class="message-content">
+
+                        <div class="message-bubble user-bubble">
+
+                            I'm interested in AI and development.
+                            I know Python and SQL, and I'm looking
+                            for a PFE in Marrakech.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     ASSISTANT RESPONSE
+                ================================================== -->
+
+                <div class="message-row assistant-row">
+
+                    <div class="message-avatar">
+
+                        <svg
+                            width="17"
+                            height="17"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.8"
+                        >
+                            <circle
+                                cx="12"
+                                cy="8"
+                                r="3"
+                            />
+
+                            <path
+                                d="M5 21C5.8 16.8 8.2 15 12 15C15.8 15 18.2 16.8 19 21"
+                            />
+
+                        </svg>
+
+                    </div>
+
+
+                    <div class="message-content">
+
+                        <div class="message-bubble assistant-bubble">
+
+                            Great! Here's what I found based on your profile:
+
+                        </div>
+
+
+                        <!-- =================================================
+                             SUGGESTED SEARCH
+                        ================================================== -->
+
+                        <div class="suggestion-card">
+
+                            <div class="suggestion-header">
+
+                                <div class="suggestion-icon">
+
+                                    <svg
+                                        width="15"
+                                        height="15"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                    >
+                                        <circle
+                                            cx="12"
+                                            cy="12"
+                                            r="8"
+                                        />
+
+                                        <path
+                                            d="M9 12L11 14L15 10"
+                                        />
+
+                                    </svg>
+
+                                </div>
+
+
+                                <strong>
+                                    Suggested search
+                                </strong>
+
+                            </div>
+
+
+                            <div class="suggestion-list">
+
+                                <div class="suggestion-item">
+                                    <span>✓</span>
+                                    <span>AI / Development companies</span>
+                                </div>
+
+                                <div class="suggestion-item">
+                                    <span>✓</span>
+                                    <span>Python & SQL skills</span>
+                                </div>
+
+                                <div class="suggestion-item">
+                                    <span>✓</span>
+                                    <span>PFE opportunity</span>
+                                </div>
+
+                                <div class="suggestion-item">
+                                    <span>✓</span>
+                                    <span>Marrakech</span>
+                                </div>
+
+                            </div>
+
+
+                            <button
+                                id="searchCompaniesButton"
+                                class="suggestion-button"
+                            >
+                                Search companies
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     TYPING INDICATOR
+                ================================================== -->
+
+                <div
+                    id="typingIndicator"
+                    class="message-row assistant-row typing-row hidden"
+                >
+
+                    <div class="message-avatar">
+
+                        <svg
+                            width="17"
+                            height="17"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.8"
+                        >
+                            <circle
+                                cx="12"
+                                cy="8"
+                                r="3"
+                            />
+
+                            <path
+                                d="M5 21C5.8 16.8 8.2 15 12 15C15.8 15 18.2 16.8 19 21"
+                            />
+
+                        </svg>
+
+                    </div>
+
+
+                    <div class="typing-bubble">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 COMPOSER
+            ================================================== -->
+
+            <div class="composer-section">
+
+                <div class="input-wrapper">
+
+                    <input
+                        type="text"
+                        id="messageInput"
+                        placeholder="Type your message..."
+                        autocomplete="off"
+                    >
+
+
+                    <button
+                        id="sendButton"
+                        class="send-button"
+                        aria-label="Send message"
+                    >
+
+                        <svg
+                            width="16"
+                            height="16"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                        >
+                            <path d="M22 2L11 13"></path>
+                            <path d="M22 2L15 22L11 13L2 9L22 2Z"></path>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+
+                <!-- =================================================
+                     QUICK ACTIONS
+                ================================================== -->
+
+                <div class="quick-actions">
+
+                    <button
+                        class="quick-button"
+                        data-action="data"
+                    >
+                        Show me data
+                    </button>
+
+                    <button
+                        class="quick-button"
+                        data-action="cities"
+                    >
+                        Which cities?
+                    </button>
+
+                    <button
+                        class="quick-button"
+                        data-action="profile"
+                    >
+                        My profile
+                    </button>
+
+                    <button
+                        class="quick-button"
+                        data-action="questions"
+                    >
+                        More questions
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- JavaScript -->
+    <script src="js/assistant.js"></script>
+
+</body>
+</html>

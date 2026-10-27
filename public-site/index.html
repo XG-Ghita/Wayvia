@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Career Journey</title>
+
+  <!-- Poppins Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/landing.css" />
+</head>
+
+<body>
+
+  <main
+    class="landing"
+    aria-label="Career opportunity landing page"
+  >
+
+    <!-- Cinematic Video -->
+    <div class="video-container">
+
+      <video
+        id="videoA"
+        class="scene-video active"
+        muted
+        playsinline
+        preload="auto"
+      ></video>
+
+      <video
+        id="videoB"
+        class="scene-video"
+        muted
+        playsinline
+        preload="auto"
+      ></video>
+
+    </div>
+
+
+    <!-- Cinematic darkening / vignette -->
+    <div
+      class="cinematic-vignette"
+      aria-hidden="true"
+    ></div>
+
+
+    <!-- Dark gradient behind the text -->
+    <div
+      class="left-panel"
+      aria-hidden="true"
+    ></div>
+
+
+    <!-- Landing Page Content -->
+    <section
+      id="heroContent"
+      class="hero-content"
+      aria-label="Find your next opportunity"
+    >
+
+
+      <!-- Main Heading -->
+      <h1>
+        Ready to find<br>
+        your next<br>
+        <span>opportunity?</span>
+      </h1>
+
+
+      <!-- Description -->
+      <p class="description">
+        Discover companies.<br>
+        Explore possibilities.<br>
+        Start your journey.
+      </p>
+
+
+      <!-- Start Search Button -->
+      <button
+        id="startSearch"
+        class="start-button"
+        type="button"
+      >
+        <span>Start Search</span>
+
+        <span
+          class="arrow"
+          aria-hidden="true"
+        >
+          →
+        </span>
+      </button>
+
+    </section>
+
+
+    <!-- Loading Message -->
+    <div
+      id="loading"
+      class="loading"
+    >
+      Loading your journey
+      <span class="dots">...</span>
+    </div>
+
+  </main>
+
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>

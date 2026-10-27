@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WayVia — My Profile</title>
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/profile.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         NAVBAR
+         ===================================================== -->
+
+    <header class="navbar">
+
+        <a href="index.html" class="navbar-logo">
+            <img
+                src="assets/images/wayvia-logo_dark.png"
+                alt="WayVia"
+            >
+        </a>
+
+        <nav class="navbar-links">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="search.html">
+                Search
+            </a>
+
+            <a href="assistant.html">
+                Chat
+            </a>
+
+            <a href="insights.html">
+                Insights
+            </a>
+
+        </nav>
+
+        <button 
+            class="profile-button active-profile" 
+            id="profileButton" 
+            aria-label="Open profile" 
+        >
+            <span id="profileInitial">G</span>
+        </button>
+
+    </header>
+
+
+    <!-- =====================================================
+         PROFILE PAGE
+         ===================================================== -->
+
+    <main class="profile-page">
+
+        <div class="profile-grid">
+
+
+            <!-- =================================================
+                 LEFT COLUMN — USER PROFILE
+                 ================================================= -->
+
+            <section class="profile-card">
+
+                <!-- PROFILE HEADER -->
+
+                <div class="profile-card-header">
+
+                    <h1>My Profile</h1>
+
+                    <div class="profile-header-actions">
+
+                        <button
+                            class="edit-button"
+                            id="editProfileButton"
+                        >
+                            Edit
+                        </button>
+
+                        <button
+                            class="logout-profile-button"
+                            id="logoutProfileButton"
+                            type="button"
+                        >
+                            Log out
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- USER IDENTITY -->
+
+                <div class="user-identity">
+
+                    <div class="profile-avatar" id="profileAvatar">
+                        G
+                    </div>
+
+                    <div class="user-info">
+
+                        <h2 id="userName">
+                            Ghita
+                        </h2>
+
+                        <p id="userStatus">
+                            AI Student · Year 2
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PROFILE DETAILS -->
+
+                <div class="profile-details">
+
+
+                    <!-- FIELD OF INTEREST -->
+
+                    <div class="profile-section">
+
+                        <h3>
+                            <span>◈</span>
+                            Field of interest
+                        </h3>
+
+                        <div
+                            class="profile-value"
+                            id="fieldValue"
+                        >
+                            <span class="value-icon">◫</span>
+                            Artificial Intelligence
+                        </div>
+
+                    </div>
+
+
+                    <!-- SKILLS -->
+
+                    <div class="profile-section">
+
+                        <h3>
+                            Skills
+                        </h3>
+
+                        <div
+                            class="tag-container"
+                            id="skillsContainer"
+                        >
+
+                            <span class="profile-tag">
+                                Python
+                            </span>
+
+                            <span class="profile-tag">
+                                SQL
+                            </span>
+
+                            <span class="profile-tag">
+                                Pandas
+                            </span>
+
+                            <span class="profile-tag">
+                                Machine Learning
+                            </span>
+
+                            <span class="profile-tag">
+                                Data Analysis
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PREFERRED LOCATIONS -->
+
+                    <div class="profile-section">
+
+                        <h3>
+                            ◉ Preferred locations
+                        </h3>
+
+                        <div
+                            class="tag-container"
+                            id="locationsContainer"
+                        >
+
+                            <span class="profile-tag">
+                                Marrakech
+                            </span>
+
+                            <span class="profile-tag">
+                                Casablanca
+                            </span>
+
+                            <span class="profile-tag">
+                                Rabat
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- OPPORTUNITY TYPE -->
+
+                    <div class="profile-section">
+
+                        <h3>
+                            Opportunity type
+                        </h3>
+
+                        <div
+                            class="tag-container"
+                            id="opportunityContainer"
+                        >
+
+                            <span class="profile-tag">
+                                PFE
+                            </span>
+
+                            <span class="profile-tag">
+                                Internship
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- EXPERIENCE -->
+
+                    <div class="profile-section">
+
+                        <h3>
+                            ◉ Experience level
+                        </h3>
+
+                        <div
+                            class="profile-value small-value"
+                            id="experienceValue"
+                        >
+                            Student
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PROFILE CTA -->
+
+                <div class="profile-cta">
+
+                    <div class="cta-icon">
+                        ✧
+                    </div>
+
+                    <div class="cta-text">
+
+                        <strong>
+                            Looking for something specific?
+                        </strong>
+
+                        <p>
+                            Update your profile to get more relevant recommendations.
+                        </p>
+
+                    </div>
+
+                    <button
+                        class="cta-button"
+                        id="ctaEditButton"
+                    >
+                        ✎ Edit profile
+                    </button>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =================================================
+                 RIGHT COLUMN
+                 ================================================= -->
+
+            <section class="activity-card">
+
+
+                <!-- TABS -->
+
+                <div class="activity-tabs">
+
+                    <button
+                        class="activity-tab active"
+                        data-tab="favorites"
+                    >
+                        Favorites
+                    </button>
+
+                    <button
+                        class="activity-tab"
+                        data-tab="history"
+                    >
+                        Search History
+                    </button>
+
+                </div>
+
+
+                <!-- =================================================
+                     FAVORITES
+                     ================================================= -->
+
+                <div
+                    class="activity-content active"
+                    id="favorites"
+                >
+
+                    <div
+                        class="company-list"
+                        id="favoritesList"
+                    >
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     SEARCH HISTORY
+                     ================================================= -->
+
+                <div
+                    class="activity-content"
+                    id="history"
+                >
+
+                    <div
+                        class="history-list"
+                        id="historyList"
+                    >
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     RECENTLY VIEWED
+                     ================================================= -->
+
+                <div class="recent-section">
+
+                    <div class="recent-header">
+
+                        <h2>
+                            Recently viewed
+                        </h2>
+
+                        <button
+                            id="viewAllButton"
+                            class="view-all-button"
+                        >
+                            View all
+                        </button>
+
+                    </div>
+
+                    <div
+                        class="recent-list"
+                        id="recentList"
+                    >
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+         ===================================================== -->
+
+    <script src="js/profile.js"></script>
+
+</body>
+
+</html>

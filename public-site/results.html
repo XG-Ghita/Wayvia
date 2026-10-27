@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WayVia — Search Results</title>
+
+    <!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+    
+    
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+
+    <link rel="stylesheet" href="css/results.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         NAVBAR
+    ====================================================== -->
+
+    <header class="navbar">
+
+        <div class="navbar-inner">
+
+            <a href="index.html" class="brand">
+                <img
+                    src="assets/images/wayvia-logo_dark.png"
+                    alt="WayVia"
+                    class="brand-logo"
+                >
+            </a>
+
+            <nav class="main-nav">
+
+                <a href="index.html" class="nav-link">
+                    Home
+                </a>
+
+                <a href="search.html" class="nav-link active">
+                    Search
+                </a>
+
+                <a href="assistant.html" class="nav-link">
+                    Chat
+                </a>
+
+                <a href="insights.html" class="nav-link">
+                    Insights
+                </a>
+
+            </nav>
+
+            <button
+                class="profile-button"
+                id="profileButton"
+            >
+                <span>G</span>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+    <main class="results-page">
+
+        <!-- Search header -->
+
+        <section class="results-header">
+
+            <div>
+
+                <h1>Search results</h1>
+
+                <p id="searchSummary">
+                    Companies matching your search
+                </p>
+
+            </div>
+
+            <button
+                class="modify-search"
+                id="modifySearch"
+            >
+                ← Modify search
+            </button>
+
+        </section>
+
+
+        <!-- =================================================
+             SEARCH BAR
+        ================================================== -->
+
+        <div class="search-bar">
+
+            <span class="search-icon">⌕</span>
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search companies, technologies, cities..."
+            >
+
+            <button id="searchButton">
+                Search
+            </button>
+
+        </div>
+
+
+        <!-- =================================================
+             CONTENT GRID
+        ================================================== -->
+
+        <section class="results-layout">
+
+
+            <!-- =================================================
+                 FILTERS
+            ================================================== -->
+
+            <aside class="filters-panel">
+
+                <div class="filter-header">
+
+                    <h2>Filters</h2>
+
+                    <button id="clearFilters">
+                        Clear all
+                    </button>
+
+                </div>
+
+
+                <!-- DOMAIN -->
+
+                <div class="filter-group">
+
+                    <h3>Domain</h3>
+
+                    <label>
+                        <input
+                            type="checkbox"
+                            value="AI"
+                            class="domain-filter"
+                            checked
+                        >
+                        <span>AI & Machine Learning</span>
+                    </label>
+
+                    <label>
+                        <input
+                            type="checkbox"
+                            value="Data Science"
+                            class="domain-filter"
+                        >
+                        <span>Data Science</span>
+                    </label>
+
+                    <label>
+                        <input
+                            type="checkbox"
+                            value="Development"
+                            class="domain-filter"
+                        >
+                        <span>Development</span>
+                    </label>
+
+                    <label>
+                        <input
+                            type="checkbox"
+                            value="Digital"
+                            class="domain-filter"
+                        >
+                        <span>Digital</span>
+                    </label>
+
+                    <label>
+                        <input
+                            type="checkbox"
+                            value="Cybersecurity"
+                            class="domain-filter"
+                        >
+                        <span>Cybersecurity</span>
+                    </label>
+
+                </div>
+
+
+
+                <!-- LOCATION -->
+
+                <div class="filter-group">
+
+                    <h3>Location</h3>
+
+                    <label>
+                        <input type="checkbox" value="Marrakech" class="location-filter">
+                        <span>Marrakech</span>
+                    </label>
+
+                    <label>
+                        <input type="checkbox" value="Casablanca" class="location-filter">
+                        <span>Casablanca</span>
+                    </label>
+
+                    <label>
+                        <input type="checkbox" value="Rabat" class="location-filter">
+                        <span>Rabat</span>
+                    </label>
+
+                    <label>
+                        <input type="checkbox" value="Agadir" class="location-filter">
+                        <span>Agadir</span>
+                    </label>
+
+                    <label>
+                        <input type="checkbox" value="Fes" class="location-filter">
+                        <span>Fes</span>
+                    </label>
+
+                    <label>
+                        <input type="checkbox" value="Tangier" class="location-filter">
+                        <span>Tangier</span>
+                    </label>
+
+                    <label>
+                        <input type="checkbox" value="Meknes" class="location-filter">
+                        <span>Meknes</span>
+                    </label>
+
+                    <label>
+                        <input type="checkbox" value="Oujda" class="location-filter">
+                        <span>Oujda</span>
+                    </label>
+
+                </div>
+
+
+                <!-- TECHNOLOGIES -->
+
+                <div class="filter-group">
+
+                    <h3>Technologies</h3>
+
+                    <label>
+                        <input
+                            type="checkbox"
+                            value="Python"
+                            class="technology-filter"
+                        >
+                        <span>Python</span>
+                    </label>
+
+                    <label>
+                        <input
+                            type="checkbox"
+                            value="SQL"
+                            class="technology-filter"
+                        >
+                        <span>SQL</span>
+                    </label>
+
+                    <label>
+                        <input
+                            type="checkbox"
+                            value="JavaScript"
+                            class="technology-filter"
+                        >
+                        <span>JavaScript</span>
+                    </label>
+
+                    <label>
+                        <input
+                            type="checkbox"
+                            value="TensorFlow"
+                            class="technology-filter"
+                        >
+                        <span>TensorFlow</span>
+                    </label>
+
+                </div>
+
+            </aside>
+
+
+            <!-- =================================================
+                 COMPANY RESULTS
+            ================================================== -->
+
+            <section class="companies-section">
+
+                <div class="companies-toolbar">
+
+                    <span id="resultsCount">
+                        Results (0 companies)
+                    </span>
+
+                    <select id="sortSelect">
+
+                        <option value="match">
+                            Sort by: Best match
+                        </option>
+
+                        <option value="rating">
+                            Highest rating
+                        </option>
+
+                        <option value="reviews">
+                            Most reviews
+                        </option>
+
+                        <option value="name">
+                            Name
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div
+                    class="company-list"
+                    id="companyList"
+                ></div>
+
+            </section>
+
+
+            <!-- =================================================
+                 MAP
+            ================================================== -->
+
+            <aside class="map-panel">
+                <div class="map-header">
+                    <h2 id="mapTitle">Companies matching your search</h2>
+                    <span id="mapCompanyCount">0 companies</span>
+                </div>
+
+                <div id="companyMap" class="company-map"></div>
+
+                <div class="map-footer">
+                    <span>● Company locations</span>
+                    <span>Zoom in to explore nearby companies</span>
+                </div>
+            </aside>
+
+        </section>
+
+    </main>
+
+
+    <script src="js/data.js"></script>
+    <script src="js/results.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+
+</body>
+
+</html>

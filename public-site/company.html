@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WayVia — Company Profile</title>
+
+    <!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Company CSS -->
+    <link rel="stylesheet" href="css/company.css">
+</head>
+
+
+<body>
+
+    <!-- =====================================================
+         NAVBAR
+    ====================================================== -->
+
+    <header class="navbar">
+
+        <div class="navbar-inner">
+
+            <!-- Your complete WayVia logo -->
+            <a href="index.html" class="brand">
+
+                <img
+                    src="assets/images/wayvia-logo_dark.png"
+                    alt="WayVia"
+                    class="brand-logo"
+                >
+
+            </a>
+
+
+            <nav class="main-nav">
+
+                <a href="index.html" class="nav-link">
+                    Home
+                </a>
+
+                <a href="search.html" class="nav-link active">
+                    Search
+                </a>
+
+                <a href="assistant.html" class="nav-link">
+                    Chat
+                </a>
+
+                <a href="insights.html" class="nav-link">
+                    Insights
+                </a>
+
+            </nav>
+
+
+            <button
+                class="profile-button"
+                id="profileButton"
+                aria-label="Open profile"
+            >
+                <span>G</span>
+            </button>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         MAIN COMPANY PAGE
+    ====================================================== -->
+
+    <main class="company-page">
+
+
+        <!-- =================================================
+             BACK + SAVE
+        ================================================== -->
+
+        <div class="top-actions">
+
+            <button
+                class="back-button"
+                id="backButton"
+            >
+                <span>←</span>
+                Back to results
+            </button>
+
+
+            <button
+                class="save-button"
+                id="saveButton"
+            >
+                <span class="heart-icon">♡</span>
+                <span id="saveText">Save</span>
+            </button>
+
+        </div>
+
+
+
+        <!-- =================================================
+             COMPANY HERO
+        ================================================== -->
+
+        <section class="company-hero">
+
+
+            <!-- LEFT SIDE -->
+            <div class="company-main-info">
+
+
+                <div class="company-identity">
+
+
+                <div class="company-logo">
+
+                    <span id="companyInitial">A</span>
+
+                </div>
+
+
+                    <div class="company-title">
+
+                        <div class="title-line">
+
+                            <h1 id="companyName">
+                                Artificial.ma
+                            </h1>
+
+                            <span class="verified">
+                                ✓
+                            </span>
+
+                        </div>
+
+
+                        <div class="rating-line">
+
+                            <span class="star">
+                                ★
+                            </span>
+
+                            <strong id="companyRating">
+                                4.8
+                            </strong>
+
+                            <span id="companyReviews">
+                                (120 reviews)
+                            </span>
+
+
+                            <span class="verified-badge">
+                                ✓ Verified
+                            </span>
+
+                        </div>
+
+
+                        <div
+                            class="company-tags"
+                            id="companyTags"
+                        >
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- CONTACT INFORMATION -->
+
+                <div class="contact-grid">
+
+                    <div class="contact-item">
+
+                        <span class="contact-icon">⌖</span>
+
+                        <span id="companyLocation">
+                            Marrakech, Morocco
+                        </span>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <span class="contact-icon">⌕</span>
+
+                        <span id="companyPhone">
+                            +212 524 12 34 56
+                        </span>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <span class="contact-icon">◎</span>
+
+                        <span id="companyWebsite">
+                            www.artificial.ma
+                        </span>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <span class="contact-icon">✉</span>
+
+                        <span id="companyEmail">
+                            contact@artificial.ma
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- ACTION BUTTONS -->
+
+                <div class="company-actions">
+
+                    <button
+                        class="primary-action"
+                        id="visitWebsite"
+                    >
+                        <span>↗</span>
+                        Visit website
+                    </button>
+
+
+                    <button
+                        class="secondary-action"
+                        id="openMaps"
+                    >
+                        <span>⌖</span>
+                        Open in Google Maps
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 MATCH CARD
+            ================================================== -->
+
+            <aside class="match-card">
+
+                <p class="match-title">
+                    Your match with this company
+                </p>
+
+
+                <div class="match-content">
+
+
+                    <div class="match-circle">
+
+                        <svg
+                            viewBox="0 0 100 100"
+                            class="progress-ring"
+                        >
+
+                            <circle
+                                class="ring-background"
+                                cx="50"
+                                cy="50"
+                                r="40"
+                            />
+
+                            <circle
+                                class="ring-progress"
+                                cx="50"
+                                cy="50"
+                                r="40"
+                            />
+
+                        </svg>
+
+
+                        <div class="match-number">
+
+                            <strong id="matchPercentage">
+                                92%
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="match-description">
+
+                        <div class="match-status">
+
+                            <span class="status-check">
+                                ✓
+                            </span>
+
+                            Excellent match
+
+                        </div>
+
+
+                        <p>
+                            This company matches 5 of your
+                            6 skills and your preferred location.
+                        </p>
+
+
+                        <button
+                            class="why-button"
+                            id="whyMatch"
+                        >
+                            Why? <span>›</span>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </aside>
+
+        </section>
+
+
+
+        <!-- =================================================
+             TABS
+        ================================================== -->
+
+        <nav class="company-tabs">
+
+            <button
+                class="tab active"
+                data-tab="overview"
+            >
+                Overview
+            </button>
+
+            <button
+                class="tab"
+                data-tab="technologies"
+            >
+                Technologies
+            </button>
+
+            <button
+                class="tab"
+                data-tab="opportunities"
+            >
+                Opportunities
+            </button>
+
+            <button
+                class="tab"
+                data-tab="reviews"
+            >
+                Reviews
+            </button>
+
+            <button
+                class="tab"
+                data-tab="map"
+            >
+                Map
+            </button>
+
+        </nav>
+
+
+
+        <!-- =================================================
+             OVERVIEW
+        ================================================== -->
+
+        <section
+            class="tab-content active"
+            id="overview"
+        >
+
+
+            <!-- ABOUT -->
+
+            <div class="content-section">
+
+                <h2>About</h2>
+
+                <p id="companyDescription">
+
+                    Artificial.ma est une agence spécialisée dans
+                    l'intelligence artificielle et la transformation
+                    digitale. Nous accompagnons les entreprises
+                    dans leurs projets d'IA, de data et de développement
+                    de solutions sur mesure.
+
+                </p>
+
+            </div>
+
+
+
+            <!-- TECHNOLOGIES -->
+
+            <div class="content-section">
+
+                <h2>Technologies</h2>
+
+
+                <div
+                    class="technology-list"
+                    id="technologyList"
+                >
+
+                    <span>Python</span>
+                    <span>Machine Learning</span>
+                    <span>TensorFlow</span>
+                    <span>React</span>
+                    <span>SQL</span>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- MAP + OPPORTUNITIES -->
+
+            <div class="lower-grid">
+
+
+                <!-- MAP -->
+
+                <div class="map-card">
+
+                    <div class="map-placeholder">
+
+                        <div class="map-grid"></div>
+
+
+                        <div class="map-road road-one"></div>
+                        <div class="map-road road-two"></div>
+                        <div class="map-road road-three"></div>
+
+
+                        <div class="map-area area-one"></div>
+                        <div class="map-area area-two"></div>
+
+
+                        <div class="map-pin main-pin">
+                            ●
+                        </div>
+
+
+                        <div class="map-controls">
+
+                            <button>+</button>
+                            <button>−</button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="map-footer">
+
+                        <span>
+                            View on Google Maps
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- OPPORTUNITIES -->
+
+                <div class="opportunities-card">
+
+                    <div class="section-heading">
+
+                        <h2>
+                            Opportunities
+                        </h2>
+
+                        <span class="count">
+                            3
+                        </span>
+
+                    </div>
+
+
+
+                    <div
+                        class="opportunity-list"
+                        id="opportunityList"
+                    >
+
+
+                        <!-- OPPORTUNITY 1 -->
+
+                        <article class="opportunity">
+
+                            <div class="opportunity-icon purple">
+                                ◉
+                            </div>
+
+
+                            <div class="opportunity-info">
+
+                                <strong>
+                                    PFE - Développeur IA
+                                </strong>
+
+                                <span>
+                                    PFE
+                                </span>
+
+                            </div>
+
+
+                            <div class="opportunity-location">
+                                Marrakech
+                            </div>
+
+
+                            <span class="opportunity-arrow">
+                                ›
+                            </span>
+
+                        </article>
+
+
+
+                        <!-- OPPORTUNITY 2 -->
+
+                        <article class="opportunity">
+
+                            <div class="opportunity-icon blue">
+                                ◇
+                            </div>
+
+
+                            <div class="opportunity-info">
+
+                                <strong>
+                                    Stage - Data Analyst
+                                </strong>
+
+                                <span>
+                                    Internship
+                                </span>
+
+                            </div>
+
+
+                            <div class="opportunity-location">
+                                Marrakech
+                            </div>
+
+
+                            <span class="opportunity-arrow">
+                                ›
+                            </span>
+
+                        </article>
+
+
+
+                        <!-- OPPORTUNITY 3 -->
+
+                        <article class="opportunity">
+
+                            <div class="opportunity-icon red">
+                                ●
+                            </div>
+
+
+                            <div class="opportunity-info">
+
+                                <strong>
+                                    Junior Python Developer
+                                </strong>
+
+                                <span>
+                                    Job
+                                </span>
+
+                            </div>
+
+
+                            <div class="opportunity-location">
+                                Marrakech
+                            </div>
+
+
+                            <span class="opportunity-arrow">
+                                ›
+                            </span>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             OTHER TABS
+        ================================================== -->
+
+        <section
+            class="tab-content"
+            id="technologies"
+        >
+
+            <div class="empty-tab">
+
+                <h2>Technologies</h2>
+
+                <p>
+                    Technologies and technical stack used by this company
+                    will appear here.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <section
+            class="tab-content"
+            id="opportunities"
+        >
+
+            <div class="empty-tab">
+
+                <h2>Opportunities</h2>
+
+                <p>
+                    Current internships, PFE opportunities and jobs
+                    will appear here.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <section
+            class="tab-content"
+            id="reviews"
+        >
+
+            <div class="empty-tab">
+
+                <h2>Reviews</h2>
+
+                <p>
+                    Company reviews collected from available sources
+                    will appear here.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <section
+            class="tab-content"
+            id="map"
+        >
+
+            <div class="empty-tab">
+
+                <h2>Map</h2>
+
+                <p>
+                    The interactive Google Map will appear here once
+                    the Google Maps integration is connected.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             FOOTER
+        ================================================== -->
+
+        <footer class="company-footer">
+
+            <div class="footer-logo">
+
+                <img
+                    src="assets/images/wayvia-logo_light.png"
+                    alt="WayVia"
+                >
+
+            </div>
+
+            <p>
+                Connect · Explore · Grow
+            </p>
+
+        </footer>
+
+
+    </main>
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script src="js/data.js"></script>
+    <script src="js/company.js"></script>
+    
+</body>
+</html>

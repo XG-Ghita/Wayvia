@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Applications | WayVia</title>
+
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/my-applications.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="navbar-inner">
+
+            <a href="index.html" class="brand">
+                <img
+                    src="../assets/images/wayvia-logo_dark.png"
+                    alt="WayVia"
+                    class="brand-logo"
+                >
+            </a>
+
+            <nav class="main-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="search.html" class="nav-link">Search</a>
+                <a href="opportunities.html" class="nav-link">Opportunities</a>
+                <a href="my-applications.html" class="nav-link active">My Applications</a>
+                <a href="cv-generator.html" class="nav-link">CV Generator</a>
+                <a href="assistant.html" class="nav-link">Chat</a>
+                <a href="insights.html" class="nav-link">Insights</a>
+            </nav>
+
+            <button class="profile-button" id="profileButton">
+                <span>G</span>
+            </button>
+
+        </div>
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="applications-page">
+
+        <section class="applications-hero">
+            <div>
+                <span class="hero-label">YOUR CAREER JOURNEY</span>
+                <h1>My Applications</h1>
+                <p>Keep track of your opportunities and follow your application progress.</p>
+            </div>
+        </section>
+
+
+        <!-- STATISTICS -->
+        <section class="application-stats">
+
+            <div class="application-stat-card">
+                <span>Total Applications</span>
+                <h2 id="totalApplications">0</h2>
+            </div>
+
+            <div class="application-stat-card">
+                <span>Applied</span>
+                <h2 id="appliedCount">0</h2>
+            </div>
+
+            <div class="application-stat-card">
+                <span>Interviews</span>
+                <h2 id="interviewCount">0</h2>
+            </div>
+
+            <div class="application-stat-card">
+                <span>Accepted</span>
+                <h2 id="acceptedCount">0</h2>
+            </div>
+
+        </section>
+
+
+        <!-- APPLICATION LIST -->
+        <section class="applications-section">
+
+            <div class="applications-heading">
+                <div>
+                    <h2>My Applications</h2>
+                    <p>Manage and monitor your saved opportunities.</p>
+                </div>
+
+                <select id="statusFilter">
+                    <option value="all">All statuses</option>
+                    <option value="saved">Saved</option>
+                    <option value="applied">Applied</option>
+                    <option value="interview">Interview</option>
+                    <option value="accepted">Accepted</option>
+                    <option value="rejected">Rejected</option>
+                </select>
+            </div>
+
+            <div id="applicationsContainer" class="applications-grid"></div>
+
+            <div id="applicationsEmpty" class="applications-empty">
+                <h3>No applications yet</h3>
+                <p>Save opportunities from the Opportunities page to start tracking your progress.</p>
+                <a href="opportunities.html" class="browse-button">
+                    Browse Opportunities
+                </a>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="../js/main.js"></script>
+    <script src="../js/applications-storage.js"></script>
+    <script src="../js/my-applications.js"></script>
+
+</body>
+</html>

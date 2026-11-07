@@ -1,0 +1,1021 @@
+/* =========================================================
+   WAYVIA — SEARCH RESULTS
+   ========================================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+
+    --purple: #6c3cff;
+    --purple-dark: #4b22c8;
+    --blue: #3b82f6;
+    --cyan: #22d3ee;
+
+    --text: #111936;
+    --text-soft: #65718f;
+    --text-light: #9aa4b8;
+
+    --border: #e1e7f1;
+    --border-light: #edf0f6;
+
+    --background: #ffffff;
+    --background-soft: #f8faff;
+}
+
+
+body {
+
+    min-height: 100vh;
+
+    font-family: "Poppins", sans-serif;
+
+    color: var(--text);
+
+    background:
+        linear-gradient(
+            180deg,
+            #ffffff,
+            #fafbff
+        );
+}
+
+
+/* =========================================================
+   NAVBAR
+   ========================================================= */
+
+.navbar {
+
+    height: 64px;
+
+    background: white;
+
+    border-bottom:
+        1px solid var(--border-light);
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 100;
+}
+
+
+.navbar-inner {
+
+    height: 100%;
+
+    max-width: 1400px;
+
+    margin: auto;
+
+    padding: 0 26px;
+
+    display: flex;
+
+    align-items: center;
+}
+
+
+.brand {
+
+    display: flex;
+
+    align-items: center;
+}
+
+
+.brand-logo {
+
+    width: 125px;
+
+    display: block;
+}
+
+
+.main-nav {
+
+    display: flex;
+
+    gap: 30px;
+
+    margin-left: 70px;
+
+    height: 100%;
+}
+
+
+.nav-link {
+
+    height: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    position: relative;
+
+    color: #536080;
+
+    text-decoration: none;
+
+    font-size: 13px;
+
+    font-weight: 500;
+}
+
+
+.nav-link.active,
+.nav-link:hover {
+
+    color: var(--purple);
+}
+
+
+.nav-link.active::after {
+
+    content: "";
+
+    position: absolute;
+
+    bottom: 0;
+
+    left: 0;
+
+    right: 0;
+
+    height: 2px;
+
+    background:
+        linear-gradient(
+            90deg,
+            var(--purple),
+            var(--blue)
+        );
+}
+
+
+.profile-button {
+
+    margin-left: auto;
+
+    width: 30px;
+
+    height: 30px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--purple),
+            var(--blue)
+        );
+
+    cursor: pointer;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+
+.profile-button span {
+
+    width: 22px;
+
+    height: 22px;
+
+    border-radius: 50%;
+
+    background: white;
+
+    color: var(--purple);
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 10px;
+
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   MAIN
+   ========================================================= */
+
+.results-page {
+
+    max-width: 1400px;
+
+    margin: auto;
+
+    padding:
+        28px 28px 45px;
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+.results-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 18px;
+}
+
+
+.results-header h1 {
+
+    color: #111d45;
+
+    font-size: 22px;
+
+    font-weight: 700;
+}
+
+
+.results-header p {
+
+    margin-top: 3px;
+
+    color: var(--text-soft);
+
+    font-size: 10px;
+}
+
+
+.modify-search {
+
+    border: 1px solid #dce2ee;
+
+    background: white;
+
+    color: var(--purple);
+
+    padding:
+        8px 13px;
+
+    border-radius: 8px;
+
+    font-family: inherit;
+
+    font-size: 9px;
+
+    cursor: pointer;
+}
+
+
+/* =========================================================
+   SEARCH BAR
+   ========================================================= */
+
+.search-bar {
+
+    height: 42px;
+
+    display: flex;
+
+    align-items: center;
+
+    border:
+        1px solid #dce3ef;
+
+    border-radius: 9px;
+
+    background: white;
+
+    overflow: hidden;
+
+    margin-bottom: 15px;
+
+    box-shadow:
+        0 4px 15px rgba(46, 55, 95, 0.03);
+}
+
+
+.search-icon {
+
+    margin-left: 14px;
+
+    color: #7080a2;
+
+    font-size: 18px;
+}
+
+
+.search-bar input {
+
+    flex: 1;
+
+    height: 100%;
+
+    border: none;
+
+    outline: none;
+
+    padding:
+        0 12px;
+
+    font-family: inherit;
+
+    font-size: 9px;
+
+    color: var(--text);
+}
+
+
+.search-bar input::placeholder {
+
+    color: #a4aec0;
+}
+
+
+.search-bar button {
+
+    height: 100%;
+
+    width: 78px;
+
+    border: none;
+
+    color: white;
+
+    font-family: inherit;
+
+    font-size: 8px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    background:
+        linear-gradient(
+            90deg,
+            var(--purple),
+            var(--blue)
+        );
+}
+
+
+/* =========================================================
+   MAIN GRID
+   ========================================================= */
+
+.results-layout {
+
+    display: grid;
+
+    grid-template-columns:
+        155px minmax(400px, 1fr) 300px;
+
+    gap: 15px;
+
+    align-items: start;
+}
+
+
+/* =========================================================
+   FILTERS
+   ========================================================= */
+
+.filters-panel {
+
+    border:
+        1px solid var(--border);
+
+    border-radius: 9px;
+
+    background: white;
+
+    padding: 12px;
+
+    box-shadow:
+        0 4px 15px rgba(40, 50, 90, 0.03);
+}
+
+
+.filter-header {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-bottom: 14px;
+}
+
+
+.filter-header h2 {
+
+    font-size: 9px;
+
+    color: #192750;
+}
+
+
+.filter-header button {
+
+    border: none;
+
+    background: transparent;
+
+    color: var(--purple);
+
+    font-family: inherit;
+
+    font-size: 6px;
+
+    cursor: pointer;
+}
+
+
+.filter-group {
+
+    padding-bottom: 12px;
+
+    margin-bottom: 10px;
+
+    border-bottom:
+        1px solid #f0f2f6;
+}
+
+
+.filter-group:last-child {
+
+    border-bottom: none;
+
+    margin-bottom: 0;
+}
+
+
+.filter-group h3 {
+
+    color: #334264;
+
+    font-size: 7px;
+
+    font-weight: 600;
+
+    margin-bottom: 7px;
+}
+
+
+.filter-group label {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+    margin: 7px 0;
+
+    color: #687594;
+
+    font-size: 6.5px;
+
+    cursor: pointer;
+}
+
+
+.filter-group input {
+
+    width: 10px;
+
+    height: 10px;
+
+    accent-color: var(--purple);
+}
+
+
+/* =========================================================
+   COMPANIES
+   ========================================================= */
+
+.companies-section {
+
+    min-width: 0;
+}
+
+
+.companies-toolbar {
+
+    height: 32px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding:
+        0 3px;
+
+    margin-bottom: 5px;
+}
+
+
+#resultsCount {
+
+    color: #29395f;
+
+    font-size: 8px;
+
+    font-weight: 600;
+}
+
+
+#sortSelect {
+
+    border:
+        1px solid #dce2ed;
+
+    border-radius: 6px;
+
+    padding:
+        5px 7px;
+
+    background: white;
+
+    color: #65718d;
+
+    font-family: inherit;
+
+    font-size: 6.5px;
+
+    outline: none;
+}
+
+
+.company-list {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 7px;
+}
+
+
+/* =========================================================
+   COMPANY CARD
+   ========================================================= */
+
+.company-card {
+
+    min-height: 88px;
+
+    padding:
+        12px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 11px;
+
+    position: relative;
+
+    border:
+        1px solid var(--border);
+
+    border-radius: 9px;
+
+    background: white;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        border-color 0.2s ease;
+}
+
+
+.company-card:hover {
+
+    transform: translateY(-2px);
+
+    border-color: #d4ccff;
+
+    box-shadow:
+        0 8px 22px rgba(74, 55, 160, 0.08);
+}
+
+
+.company-logo {
+
+    width: 40px;
+
+    height: 40px;
+
+    flex-shrink: 0;
+
+    border-radius: 9px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    color: white;
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+    background:
+        linear-gradient(
+            145deg,
+            #111e45,
+            #182e68
+        );
+}
+
+
+.company-logo.purple {
+
+    background:
+        linear-gradient(
+            145deg,
+            #7040d9,
+            #a15cff
+        );
+}
+
+
+.company-logo.orange {
+
+    background:
+        linear-gradient(
+            145deg,
+            #a36b18,
+            #d39b2d
+        );
+}
+
+
+.company-info {
+
+    min-width: 0;
+
+    flex: 1;
+}
+
+
+.company-name-row {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 5px;
+}
+
+
+.company-name {
+
+    color: #17254a;
+
+    font-size: 8.5px;
+
+    font-weight: 700;
+}
+
+
+.verified {
+
+    width: 11px;
+
+    height: 11px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #eef4ff;
+
+    color: var(--blue);
+
+    font-size: 6px;
+}
+
+
+.company-tags {
+
+    display: flex;
+
+    gap: 4px;
+
+    margin-top: 4px;
+
+    flex-wrap: wrap;
+}
+
+
+.company-tag {
+
+    padding:
+        3px 6px;
+
+    border-radius: 8px;
+
+    color: #61749f;
+
+    background: #f1f5ff;
+
+    font-size: 5.5px;
+}
+
+
+.company-meta {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 9px;
+
+    margin-top: 5px;
+
+    color: #8490a7;
+
+    font-size: 5.8px;
+}
+
+
+.rating {
+
+    color: #f2ad32;
+
+    font-weight: 600;
+}
+
+
+.match-badge {
+
+    align-self: flex-start;
+
+    padding:
+        4px 7px;
+
+    border-radius: 9px;
+
+    background: #f0edff;
+
+    color: var(--purple);
+
+    font-size: 6px;
+
+    font-weight: 600;
+
+    white-space: nowrap;
+}
+
+
+.card-heart {
+
+    position: absolute;
+
+    right: 10px;
+
+    bottom: 10px;
+
+    border: none;
+
+    background: transparent;
+
+    color: #9ba5ba;
+
+    font-size: 13px;
+
+    cursor: pointer;
+}
+
+
+
+/* Real interactive company map */
+.map-panel {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    overflow: hidden;
+    border-radius: 14px;
+}
+
+.map-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 14px 16px;
+}
+
+.map-header h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#mapCompanyCount {
+    flex-shrink: 0;
+    color: #7B2CBF;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#companyMap {
+    width: 100%;
+    height: 560px;
+    min-height: 350px;
+    background: #f1eef7;
+    z-index: 1;
+}
+
+.map-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 10px 14px;
+    font-size: 11px;
+    color: #777;
+}
+
+.company-map-marker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12px;
+    height: 12px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background: #7B2CBF;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.35);
+}
+
+.company-map-marker:hover {
+    background: #C77DFF;
+    transform: scale(1.25);
+}
+
+.leaflet-popup-content {
+    font-family: inherit;
+    min-width: 150px;
+}
+
+.leaflet-popup-content button {
+    margin-top: 8px;
+    padding: 6px 10px;
+    border: 0;
+    border-radius: 6px;
+    background: #7B2CBF;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    #companyMap {
+        height: 400px;
+    }
+
+    .map-header {
+        align-items: flex-start;
+    }
+}
+
+
+
+/* =========================================================
+   NO RESULTS
+   ========================================================= */
+
+.no-results {
+
+    padding: 50px 20px;
+
+    text-align: center;
+
+    border:
+        1px solid var(--border);
+
+    border-radius: 9px;
+
+    background: white;
+}
+
+
+.no-results h3 {
+
+    color: #26365d;
+
+    font-size: 11px;
+
+    margin-bottom: 5px;
+}
+
+
+.no-results p {
+
+    color: #8993a8;
+
+    font-size: 7px;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 1050px) {
+
+    .results-layout {
+
+        grid-template-columns:
+            150px 1fr;
+    }
+
+
+    .map-panel {
+
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 700px) {
+
+    .results-page {
+
+        padding:
+            20px 14px;
+    }
+
+
+    .results-layout {
+
+        grid-template-columns: 1fr;
+    }
+
+
+    .filters-panel {
+
+        display: none;
+    }
+
+
+    .main-nav {
+
+        margin-left: 25px;
+
+        gap: 15px;
+    }
+
+
+    .nav-link {
+
+        font-size: 9px;
+    }
+
+
+    .results-header {
+
+        align-items: flex-start;
+
+        gap: 10px;
+    }
+
+
+    .results-header h1 {
+
+        font-size: 18px;
+    }
+
+}

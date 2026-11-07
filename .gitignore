@@ -1,0 +1,16 @@
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Dependencies and local files
+node_modules/
+.DS_Store
+Thumbs.db

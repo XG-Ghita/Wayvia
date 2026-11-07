@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Opportunities | WayVia</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/opportunities.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="navbar-inner">
+
+            <a href="index.html" class="brand">
+                <img
+                    src="../assets/images/wayvia-logo_dark.png"
+                    alt="WayVia"
+                    class="brand-logo"
+                >
+            </a>
+
+            <nav class="main-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="search.html" class="nav-link">Search</a>
+                <a href="opportunities.html" class="nav-link active">Opportunities</a>
+                <a href="my-applications.html" class="nav-link">My Applications</a>
+                <a href="cv-generator.html" class="nav-link">CV Generator</a>
+                <a href="assistant.html" class="nav-link">Chat</a>
+                <a href="insights.html" class="nav-link">Insights</a>
+            </nav>
+
+            <button
+                class="profile-button"
+                id="profileButton"
+                aria-label="Open profile"
+            >
+                <span class="profile-icon">G</span>
+            </button>
+
+        </div>
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="opportunities-page">
+
+        <section class="opportunities-hero">
+
+            <div class="hero-content">
+                <span class="hero-label">YOUR NEXT STEP STARTS HERE</span>
+
+                <h1>
+                    Discover opportunities.<br>
+                    <span>Build your future.</span>
+                </h1>
+
+                <p>
+                    Explore internships, PFE projects and job opportunities
+                    from companies across Morocco.
+                </p>
+            </div>
+
+            <div class="hero-decoration">
+                <div class="decoration-circle"></div>
+                <div class="decoration-circle small"></div>
+            </div>
+
+        </section>
+
+
+        <!-- STATISTICS -->
+        <section class="opportunity-stats">
+
+            <div class="stat-card">
+                <span class="stat-number" id="totalOpportunities">—</span>
+                <span class="stat-label">Opportunities</span>
+            </div>
+
+            <div class="stat-card">
+                <span class="stat-number" id="internshipCount">—</span>
+                <span class="stat-label">Internships & PFE</span>
+            </div>
+
+            <div class="stat-card">
+                <span class="stat-number" id="juniorCount">—</span>
+                <span class="stat-label">Junior positions</span>
+            </div>
+
+            <div class="stat-card">
+                <span class="stat-number" id="locationCount">—</span>
+                <span class="stat-label">Locations</span>
+            </div>
+
+        </section>
+
+
+        <!-- FILTERS -->
+        <section class="opportunity-filters">
+
+            <div class="section-heading">
+                <div>
+                    <h2>Find your opportunity</h2>
+                    <p>Filter opportunities according to your interests.</p>
+                </div>
+            </div>
+
+            <div class="filters-grid">
+
+                <div class="filter-group">
+                    <label for="searchInput">Search</label>
+                    <input
+                        type="text"
+                        id="searchInput"
+                        placeholder="Job title, company, keyword..."
+                    >
+                </div>
+
+                <div class="filter-group">
+                    <label for="domainFilter">Domain</label>
+                    <select id="domainFilter">
+                        <option value="">All domains</option>
+                        <option value="ai">AI & Machine Learning</option>
+                        <option value="data">Data</option>
+                        <option value="web">Web Development</option>
+                        <option value="networking">Networking</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="locationFilter">Location</label>
+                    <select id="locationFilter">
+                        <option value="">All locations</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="typeFilter">Opportunity type</label>
+                    <select id="typeFilter">
+                        <option value="">All opportunities</option>
+                        <option value="internship_pfe">Internships & PFE</option>
+                        <option value="junior_entry_level">Junior / Entry-level</option>
+                        <option value="other_relevant">Other jobs</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="filter-footer">
+
+                <label class="student-filter">
+                    <input type="checkbox" id="studentFilter">
+                    <span>Show only student-friendly opportunities</span>
+                </label>
+
+                <button type="button" id="resetFilters">
+                    Reset filters
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- RESULTS -->
+        <section class="opportunity-results">
+
+            <div class="results-heading">
+                <div>
+                    <h2>Available opportunities</h2>
+                    <p id="resultsCount">Loading opportunities...</p>
+                </div>
+
+                <select id="sortFilter" aria-label="Sort opportunities">
+                    <option value="priority">Student priority</option>
+                    <option value="recent">Most recent</option>
+                    <option value="alphabetical">Alphabetical</option>
+                </select>
+            </div>
+
+            <div id="opportunitiesContainer" class="opportunities-grid">
+
+                <div class="loading-message">
+                    Loading opportunities...
+                </div>
+
+            </div>
+
+            <div id="emptyState" class="empty-state" hidden>
+                <h3>No opportunities found</h3>
+                <p>Try changing your search or filters.</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/applications-storage.js"></script>
+    <script src="../js/opportunities.js"></script>
+
+</body>
+</html>

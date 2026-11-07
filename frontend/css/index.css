@@ -1,0 +1,398 @@
+/* ==========================================
+   WAYVIA — STATIC LANDING PAGE
+========================================== */
+
+/* GLOBAL RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: #090613;
+    color: #f8f5ff;
+    overflow: hidden;
+}
+
+
+/* MAIN LANDING CONTAINER */
+
+.landing {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    min-height: 100svh;
+    overflow: hidden;
+    isolation: isolate;
+    background: #090613;
+}
+
+
+/* STATIC HERO BACKGROUND */
+
+.hero-background {
+    position: absolute;
+    inset: 0;
+    z-index: -3;
+
+    background-image:
+        linear-gradient(
+            90deg,
+            rgba(9, 6, 19, 0.30) 0%,
+            rgba(9, 6, 19, 0.05) 65%,
+            rgba(9, 6, 19, 0.12) 100%
+        ),
+        url("../assets/images/wayvia-hero.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    transform: scale(1.01);
+}
+
+
+/* CINEMATIC VIGNETTE */
+
+.cinematic-vignette {
+    position: absolute;
+    inset: 0;
+    z-index: -2;
+    pointer-events: none;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(9, 6, 19, 0.12) 0%,
+            transparent 55%,
+            rgba(9, 6, 19, 0.12) 100%
+        );
+
+    box-shadow:
+        inset 0 0 120px rgba(5, 3, 12, 0.35);
+}
+
+
+/* LEFT CONTENT GRADIENT */
+
+.left-panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 58%;
+    height: 100%;
+
+    z-index: -1;
+    pointer-events: none;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(8, 5, 18, 0.94) 0%,
+            rgba(10, 7, 22, 0.82) 42%,
+            rgba(12, 8, 25, 0.48) 75%,
+            rgba(12, 8, 25, 0.02) 100%
+        );
+}
+
+
+/* HERO CONTENT */
+
+.hero-content {
+    position: absolute;
+    z-index: 2;
+
+    left: clamp(35px, 5vw, 95px);
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    width: min(480px, 38vw);
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+/* MAIN HEADING */
+
+.hero-content h1 {
+    font-size: clamp(34px, 3.3vw, 58px);
+    line-height: 1.02;
+    font-weight: 700;
+    letter-spacing: -1.5px;
+    color: #f8f5ff;
+
+    text-shadow:
+        0 3px 18px rgba(0, 0, 0, 0.45);
+}
+
+.hero-content h1 span {
+    color: #c9a7ff;
+
+    text-shadow:
+        0 0 18px rgba(185, 140, 255, 0.28);
+}
+
+
+/* DESCRIPTION */
+
+.description {
+    margin-top: 24px;
+
+    font-size: clamp(14px, 1.15vw, 18px);
+    line-height: 1.45;
+    font-weight: 400;
+
+    color: #eee9f7;
+
+    text-shadow:
+        0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* START SEARCH BUTTON */
+
+.start-button {
+    position: relative;
+
+    margin-top: 30px;
+
+    width: 190px;
+    height: 54px;
+
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 16px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #7b2cbf 0%,
+            #9347d3 50%,
+            #b98cff 100%
+        );
+
+    color: #ffffff;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 10px 25px rgba(45, 12, 80, 0.45),
+        0 0 22px rgba(185, 140, 255, 0.22);
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        filter 0.25s ease;
+
+    overflow: hidden;
+}
+
+
+/* BUTTON LIGHT EFFECT */
+
+.start-button::before {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    left: -120%;
+
+    width: 80%;
+    height: 100%;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(255, 255, 255, 0.16),
+            transparent
+        );
+
+    transform: skewX(-20deg);
+    transition: left 0.6s ease;
+}
+
+
+/* BUTTON HOVER */
+
+.start-button:hover {
+    transform: translateY(-3px);
+    filter: brightness(1.08);
+
+    box-shadow:
+        0 14px 30px rgba(45, 12, 80, 0.55),
+        0 0 30px rgba(185, 140, 255, 0.35);
+}
+
+.start-button:hover::before {
+    left: 140%;
+}
+
+
+/* BUTTON ACTIVE */
+
+.start-button:active {
+    transform: translateY(-1px) scale(0.98);
+}
+
+
+/* BUTTON ARROW */
+
+.arrow {
+    font-size: 20px;
+    line-height: 1;
+    transition: transform 0.25s ease;
+}
+
+.start-button:hover .arrow {
+    transform: translateX(4px);
+}
+
+
+/* BUTTON FOCUS */
+
+.start-button:focus-visible {
+    outline: 2px solid #e4d2ff;
+    outline-offset: 4px;
+}
+
+
+/* TABLET */
+
+@media (max-width: 1000px) {
+
+    .left-panel {
+        width: 75%;
+
+        background:
+            linear-gradient(
+                90deg,
+                rgba(8, 5, 18, 0.94) 0%,
+                rgba(10, 7, 22, 0.78) 55%,
+                rgba(12, 8, 25, 0.12) 100%
+            );
+    }
+
+    .hero-content {
+        left: 45px;
+        width: 420px;
+    }
+
+    .hero-content h1 {
+        font-size: 42px;
+    }
+}
+
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+    .hero-background {
+        background-position: 62% center;
+    }
+
+    .left-panel {
+        width: 100%;
+        height: 75%;
+
+        background:
+            linear-gradient(
+                180deg,
+                rgba(8, 5, 18, 0.12) 0%,
+                rgba(8, 5, 18, 0.45) 38%,
+                rgba(8, 5, 18, 0.96) 100%
+            );
+    }
+
+    .hero-content {
+        left: 25px;
+        right: 25px;
+
+        top: auto;
+        bottom: 45px;
+
+        width: auto;
+        transform: none;
+    }
+
+    .hero-content h1 {
+        font-size: 34px;
+        line-height: 1.04;
+        letter-spacing: -0.8px;
+    }
+
+    .description {
+        margin-top: 16px;
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .start-button {
+        margin-top: 22px;
+        width: 175px;
+        height: 50px;
+        font-size: 15px;
+        border-radius: 14px;
+    }
+}
+
+
+/* SMALL PHONES */
+
+@media (max-width: 420px) {
+
+    .hero-content {
+        left: 20px;
+        right: 20px;
+        bottom: 30px;
+    }
+
+    .hero-content h1 {
+        font-size: 29px;
+    }
+
+    .description {
+        font-size: 13px;
+    }
+
+    .start-button {
+        width: 165px;
+        height: 48px;
+        font-size: 14px;
+    }
+}
+
+
+/* REDUCED MOTION */
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        transition-duration: 0.01ms !important;
+    }
+}

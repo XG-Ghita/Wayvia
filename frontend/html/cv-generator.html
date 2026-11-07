@@ -1,0 +1,514 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Create a professional CV with WayVia.">
+    <title>CV Generator | WayVia</title>
+
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/cv-generator.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="navbar-inner">
+
+            <a href="index.html" class="brand">
+                <img
+                    src="../assets/images/wayvia-logo_dark.png"
+                    alt="WayVia"
+                    class="brand-logo"
+                >
+            </a>
+
+            <nav class="main-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="search.html" class="nav-link">Search</a>
+                <a href="opportunities.html" class="nav-link">Opportunities</a>
+                <a href="my-applications.html" class="nav-link">My Applications</a>
+                <a href="cv-generator.html" class="nav-link active">CV Generator</a>
+                <a href="assistant.html" class="nav-link">Chat</a>
+                <a href="insights.html" class="nav-link">Insights</a>
+            </nav>
+
+            <button
+                class="profile-button"
+                id="profileButton"
+                aria-label="Open profile"
+            >
+                <span class="profile-icon">G</span>
+            </button>
+
+        </div>
+    </header>
+
+    <main class="cv-page">
+
+        <!-- PAGE INTRO -->
+        <section class="cv-hero">
+            <div>
+                <span class="cv-eyebrow">WAYVIA CAREER TOOLS</span>
+                <h1>Create your professional CV</h1>
+                <p>
+                    Build a CV that represents your skills, experience
+                    and ambitions. Customize it and preview every change.
+                </p>
+            </div>
+
+            <button type="button" class="download-button" id="downloadCV">
+                <span>↓</span> Download PDF
+            </button>
+        </section>
+
+        <!-- EDITOR LAYOUT -->
+        <section class="cv-workspace">
+
+            <!-- LEFT PANEL -->
+            <aside class="cv-editor">
+
+                <div class="editor-heading">
+                    <div>
+                        <h2>CV Editor</h2>
+                        <p>Complete your information below.</p>
+                    </div>
+                    <span class="draft-indicator" id="draftIndicator">
+                        Draft saved
+                    </span>
+                </div>
+
+                <!-- TEMPLATE SELECTOR -->
+                <section class="editor-section">
+                    <h3>01. Choose your template</h3>
+
+                    <div class="template-grid">
+
+                        <button
+                            type="button"
+                            class="template-option selected"
+                            data-template="modern"
+                        >
+                            <span class="template-mini modern-mini">
+                                <i></i><i></i><i></i><i></i>
+                            </span>
+                            <span>Modern</span>
+                        </button>
+
+                        <button
+                            type="button"
+                            class="template-option"
+                            data-template="minimal"
+                        >
+                            <span class="template-mini minimal-mini">
+                                <i></i><i></i><i></i><i></i>
+                            </span>
+                            <span>Minimal</span>
+                        </button>
+
+                        <button
+                            type="button"
+                            class="template-option"
+                            data-template="professional"
+                        >
+                            <span class="template-mini professional-mini">
+                                <i></i><i></i><i></i><i></i>
+                            </span>
+                            <span>Professional</span>
+                        </button>
+
+                        <button
+                            type="button"
+                            class="template-option"
+                            data-template="creative"
+                        >
+                            <span class="template-mini creative-mini">
+                                <i></i><i></i><i></i><i></i>
+                            </span>
+                            <span>Creative</span>
+                        </button>
+
+                    </div>
+                </section>
+
+                <!-- DESIGN -->
+                <section class="editor-section">
+                    <h3>02. Customize your design</h3>
+
+                    <div class="form-group">
+                        <label for="accentColor">Accent color</label>
+
+                        <div class="color-control">
+                            <input
+                                type="color"
+                                id="accentColor"
+                                value="#6c3cff"
+                            >
+                            <span id="colorValue">#6C3CFF</span>
+                        </div>
+
+                        <div class="color-presets">
+                            <button type="button" data-color="#6c3cff" style="--swatch:#6c3cff" aria-label="Purple"></button>
+                            <button type="button" data-color="#2563eb" style="--swatch:#2563eb" aria-label="Blue"></button>
+                            <button type="button" data-color="#0f766e" style="--swatch:#0f766e" aria-label="Teal"></button>
+                            <button type="button" data-color="#334155" style="--swatch:#334155" aria-label="Slate"></button>
+                            <button type="button" data-color="#be185d" style="--swatch:#be185d" aria-label="Rose"></button>
+                            <button type="button" data-color="#b45309" style="--swatch:#b45309" aria-label="Amber"></button>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="fontFamily">Font family</label>
+                        <select id="fontFamily">
+                            <option value="Arial">Arial</option>
+                            <option value="Georgia">Georgia</option>
+                            <option value="Verdana">Verdana</option>
+                            <option value="Trebuchet MS">Trebuchet MS</option>
+                            <option value="Tahoma">Tahoma</option>
+                        </select>
+                    </div>
+                </section>
+
+                <!-- PERSONAL INFORMATION -->
+                <section class="editor-section">
+                    <h3>03. Personal information</h3>
+
+                    <div class="photo-upload">
+                        <div class="photo-preview" id="photoPreview">
+                            <span>+</span>
+                        </div>
+
+                        <div class="photo-upload-info">
+                            <strong>Professional photo</strong>
+                            <p>Optional. JPG, PNG or WebP.</p>
+
+                            <label for="profilePhoto" class="upload-label">
+                                Upload photo
+                            </label>
+
+                            <input
+                                type="file"
+                                id="profilePhoto"
+                                accept="image/png,image/jpeg,image/webp"
+                                hidden
+                            >
+
+                            <button
+                                type="button"
+                                id="removePhoto"
+                                class="text-button"
+                                hidden
+                            >
+                                Remove photo
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="fullName">Full name *</label>
+                            <input id="fullName" type="text" placeholder="Your full name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="professionalTitle">Professional title</label>
+                            <input id="professionalTitle" type="text" placeholder="e.g. AI Student">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input id="email" type="email" placeholder="you@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input id="phone" type="tel" placeholder="+212 ...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="city">City / Country</label>
+                            <input id="city" type="text" placeholder="Marrakech, Morocco">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="linkedin">LinkedIn URL</label>
+                            <input id="linkedin" type="url" placeholder="https://linkedin.com/in/...">
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="portfolio">Portfolio / GitHub URL</label>
+                            <input id="portfolio" type="url" placeholder="https://github.com/...">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- CAREER OBJECTIVE -->
+                <section class="editor-section">
+                    <h3>04. Career objective</h3>
+
+                    <div class="form-group">
+                        <label for="targetRole">What are you applying for?</label>
+                        <input
+                            id="targetRole"
+                            type="text"
+                            placeholder="e.g. Data Analyst Internship"
+                        >
+                        <small>
+                            This helps us tailor your CV in a future AI-assisted step.
+                        </small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="summary">Professional summary</label>
+                        <textarea
+                            id="summary"
+                            rows="4"
+                            placeholder="Write a short introduction about yourself, your strengths and career goals..."
+                        ></textarea>
+                    </div>
+                </section>
+
+                <!-- EDUCATION -->
+                <section class="editor-section">
+                    <h3>05. Education</h3>
+
+                    <div class="form-group">
+                        <label for="education">Education details</label>
+                        <textarea
+                            id="education"
+                            rows="5"
+                            placeholder="Assistant Data Analyst — ISTA NTIC SYBA&#10;2025 – Present&#10;Relevant coursework: Python, SQL, Data Analysis, Machine Learning..."
+                        ></textarea>
+                        <small>Use a new line for each detail.</small>
+                    </div>
+                </section>
+
+                <!-- EXPERIENCE -->
+                <section class="editor-section">
+                    <h3>06. Experience</h3>
+
+                    <div class="form-group">
+                        <label for="experience">Work experience / Internships</label>
+                        <textarea
+                            id="experience"
+                            rows="5"
+                            placeholder="Job title — Company&#10;Date&#10;Describe your responsibilities and achievements..."
+                        ></textarea>
+                    </div>
+                </section>
+
+                <!-- PROJECTS -->
+                <section class="editor-section">
+                    <h3>07. Projects</h3>
+
+                    <div class="form-group">
+                        <label for="projects">Personal or academic projects</label>
+                        <textarea
+                            id="projects"
+                            rows="6"
+                            placeholder="Project name — Technologies used&#10;Describe what you built and your contribution..."
+                        ></textarea>
+                    </div>
+                </section>
+
+                <!-- SKILLS -->
+                <section class="editor-section">
+                    <h3>08. Skills</h3>
+
+                    <div class="form-group">
+                        <label for="skills">Technical and professional skills</label>
+                        <textarea
+                            id="skills"
+                            rows="3"
+                            placeholder="Python, SQL, Excel, Machine Learning, Communication..."
+                        ></textarea>
+                        <small>Separate skills with commas or new lines.</small>
+                    </div>
+                </section>
+
+                <!-- LANGUAGES -->
+                <section class="editor-section">
+                    <h3>09. Languages</h3>
+
+                    <div class="form-group">
+                        <label for="languages">Languages and proficiency</label>
+                        <textarea
+                            id="languages"
+                            rows="3"
+                            placeholder="Arabic — Native&#10;French — Professional&#10;English — Advanced"
+                        ></textarea>
+                    </div>
+                </section>
+
+                <!-- CERTIFICATIONS -->
+                <section class="editor-section">
+                    <h3>10. Certifications</h3>
+
+                    <div class="form-group">
+                        <label for="certifications">Certifications and courses</label>
+                        <textarea
+                            id="certifications"
+                            rows="3"
+                            placeholder="Certification name — Organization — Year"
+                        ></textarea>
+                    </div>
+                </section>
+
+                <div class="editor-footer">
+                    <button type="button" class="reset-button" id="resetCV">
+                        Clear CV
+                    </button>
+
+                    <button type="button" class="download-button mobile-download" id="downloadCVMobile">
+                        Download PDF
+                    </button>
+                </div>
+
+            </aside>
+
+            <!-- RIGHT PANEL: LIVE PREVIEW -->
+            <section class="cv-preview-panel">
+
+                <div class="preview-toolbar">
+                    <div>
+                        <h2>Live Preview</h2>
+                        <p>Your CV updates as you type.</p>
+                    </div>
+
+                    <span class="preview-status">
+                        <span></span> Live
+                    </span>
+                </div>
+
+                <div class="cv-paper-wrapper">
+
+                    <article
+                        id="cvPaper"
+                        class="cv-paper template-modern"
+                        aria-label="CV preview"
+                    >
+                        <!-- Generated by JavaScript -->
+                    </article>
+
+                </div>
+
+                <p class="preview-note">
+                    Preview is for editing. Download your CV as a PDF
+                    when you're ready.
+                </p>
+
+            </section>
+
+        </section>
+
+
+        <!-- RAYRAY FLOATING ASSISTANT -->
+        <div class="rayray-widget" id="rayrayWidget">
+
+            <!-- Speech bubble -->
+            <div class="rayray-bubble" id="rayrayBubble">
+                <span class="rayray-bubble-title">Hey, I'm RayRay! 💜</span>
+                <span>Want to make your CV even better?</span>
+            </div>
+
+            <!-- Floating mascot button -->
+            <button
+                class="rayray-trigger"
+                id="rayrayTrigger"
+                type="button"
+                aria-label="Open RayRay AI assistant"
+                aria-expanded="false"
+            >
+                <img
+                    src="../assets/images/rayray/rayray-mascot.png"
+                    alt="RayRay, your AI CV assistant"
+                >
+                <span class="rayray-status"></span>
+            </button>
+
+            <!-- Assistant chat window (hidden initially) -->
+            <section
+                class="rayray-chat"
+                id="rayrayChat"
+                aria-label="Chat with RayRay"
+                aria-hidden="true"
+            >
+                <div class="rayray-chat-header">
+                    <div class="rayray-chat-avatar">
+                        <img
+                            src="../assets/images/rayray/rayray-mascot.png"
+                            alt=""
+                        >
+                    </div>
+
+                    <div class="rayray-chat-identity">
+                        <strong>RayRay</strong>
+                        <span><i></i> Your CV assistant</span>
+                    </div>
+
+                    <button
+                        type="button"
+                        class="rayray-close"
+                        id="rayrayClose"
+                        aria-label="Close RayRay"
+                    >&times;</button>
+                </div>
+
+                <div class="rayray-messages" id="rayrayMessages">
+                    <div class="rayray-message bot">
+                        Hey there! I'm RayRay 💜
+                        <br>
+                        I've got your back! Let's make your CV stand out.
+                        <br><br>
+                        What would you like help with?
+                    </div>
+                </div>
+
+                <div class="rayray-quick-actions" id="rayrayQuickActions">
+                    <button type="button" data-task="generate_summary">
+                        Improve my summary
+                    </button>
+                    <button type="button" data-task="improve_experience">
+                        Improve my experience
+                    </button>
+                    <button type="button" data-task="improve_project">
+                        Improve a project
+                    </button>
+                    <button type="button" data-task="suggest_skills">
+                        Suggest relevant skills
+                    </button>
+                    <button type="button" data-task="review_cv">
+                        Review my CV
+                    </button>
+                </div>
+
+                <form class="rayray-input-area" id="rayrayForm">
+                    <input
+                        type="text"
+                        id="rayrayInput"
+                        placeholder="Ask RayRay something..."
+                        autocomplete="off"
+                    >
+                    <button type="submit" aria-label="Send message">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </section>
+
+        </div>
+
+        <img
+            src="../assets/images/rayray/rayray-mascot.png"
+            alt="RayRay test"
+            style="width:150px; height:150px; object-fit:contain;"
+        >
+    </main>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/cv-generator.js"></script>
+    <script src="../js/rayray.js"></script>
+
+</body>
+</html>

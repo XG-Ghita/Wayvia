@@ -1,0 +1,809 @@
+/* =========================================================
+   WAYVIA — PROFILE PAGE
+   ========================================================= */
+
+
+/* =========================================================
+   PAGE
+   ========================================================= */
+
+.profile-page {
+    min-height: calc(100vh - 78px);
+
+    padding: 28px 24px 40px;
+
+    background:
+        linear-gradient(
+            180deg,
+            #ffffff 0%,
+            #f8f9ff 100%
+        );
+}
+
+
+/* =========================================================
+   MAIN GRID
+   ========================================================= */
+
+.profile-grid {
+    max-width: 1180px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1fr)
+        minmax(0, 1fr);
+
+    gap: 14px;
+}
+
+
+/* =========================================================
+   COMMON CARD
+   ========================================================= */
+
+.profile-card,
+.activity-card {
+    background: #ffffff;
+
+    border: 1px solid #e1e6f5;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 6px 24px rgba(57, 67, 120, 0.05);
+
+    overflow: hidden;
+}
+
+
+/* =========================================================
+   LEFT CARD HEADER
+   ========================================================= */
+
+.profile-card-header {
+    height: 58px;
+
+    padding: 0 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #edf0f8;
+}
+
+.profile-card-header h1 {
+    font-size: 14px;
+    font-weight: 700;
+
+    color: #14213d;
+}
+
+.edit-button {
+    border: none;
+
+    background: transparent;
+
+    color: #6c3cff;
+
+    font-size: 11px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    text-decoration: underline;
+}
+
+.profile-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logout-profile-button {
+    padding: 9px 16px;
+    border: 1px solid #e3e1f5;
+    border-radius: 9px;
+    background: #ffffff;
+    color: #6c3cff;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.logout-profile-button:hover {
+    background: #f5f3ff;
+    border-color: #cfc8f5;
+    transform: translateY(-1px);
+}
+
+
+/* =========================================================
+   USER IDENTITY
+   ========================================================= */
+
+.user-identity {
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 15px 18px 10px;
+}
+
+.profile-avatar {
+    width: 42px;
+    height: 42px;
+
+    flex-shrink: 0;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background:
+        linear-gradient(
+            135deg,
+            #6c3cff,
+            #3b82f6
+        );
+
+    border: 4px solid #eeeaff;
+
+    color: #ffffff;
+
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.user-info h2 {
+    font-size: 13px;
+    font-weight: 700;
+
+    color: #14213d;
+
+    margin-bottom: 3px;
+}
+
+.user-info p {
+    font-size: 9px;
+
+    color: #6d7891;
+}
+
+
+/* =========================================================
+   PROFILE DETAILS
+   ========================================================= */
+
+.profile-details {
+    padding: 4px 18px 12px;
+}
+
+.profile-section {
+    padding: 9px 0;
+
+    border-bottom: 1px solid #f0f2f8;
+}
+
+.profile-section:last-child {
+    border-bottom: none;
+}
+
+.profile-section h3 {
+    font-size: 9px;
+    font-weight: 700;
+
+    color: #243252;
+
+    margin-bottom: 7px;
+}
+
+.profile-section h3 span {
+    color: #6c3cff;
+}
+
+.profile-value {
+    min-height: 25px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 5px;
+
+    color: #30405f;
+
+    font-size: 9px;
+}
+
+.value-icon {
+    color: #6c3cff;
+}
+
+.small-value {
+    display: inline-flex;
+
+    padding: 5px 10px;
+
+    border-radius: 12px;
+
+    background: #f1f5ff;
+
+    color: #4163a5;
+
+    font-size: 8px;
+}
+
+
+/* =========================================================
+   TAGS
+   ========================================================= */
+
+.tag-container {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 5px;
+}
+
+.profile-tag {
+    display: inline-flex;
+
+    align-items: center;
+
+    min-height: 21px;
+
+    padding: 4px 9px;
+
+    border-radius: 12px;
+
+    background: #f1f5ff;
+
+    color: #36518c;
+
+    font-size: 7.5px;
+    font-weight: 500;
+
+    border: 1px solid #e7ebf7;
+}
+
+
+/* =========================================================
+   PROFILE CTA
+   ========================================================= */
+
+.profile-cta {
+    margin: 6px 18px 18px;
+
+    padding: 11px;
+
+    border-radius: 8px;
+
+    display: grid;
+
+    grid-template-columns: 28px 1fr;
+
+    gap: 7px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #713cff,
+            #8b45f5,
+            #4b9bff
+        );
+}
+
+.cta-icon {
+    width: 26px;
+    height: 26px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: rgba(255, 255, 255, 0.16);
+
+    color: #ffffff;
+
+    font-size: 14px;
+}
+
+.cta-text strong {
+    display: block;
+
+    color: #ffffff;
+
+    font-size: 8px;
+
+    margin-bottom: 3px;
+}
+
+.cta-text p {
+    color: rgba(255, 255, 255, 0.86);
+
+    font-size: 7px;
+
+    line-height: 1.4;
+}
+
+.cta-button {
+    grid-column: 1 / -1;
+
+    height: 25px;
+
+    margin-top: 4px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    background: #ffffff;
+
+    color: #6c3cff;
+
+    font-size: 7px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background: #f7f5ff;
+}
+
+
+/* =========================================================
+   ACTIVITY TABS
+   ========================================================= */
+
+.activity-tabs {
+    height: 48px;
+
+    display: flex;
+
+    border-bottom: 1px solid #edf0f8;
+}
+
+.activity-tab {
+    flex: 1;
+
+    border: none;
+
+    background: transparent;
+
+    color: #52617c;
+
+    font-size: 8px;
+    font-weight: 500;
+
+    cursor: pointer;
+
+    position: relative;
+}
+
+.activity-tab.active {
+    color: #6c3cff;
+
+    font-weight: 700;
+}
+
+.activity-tab.active::after {
+    content: "";
+
+    position: absolute;
+
+    left: 20%;
+    right: 20%;
+    bottom: -1px;
+
+    height: 2px;
+
+    background: #6c3cff;
+
+    border-radius: 2px;
+}
+
+
+/* =========================================================
+   ACTIVITY CONTENT
+   ========================================================= */
+
+.activity-content {
+    display: none;
+
+    padding: 13px 13px 6px;
+}
+
+.activity-content.active {
+    display: block;
+}
+
+
+/* =========================================================
+   COMPANY ITEMS
+   ========================================================= */
+
+.company-list {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 7px;
+}
+
+.company-item {
+    min-height: 52px;
+
+    padding: 7px 8px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+
+    border: 1px solid #e7ebf5;
+
+    border-radius: 7px;
+
+    cursor: pointer;
+
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease,
+        transform 0.2s ease;
+}
+
+.company-item:hover {
+    border-color: #cfc4ff;
+
+    box-shadow:
+        0 4px 12px rgba(108, 60, 255, 0.08);
+
+    transform: translateY(-1px);
+}
+
+
+/* COMPANY LOGO */
+
+.company-logo {
+    width: 28px;
+    height: 28px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 7px;
+
+    background: #10245a;
+
+    color: #ffffff;
+
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.company-logo.green {
+    background: #173d4a;
+}
+
+.company-logo.blue {
+    background: #182b5b;
+}
+
+.company-logo.purple {
+    background: #25204d;
+}
+
+
+/* COMPANY INFO */
+
+.company-info {
+    flex: 1;
+
+    min-width: 0;
+}
+
+.company-info strong {
+    display: block;
+
+    color: #203052;
+
+    font-size: 8px;
+
+    margin-bottom: 3px;
+}
+
+.company-info span {
+    display: block;
+
+    color: #77839b;
+
+    font-size: 6.5px;
+
+    margin-bottom: 2px;
+}
+
+.company-location {
+    color: #71809c;
+
+    font-size: 6px;
+}
+
+
+/* FAVORITE HEART */
+
+.favorite-heart {
+    border: none;
+
+    background: transparent;
+
+    color: #e83b9f;
+
+    font-size: 11px;
+
+    cursor: pointer;
+
+    padding: 3px;
+}
+
+
+/* =========================================================
+   SEARCH HISTORY
+   ========================================================= */
+
+.history-list {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 7px;
+}
+
+.history-item {
+    padding: 10px;
+
+    border: 1px solid #e7ebf5;
+
+    border-radius: 7px;
+
+    cursor: pointer;
+}
+
+.history-item:hover {
+    border-color: #d1c8ff;
+}
+
+.history-query {
+    color: #273653;
+
+    font-size: 8px;
+    font-weight: 600;
+
+    margin-bottom: 4px;
+}
+
+.history-meta {
+    display: flex;
+
+    justify-content: space-between;
+
+    color: #8490a7;
+
+    font-size: 6.5px;
+}
+
+
+/* =========================================================
+   RECENTLY VIEWED
+   ========================================================= */
+
+.recent-section {
+    margin-top: 6px;
+
+    padding: 11px 13px 14px;
+
+    border-top: 1px solid #edf0f8;
+}
+
+.recent-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 8px;
+}
+
+.recent-header h2 {
+    font-size: 9px;
+    font-weight: 700;
+
+    color: #172643;
+}
+
+.view-all-button {
+    border: none;
+
+    background: transparent;
+
+    color: #6c3cff;
+
+    font-size: 7px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+
+/* RECENT ITEM */
+
+.recent-list {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 6px;
+}
+
+.recent-item {
+    min-height: 38px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 7px;
+
+    padding: 5px 6px;
+
+    border-radius: 6px;
+
+    border: 1px solid transparent;
+
+    cursor: pointer;
+}
+
+.recent-item:hover {
+    background: #faf9ff;
+
+    border-color: #ece8ff;
+}
+
+.recent-logo {
+    width: 24px;
+    height: 24px;
+
+    border-radius: 6px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #17285b;
+
+    color: #ffffff;
+
+    font-size: 9px;
+    font-weight: 600;
+}
+
+.recent-info {
+    flex: 1;
+}
+
+.recent-info strong {
+    display: block;
+
+    color: #263552;
+
+    font-size: 7px;
+
+    margin-bottom: 2px;
+}
+
+.recent-info span {
+    color: #7e8aa1;
+
+    font-size: 6px;
+}
+
+.recent-match {
+    color: #36b7b0;
+
+    font-size: 6.5px;
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   EMPTY STATE
+   ========================================================= */
+
+.empty-state {
+    padding: 22px 10px;
+
+    text-align: center;
+
+    color: #8b95a8;
+
+    font-size: 8px;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 850px) {
+
+    .profile-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-page {
+        padding: 20px 16px 30px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .profile-page {
+        padding: 14px 10px 25px;
+    }
+
+    .profile-card-header {
+        padding: 0 14px;
+    }
+
+    .user-identity {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    .profile-details {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    .profile-cta {
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+}
+
+
+.add-skill-button {
+    width: 32px;
+    height: 32px;
+    border: 1px dashed #6c3cff;
+    border-radius: 50%;
+    background: #ffffff;
+    color: #6c3cff;
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.add-skill-button:hover {
+    background: #6c3cff;
+    color: #ffffff;
+    transform: scale(1.05);
+}

@@ -25,6 +25,10 @@ COMPANIES_FILE = (
     PROJECT_DIR / "frontend" / "data" / "wayvia_companies.json"
 )
 
+PUBLISHED_OPPORTUNITIES_FILE = (
+    PROJECT_DIR / "frontend" / "data" / "wayvia_opportunities.json"
+)
+
 OPPORTUNITIES_FILE = (
     BACKEND_DIR
     / "notebooks"
@@ -333,6 +337,64 @@ def get_verified_opportunities():
     ]
 
 
+def get_published_opportunities():
+    """Load published opportunities displayed on the WayVia website."""
+
+    if not PUBLISHED_OPPORTUNITIES_FILE.exists():
+        print("Published opportunities file not found.")
+        return []
+
+    try:
+        with PUBLISHED_OPPORTUNITIES_FILE.open(
+            "r",
+            encoding="utf-8-sig"
+        ) as file:
+            data = json.load(file)
+
+        opportunities = data.get("opportunities", [])
+
+        if not isinstance(opportunities, list):
+            raise ValueError("Published opportunities must be a list.")
+
+        return [
+            opportunity
+            for opportunity in opportunities
+            if isinstance(opportunity, dict)
+            and opportunity.get("title")
+            and opportunity.get("application_url")
+        ]
+
+    except (OSError, json.JSONDecodeError, ValueError) as error:
+        print(f"Published opportunities loading error: {error}")
+        return []
+
+
+def find_published_opportunity(application_url):
+    """Find one published opportunity using its exact application URL."""
+
+    candidate_url = str(application_url or "").strip()
+
+    if not candidate_url:
+        return None
+
+    from urllib.parse import urlparse
+
+    parsed_url = urlparse(candidate_url)
+
+    if parsed_url.scheme not in {"http", "https"} or not parsed_url.netloc:
+        return None
+
+    opportunities = get_published_opportunities()
+
+    for opportunity in opportunities:
+        stored_url = str(
+            opportunity.get("application_url", "")
+        ).strip()
+
+        if stored_url == candidate_url:
+            return opportunity
+
+    return None
 # ============================================================
 # 5. COMPANY SEARCH
 # ============================================================
@@ -673,9 +735,26 @@ def assistant_chat():
         matches = search_companies(message)
         opportunities = get_verified_opportunities()
 
+        selected_opportunity_url = data.get(
+            "selected_opportunity_url"
+        )
+
+        selected_opportunity = None
+
+        if selected_opportunity_url:
+            selected_opportunity = find_published_opportunity(
+                selected_opportunity_url
+            )
+
+            if not selected_opportunity:
+                return jsonify({
+                    "error": "This opportunity could not be found in WayVia's published opportunities. Please select it again."
+                }), 404
+
         context = {
             "companies": matches,
-            "verified_opportunities": opportunities[:20]
+            "verified_opportunities": opportunities[:20],
+            "selected_published_opportunity": selected_opportunity
         }
 
         system_prompt = """
@@ -687,6 +766,11 @@ IMPORTANT RULES:
 - Use only the company and opportunity information provided in the context.
 - Never invent companies, job openings, application links, or details.
 - Clearly distinguish company recommendations from verified job opportunities.
+- A selected_published_opportunity comes from WayVia's published opportunities dataset, not necessarily the independently verified CSV.
+- When analyzing a selected opportunity, use its exact title, company, description, domains, and experience information.
+- Never claim an opportunity is still open or accepting applications just because it appears in the dataset.
+- Explain when experience requirements are unspecified rather than assuming the role is entry-level.
+- Never invent student qualifications, CV evidence, or job requirements.
 - If no relevant results are available, say so honestly.
 - Give practical, concise answers.
 - Reply in the same language as the user's message (English, French, or Arabic).
@@ -714,7 +798,12 @@ IMPORTANT RULES:
         return jsonify({
             "reply": reply,
             "companies": matches,
-            "verified_opportunities": opportunities[:20]
+            "verified_opportunities": opportunities[:20],
+            "selected_opportunity": (
+                selected_opportunity
+                if selected_opportunity
+                else None
+            )
         })
 
     except Exception as error:

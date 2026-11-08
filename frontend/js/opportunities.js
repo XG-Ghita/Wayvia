@@ -592,6 +592,14 @@ document.addEventListener("DOMContentLoaded", () => {
                     ${studentLabel}
                     <div class="opportunity-card-actions">
                         ${saveButton}
+                        <button
+                            type="button"
+                            class="analyze-opportunity-button"
+                            data-action="analyze"
+                            data-opportunity-index="${opportunityIndex}"
+                        >
+                            ✨ Analyze with AI
+                        </button>
                         ${applyButton}
                     </div>
                 </div>
@@ -646,19 +654,42 @@ document.addEventListener("DOMContentLoaded", () => {
             .join("");
     }
     container.addEventListener("click", event => {
-        const button = event.target.closest('[data-action="save"]');
+        const button = event.target.closest("[data-action]");
 
-        if (!button || button.disabled) return;
+        if (!button) return;
 
         const index = Number(button.dataset.opportunityIndex);
         const opportunity = allOpportunities[index];
 
         if (!opportunity) return;
 
-        const added = window.WayViaApplicationsStorage.add(opportunity);
+        // Save opportunity
+        if (button.dataset.action === "save") {
+            if (button.disabled) return;
 
-        if (added) {
-            renderOpportunities();
+            const added = window.WayViaApplicationsStorage.add(opportunity);
+
+            if (added) {
+                renderOpportunities();
+            }
+
+            return;
+        }
+
+        // Analyze opportunity with Career Assistant
+        if (button.dataset.action === "analyze") {
+            try {
+                sessionStorage.setItem(
+                    "wayvia_selected_opportunity",
+                    JSON.stringify(opportunity)
+                );
+
+                window.location.href = "assistant.html?analyze=opportunity";
+
+            } catch (error) {
+                console.error("Could not store selected opportunity:", error);
+                alert("Could not open this opportunity in the AI assistant.");
+            }
         }
     });
     /* -------------------------

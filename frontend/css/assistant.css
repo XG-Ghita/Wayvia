@@ -1144,3 +1144,130 @@ body {
     }
 
 }
+
+/* =========================================================
+   SELECTED OPPORTUNITY PANEL
+   ========================================================= */
+
+.selected-opportunity-panel {
+    margin: 0 0 20px 36px;
+    padding: 13px 16px;
+    background: linear-gradient(135deg, #f8f6ff, #f1f5ff);
+    border: 1px solid #e5ddff;
+    border-left: 3px solid var(--purple);
+    border-radius: 10px;
+}
+
+.selected-opportunity-panel[hidden] {
+    display: none;
+}
+
+.selected-opportunity-label {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 7px;
+    color: var(--purple);
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+}
+
+.selected-opportunity-title {
+    color: #263354;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+}
+
+.selected-opportunity-company {
+    margin-top: 4px;
+    color: #77819a;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+/* =========================================================
+   FORMATTED AI RESPONSES
+   ========================================================= */
+
+.assistant-bubble {
+    font-size: 12px;
+    line-height: 1.75;
+}
+
+.assistant-bubble .response-heading {
+    display: block;
+    margin: 15px 0 7px;
+    color: #30245f;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.assistant-bubble .response-heading:first-child {
+    margin-top: 0;
+}
+
+.assistant-bubble p {
+    margin: 0 0 10px;
+}
+
+.assistant-bubble strong {
+    color: #30245f;
+    font-weight: 700;
+}
+
+.assistant-bubble ul,
+.assistant-bubble ol {
+    margin: 7px 0 12px;
+    padding-left: 21px;
+}
+
+.assistant-bubble li {
+    margin-bottom: 5px;
+    padding-left: 3px;
+}
+
+.assistant-bubble code {
+    padding: 2px 5px;
+    border-radius: 4px;
+    background: #eeebfa;
+    color: #6541a5;
+    font-size: 11px;
+}
+
+.response-table-wrapper {
+    width: 100%;
+    margin: 12px 0;
+    overflow-x: auto;
+    border: 1px solid #e7e5f1;
+    border-radius: 8px;
+}
+
+.response-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 11px;
+    text-align: left;
+}
+
+.response-table th {
+    padding: 10px;
+    background: #f0edff;
+    color: #403274;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.response-table td {
+    padding: 9px 10px;
+    border-top: 1px solid #e9eaf1;
+    color: #465272;
+    vertical-align: top;
+    min-width: 90px;
+}
+
+.response-table tr:nth-child(even) td {
+    background: #fafaff;
+}

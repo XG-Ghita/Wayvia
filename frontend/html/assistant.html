@@ -158,23 +158,39 @@
 
 
             <!-- =================================================
-                 CHAT AREA
+                CHAT AREA
             ================================================== -->
 
-            <div
-                class="chat-area"
-                id="chatArea"
-            >
+            <div class="chat-area" id="chatArea">
 
+                <!-- SELECTED OPPORTUNITY -->
 
-                <!-- =================================================
-                     ASSISTANT MESSAGE
-                ================================================== -->
+                <div
+                    class="selected-opportunity-panel"
+                    id="selectedOpportunityPanel"
+                    hidden
+                >
+                    <div class="selected-opportunity-label">
+                        <span>✨</span>
+                        ANALYZING SELECTED OPPORTUNITY
+                    </div>
+
+                    <div
+                        class="selected-opportunity-title"
+                        id="selectedOpportunityTitle"
+                    ></div>
+
+                    <div
+                        class="selected-opportunity-company"
+                        id="selectedOpportunityCompany"
+                    ></div>
+                </div>
+
+                <!-- CLEAN WELCOME MESSAGE -->
 
                 <div class="message-row assistant-row">
 
                     <div class="message-avatar">
-
                         <svg
                             width="17"
                             height="17"
@@ -183,183 +199,23 @@
                             stroke="currentColor"
                             stroke-width="1.8"
                         >
-                            <circle
-                                cx="12"
-                                cy="8"
-                                r="3"
-                            />
-
-                            <path
-                                d="M5 21C5.8 16.8 8.2 15 12 15C15.8 15 18.2 16.8 19 21"
-                            />
-
+                            <circle cx="12" cy="8" r="3"/>
+                            <path d="M5 21C5.8 16.8 8.2 15 12 15C15.8 15 18.2 16.8 19 21"/>
                         </svg>
-
                     </div>
 
-
                     <div class="message-content">
-
                         <div class="message-bubble assistant-bubble">
+                            Hi! I'm your WayVia AI Career Assistant. 👋
 
-                            Hi! I'm your AI career assistant. 👋
-
-                            <br>
-
-                            Tell me about your skills, interests or what you're
-                            looking for, and I'll help you find the best
-                            companies and opportunities.
-
+                            Tell me about your skills, studies, interests or career goals.
+                            I can help you explore opportunities and prepare for your next step.
                         </div>
-
                     </div>
 
                 </div>
 
-
-                <!-- =================================================
-                     USER MESSAGE
-                ================================================== -->
-
-                <div class="message-row user-row">
-
-                    <div class="message-content">
-
-                        <div class="message-bubble user-bubble">
-
-                            I'm interested in AI and development.
-                            I know Python and SQL, and I'm looking
-                            for a PFE in Marrakech.
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- =================================================
-                     ASSISTANT RESPONSE
-                ================================================== -->
-
-                <div class="message-row assistant-row">
-
-                    <div class="message-avatar">
-
-                        <svg
-                            width="17"
-                            height="17"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="1.8"
-                        >
-                            <circle
-                                cx="12"
-                                cy="8"
-                                r="3"
-                            />
-
-                            <path
-                                d="M5 21C5.8 16.8 8.2 15 12 15C15.8 15 18.2 16.8 19 21"
-                            />
-
-                        </svg>
-
-                    </div>
-
-
-                    <div class="message-content">
-
-                        <div class="message-bubble assistant-bubble">
-
-                            Great! Here's what I found based on your profile:
-
-                        </div>
-
-
-                        <!-- =================================================
-                             SUGGESTED SEARCH
-                        ================================================== -->
-
-                        <div class="suggestion-card">
-
-                            <div class="suggestion-header">
-
-                                <div class="suggestion-icon">
-
-                                    <svg
-                                        width="15"
-                                        height="15"
-                                        viewBox="0 0 24 24"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        stroke-width="2"
-                                    >
-                                        <circle
-                                            cx="12"
-                                            cy="12"
-                                            r="8"
-                                        />
-
-                                        <path
-                                            d="M9 12L11 14L15 10"
-                                        />
-
-                                    </svg>
-
-                                </div>
-
-
-                                <strong>
-                                    Suggested search
-                                </strong>
-
-                            </div>
-
-
-                            <div class="suggestion-list">
-
-                                <div class="suggestion-item">
-                                    <span>✓</span>
-                                    <span>AI / Development companies</span>
-                                </div>
-
-                                <div class="suggestion-item">
-                                    <span>✓</span>
-                                    <span>Python & SQL skills</span>
-                                </div>
-
-                                <div class="suggestion-item">
-                                    <span>✓</span>
-                                    <span>PFE opportunity</span>
-                                </div>
-
-                                <div class="suggestion-item">
-                                    <span>✓</span>
-                                    <span>Marrakech</span>
-                                </div>
-
-                            </div>
-
-
-                            <button
-                                id="searchCompaniesButton"
-                                class="suggestion-button"
-                            >
-                                Search companies
-                            </button>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- =================================================
-                     TYPING INDICATOR
-                ================================================== -->
+                <!-- TYPING INDICATOR -->
 
                 <div
                     id="typingIndicator"
@@ -367,7 +223,6 @@
                 >
 
                     <div class="message-avatar">
-
                         <svg
                             width="17"
                             height="17"
@@ -376,33 +231,20 @@
                             stroke="currentColor"
                             stroke-width="1.8"
                         >
-                            <circle
-                                cx="12"
-                                cy="8"
-                                r="3"
-                            />
-
-                            <path
-                                d="M5 21C5.8 16.8 8.2 15 12 15C15.8 15 18.2 16.8 19 21"
-                            />
-
+                            <circle cx="12" cy="8" r="3"/>
+                            <path d="M5 21C5.8 16.8 8.2 15 12 15C15.8 15 18.2 16.8 19 21"/>
                         </svg>
-
                     </div>
 
-
                     <div class="typing-bubble">
-
                         <span></span>
                         <span></span>
                         <span></span>
-
                     </div>
 
                 </div>
 
             </div>
-
 
             <!-- =================================================
                  COMPOSER

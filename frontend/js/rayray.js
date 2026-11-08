@@ -6,7 +6,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     "use strict";
 
-    const API_URL = "http://127.0.0.1:5000/api/cv/assist";
+    const API_URL = "https://wayvia-two.vercel.app/api/cv/assist";
 
     const widget = document.getElementById("rayrayWidget");
     const trigger = document.getElementById("rayrayTrigger");

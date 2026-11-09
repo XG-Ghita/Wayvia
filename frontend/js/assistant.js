@@ -3,13 +3,20 @@
    Connected to the Flask + Groq backend
    ========================================================= */
 
-const API_URL = "https://wayvia-two.vercel.app/api/assistant/chat";
+const API_URL = "http://127.0.0.1:5000/api/assistant/chat";
 
 /* DOM ELEMENTS */
 
 const chatArea = document.getElementById("chatArea");
 const messageInput = document.getElementById("messageInput");
 const sendButton = document.getElementById("sendButton");
+const cvFileInput = document.getElementById("cvFileInput");
+const attachButton = document.getElementById("attachButton");
+const attachmentPreview = document.getElementById("attachmentPreview");
+const attachmentFileName = document.getElementById("attachmentFileName");
+const removeAttachmentButton = document.getElementById("removeAttachmentButton");
+
+let selectedCVFile = null;
 const typingIndicator = document.getElementById("typingIndicator");
 const searchCompaniesButton = document.getElementById("searchCompaniesButton");
 const clearChat = document.getElementById("clearChat");
@@ -19,6 +26,49 @@ const quickButtons = document.querySelectorAll(".quick-button");
 let isWaitingForResponse = false;
 let latestCompanies = [];
 
+
+/* CV ATTACHMENT */
+
+const MAX_CV_SIZE = 5 * 1024 * 1024; // 5 MB
+
+attachButton.addEventListener("click", () => {
+    cvFileInput.click();
+});
+
+cvFileInput.addEventListener("change", () => {
+    const file = cvFileInput.files[0];
+
+    if (!file) return;
+
+    const allowedExtensions = [".pdf", ".docx"];
+    const extension = file.name
+        .substring(file.name.lastIndexOf("."))
+        .toLowerCase();
+
+    if (!allowedExtensions.includes(extension)) {
+        alert("Please upload a PDF or DOCX file.");
+        cvFileInput.value = "";
+        return;
+    }
+
+    if (file.size > MAX_CV_SIZE) {
+        alert("Your CV must be smaller than 5 MB.");
+        cvFileInput.value = "";
+        return;
+    }
+
+    selectedCVFile = file;
+
+    attachmentFileName.textContent = file.name;
+    attachmentPreview.hidden = false;
+});
+
+removeAttachmentButton.addEventListener("click", () => {
+    selectedCVFile = null;
+    cvFileInput.value = "";
+    attachmentPreview.hidden = true;
+    attachmentFileName.textContent = "";
+});
 /* SELECTED OPPORTUNITY */
 
 let selectedOpportunity = null;
@@ -80,26 +130,51 @@ if (selectedOpportunity && selectedOpportunityPanel) {
 async function sendMessage(text = messageInput.value.trim()) {
     const message = text.trim();
 
-    if (!message || isWaitingForResponse) return;
+    if ((!message && !selectedCVFile) || isWaitingForResponse) return;
 
-    addUserMessage(message);
+    addUserMessage(
+        message || "Please analyze my attached CV."
+    );
+
     messageInput.value = "";
     setWaiting(true);
 
     try {
-        const response = await fetch(API_URL, {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({
-                message,
-                selected_opportunity_url: selectedOpportunity
-                    ? selectedOpportunity.application_url
-                    : null
-            })
-        });
+        let requestOptions;
 
+        if (selectedCVFile) {
+            const formData = new FormData();
+
+            formData.append("message", message || "Please analyze my CV.");
+            formData.append(
+                "selected_opportunity_url",
+                selectedOpportunity
+                    ? selectedOpportunity.application_url
+                    : ""
+            );
+            formData.append("cv_file", selectedCVFile);
+
+            requestOptions = {
+                method: "POST",
+                body: formData
+            };
+
+        } else {
+            requestOptions = {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    message,
+                    selected_opportunity_url: selectedOpportunity
+                        ? selectedOpportunity.application_url
+                        : null
+                })
+            };
+        }
+
+        const response = await fetch(API_URL, requestOptions);
         const data = await response.json();
 
         if (!response.ok) {
@@ -116,12 +191,22 @@ async function sendMessage(text = messageInput.value.trim()) {
             data.reply || "I couldn't generate a response. Please try again."
         );
 
+        // Clear attachment only after successful response
+        if (selectedCVFile) {
+            selectedCVFile = null;
+            cvFileInput.value = "";
+            attachmentPreview.hidden = true;
+            attachmentFileName.textContent = "";
+        }
+
     } catch (error) {
         console.error("WayVia assistant error:", error);
 
         addAssistantMessage(
-            "I couldn't connect to the AI assistant. Please make sure the WayVia backend is running, then try again."
+            error.message ||
+            "I couldn't connect to the AI assistant. Please try again."
         );
+
     } finally {
         setWaiting(false);
         messageInput.focus();

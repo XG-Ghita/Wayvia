@@ -527,26 +527,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const applicationURL = String(opportunity.application_url || "").trim();
 
-        let applyButton = "";
-
-        try {
-            const parsedURL = new URL(applicationURL);
-
-            if (["http:", "https:"].includes(parsedURL.protocol)) {
-                applyButton = `
-                    <a
-                        href="${escapeHTML(parsedURL.href)}"
-                        class="apply-button"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        View & Apply ↗
-                    </a>
-                `;
-            }
-        } catch (error) {
-            // Invalid URLs are not displayed.
-        }
+        const applyButton = `
+            <button
+                type="button"
+                class="apply-button"
+                data-action="view-details"
+                data-opportunity-index="${opportunityIndex}"
+            >
+                View & Apply →
+            </button>
+        `;
 
         const studentLabel = opportunity.is_student_friendly
             ? `<span class="student-friendly-label">✓ Student-friendly</span>`
@@ -675,7 +665,23 @@ document.addEventListener("DOMContentLoaded", () => {
 
             return;
         }
+        // View opportunity details
+        if (button.dataset.action === "view-details") {
+            try {
+                sessionStorage.setItem(
+                    "wayvia_view_opportunity",
+                    JSON.stringify(opportunity)
+                );
 
+                window.location.href = "opportunity-details.html";
+
+            } catch (error) {
+                console.error("Could not store selected opportunity:", error);
+                alert("Could not open this opportunity.");
+            }
+
+            return;
+        }
         // Analyze opportunity with Career Assistant
         if (button.dataset.action === "analyze") {
             try {

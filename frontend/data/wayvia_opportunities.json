@@ -73,7 +73,12 @@
       "opportunity_type": "internship_pfe",
       "student_priority": 1,
       "experience_level": "not_specified",
-      "is_student_friendly": true
+      "is_student_friendly": true,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Delivery AI Data Engineer​ing Intern",
@@ -93,7 +98,12 @@
       "opportunity_type": "internship_pfe",
       "student_priority": 1,
       "experience_level": "not_specified",
-      "is_student_friendly": true
+      "is_student_friendly": true,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Delivery AI Science Intern",
@@ -113,7 +123,12 @@
       "opportunity_type": "internship_pfe",
       "student_priority": 1,
       "experience_level": "not_specified",
-      "is_student_friendly": true
+      "is_student_friendly": true,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "PFE en Data science",
@@ -134,7 +149,12 @@
       "opportunity_type": "internship_pfe",
       "student_priority": 1,
       "experience_level": "not_specified",
-      "is_student_friendly": true
+      "is_student_friendly": true,
+      "application_method": "external_portal",
+      "direct_application_url": "https://jobs.smartrecruiters.com/Inetum2/744000157819899-pfe-en-data-science",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "https://www.inetum.com/fr/accueil/carrieres/e542145b-7318-474e-8986-024d6c539cad.html"
     },
     {
       "title": "Stage PFE : Consultants ( Cloud, Databricks, Talend, DevOps,BI... ) (F/H)",
@@ -154,7 +174,12 @@
       "opportunity_type": "internship_pfe",
       "student_priority": 1,
       "experience_level": "not_specified",
-      "is_student_friendly": true
+      "is_student_friendly": true,
+      "application_method": "external_portal",
+      "direct_application_url": "https://app.stagiaires.ma/offres-de-stages-et-premier-emploi-maroc/7367-stage-pfe-consultants-cloud-databricks-talend-devops-bi-f-h",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "https://www.stagiaires.ma/stage-emploi-maroc/7367-stage-pfe-consultants-cloud-databricks-talend-devops-bi-f-h"
     },
     {
       "title": "Stagiaire PFE - Data Analyst / Reporting IT (ServiceNow & Support)",
@@ -174,7 +199,12 @@
       "opportunity_type": "internship_pfe",
       "student_priority": 1,
       "experience_level": "not_specified",
-      "is_student_friendly": true
+      "is_student_friendly": true,
+      "application_method": "external_portal",
+      "direct_application_url": "https://jobs.smartrecruiters.com/Inetum2/744000116903752-stagiaire-pfe-data-analyst-reporting-it-servicenow-support-",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "https://www.inetum.com/fr/accueil/carrieres/8a2c3210-9144-4f04-9b5a-1ab02a2830c4.html"
     },
     {
       "title": "Stage Développeur(se) Web PHP",
@@ -194,7 +224,12 @@
       "opportunity_type": "internship_pfe",
       "student_priority": 1,
       "experience_level": "experienced",
-      "is_student_friendly": true
+      "is_student_friendly": true,
+      "application_method": "external_portal",
+      "direct_application_url": "https://jobs.iris.ma/index.php/jobs/20/postuler",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "https://jobs.iris.ma/index.php/jobs/20"
     },
     {
       "title": "DataOps Engineer Junior",
@@ -214,7 +249,12 @@
       "opportunity_type": "junior_entry_level",
       "student_priority": 2,
       "experience_level": "not_specified",
-      "is_student_friendly": true
+      "is_student_friendly": true,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "DS - DevOps junior",
@@ -234,7 +274,12 @@
       "opportunity_type": "junior_entry_level",
       "student_priority": 2,
       "experience_level": "not_specified",
-      "is_student_friendly": true
+      "is_student_friendly": true,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Junior Data Engineer - Casablanca",
@@ -254,7 +299,12 @@
       "opportunity_type": "junior_entry_level",
       "student_priority": 2,
       "experience_level": "not_specified",
-      "is_student_friendly": true
+      "is_student_friendly": true,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Junior Data Scientist - Casablanca",
@@ -274,7 +324,12 @@
       "opportunity_type": "junior_entry_level",
       "student_priority": 2,
       "experience_level": "not_specified",
-      "is_student_friendly": true
+      "is_student_friendly": true,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Junior Linux Kernel Engineer - Ubuntu",
@@ -294,7 +349,12 @@
       "opportunity_type": "junior_entry_level",
       "student_priority": 2,
       "experience_level": "experienced",
-      "is_student_friendly": true
+      "is_student_friendly": true,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Administrateur Base de Données SQL Oracle",
@@ -314,7 +374,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Administrateur Linux N3",
@@ -334,7 +399,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Administrateur Réseau N3",
@@ -354,7 +424,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "AI Engineer",
@@ -375,7 +450,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "AI Engineer",
@@ -395,7 +475,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "AI Research Engineer",
@@ -415,7 +500,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "ANGULAR Developer (M/F)",
@@ -435,7 +525,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Architecte Data & IA (H/F)",
@@ -455,7 +550,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Backend Engineer",
@@ -475,7 +575,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Backend Engineer",
@@ -495,7 +600,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Backend / Integration Developers",
@@ -515,7 +625,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Backend Software Engineer - Python/Postgres",
@@ -536,7 +651,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Business Analyst Data - Finance (Microsoft Fabric / Power BI)",
@@ -556,7 +676,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Candidatures spontanées - Forum Geni Entreprises",
@@ -576,7 +701,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Cloud Computing and Virtualization Engineer (M/F)",
@@ -596,7 +726,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Cloud System Administrator (M/F)",
@@ -616,7 +751,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Cyber Security Engineer (M/F)",
@@ -636,7 +776,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Data Analyst (F/H)",
@@ -656,7 +801,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Data & BI Engineer",
@@ -676,7 +826,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Data Engineer",
@@ -696,7 +851,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Data Engineer Confirmé",
@@ -716,7 +876,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Data Engineer Confirmé (F/H)",
@@ -736,7 +901,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Data Engineer Confirmé (Microsoft Fabric)",
@@ -756,7 +926,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Data Engineer (H/F)",
@@ -776,7 +951,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Data Engineer Java / Scala Expérimenté - Data Platform",
@@ -796,7 +976,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Data FinOps Engineer",
@@ -816,7 +1001,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Data Scientist",
@@ -836,7 +1026,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Data Scientist",
@@ -856,7 +1051,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Développement d’un tableau de bord stratégique Power BI pour l’analyse de la performance opérationnelle des BU.",
@@ -876,7 +1076,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Développement, industrialisation et MLOps d'un modèle de Machine Learning prédictif intégré dans Microsoft Fabric",
@@ -897,7 +1102,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Développeur .NET",
@@ -917,7 +1127,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Développeur Full Stack",
@@ -937,7 +1152,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Développeur Full Stack",
@@ -957,7 +1177,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Développeur Full stack",
@@ -977,7 +1202,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Développeur Full Stack",
@@ -997,7 +1227,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Développeur Full Stack Java Vue JS",
@@ -1017,7 +1252,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Développeur Full Stack Java Vue JS",
@@ -1037,7 +1277,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Développeur Full Stack PHP",
@@ -1057,7 +1302,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Développeur Java - Angular (H/F)",
@@ -1077,7 +1327,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Développeur Power BI (H/F)",
@@ -1097,7 +1352,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Développeur Python",
@@ -1118,7 +1378,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Développeur Python",
@@ -1138,7 +1403,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Développeur Python IA",
@@ -1159,7 +1429,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Développeurs Full Stack Python / TypeScript",
@@ -1180,7 +1455,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "DS - Data Engineer Confirmé",
@@ -1200,7 +1480,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "DS - Data Engineer Confirmé",
@@ -1220,7 +1505,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "DS - Développeur Fullstack Java Angular Confirmé",
@@ -1240,7 +1530,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "DS - DevOps Confirmé",
@@ -1260,7 +1555,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Expert CISCO ACI Core Network",
@@ -1280,7 +1580,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Frontend Developer - G2i Talent Pool",
@@ -1300,7 +1605,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Frontend Developer (React)",
@@ -1320,7 +1630,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Full-Stack Developer",
@@ -1340,7 +1655,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Full stack developer - IT Administrator",
@@ -1360,7 +1680,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Full Stack Developer (Javascript)",
@@ -1380,7 +1705,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Full Stack Engineer (Backend Focused)",
@@ -1400,7 +1730,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Full-Stack Software Engineer - Normal",
@@ -1420,7 +1755,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "FullStack Developer",
@@ -1440,7 +1780,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Implementation Engineer",
@@ -1460,7 +1805,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Ingénieur d'Infrastructure de Virtualisation Réseau",
@@ -1480,7 +1830,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Ingénieur Data expérimenté Java / Kafka",
@@ -1500,7 +1855,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Ingénieur DevOps",
@@ -1520,7 +1880,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Ingénieur DevOps",
@@ -1540,7 +1905,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Ingénieur Devops",
@@ -1560,7 +1930,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Ingénieur Devops/ Databricks (F/H)",
@@ -1580,7 +1955,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Ingénieur IA / NLP juridique",
@@ -1600,7 +1980,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "JAVA Developer (M/F)",
@@ -1620,7 +2005,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "JAVA JEE Developer (M/F)",
@@ -1640,7 +2030,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "JAVASCRIPT Developer (M/F)",
@@ -1660,7 +2055,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "LARAVEL Developer (M/F)",
@@ -1680,7 +2080,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Le PLM augmenté par l'IA : Intégration d'assistants intelligents (LLM) sous PTC Windchill pour capitaliser la donnée industrielle et optimiser les flux métiers",
@@ -1700,7 +2105,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Linux Kernel Engineer",
@@ -1720,7 +2130,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "MLOps Engineer",
@@ -1740,7 +2155,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Mobile Core Network Engineer",
@@ -1760,7 +2180,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Node.JS Developer",
@@ -1780,7 +2205,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "NODE.JS Developer (M/F)",
@@ -1800,7 +2230,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "OBJECTIVE-C Developer (M/F)",
@@ -1820,7 +2255,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "OCP Networking Architect",
@@ -1840,7 +2280,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "PHP Developer (M/F)",
@@ -1860,7 +2305,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "PYTHON Developer (M/F)",
@@ -1881,7 +2331,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "REACT Developer (M/F)",
@@ -1901,7 +2356,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Regulatory Reporting Data Analyst",
@@ -1921,7 +2381,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Remote Full Stack Developer",
@@ -1941,7 +2406,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Salesforce CRM Developer",
@@ -1961,7 +2431,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Software Engineer - AI Tooling Infrastructure",
@@ -1981,7 +2456,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Software Engineer - AI Tooling Infrastructure",
@@ -2001,7 +2481,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Software Engineer: Full stack",
@@ -2021,7 +2506,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Software Engineer : Full Stack",
@@ -2041,7 +2531,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Software Engineer - Solutions Engineering",
@@ -2061,7 +2556,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Software Engineer - Sustaining Engineering",
@@ -2081,7 +2581,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Spécialiste en Intelligence Artificielle (IA)",
@@ -2101,7 +2606,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Supply Chain Data Analyst",
@@ -2121,7 +2631,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "WEB Frontend development",
@@ -2141,7 +2656,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Web Frontend Engineer",
@@ -2161,7 +2681,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "AI Engineering Back & Mobile Lead",
@@ -2181,7 +2706,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "AI/ML Engineer - Senior",
@@ -2202,7 +2732,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Backend Developer (Node.js)",
@@ -2222,7 +2757,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Containerization & Virtualisation Engineer",
@@ -2242,7 +2782,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Data Analyst - Senior",
@@ -2262,7 +2807,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Data Business Analyst & Adoption Lead",
@@ -2282,7 +2832,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Data Engineer Spark Scala Senior | Devoteam Maroc Nearshore",
@@ -2303,7 +2858,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Data Science Consultant Casablanca",
@@ -2324,7 +2884,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Developer lead (.net + angular)",
@@ -2344,7 +2909,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Développeur Backend sénior Java (F/H)-Rabat (Maroc)",
@@ -2364,7 +2934,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Développeur confirmé PHP / SQL",
@@ -2385,7 +2960,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Développeur Full Stack Senior - Laravel 12+, Vue.js et PostgreSQL",
@@ -2406,7 +2986,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Développeur Java ReactJS",
@@ -2426,7 +3011,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Développeur(se) Senior Java BackEnd",
@@ -2446,7 +3036,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Embedded Linux Senior Software Engineer",
@@ -2466,7 +3061,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Engineering Manager - Frontend - Krak",
@@ -2486,7 +3086,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Full Stack Software Engineer",
@@ -2506,7 +3111,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Le PLM augmenté par l'IA : Intégration d'assistants intelligents (LLM) sous PTC Windchill pour capitaliser la donnée industrielle et optimiser les flux métiers",
@@ -2526,7 +3136,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Lead Software Engineer: Full stack agentic IA",
@@ -2546,7 +3161,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Manager Data Engineer - Casablanca",
@@ -2566,7 +3186,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Principal Engineer - - Full-Stack TypeScript",
@@ -2586,7 +3211,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Principal Full Stack Software Engineer",
@@ -2606,7 +3236,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Python Engineer",
@@ -2626,7 +3261,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Senior Ai/ML Engineer",
@@ -2646,7 +3286,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Senior AI/ML Engineer",
@@ -2666,7 +3311,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Senior Back-End Developer",
@@ -2686,7 +3336,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Senior Backend Developer",
@@ -2706,7 +3361,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Senior Data Analyst",
@@ -2726,7 +3386,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Senior Data Engineer - Casablanca",
@@ -2746,7 +3411,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Senior Data Engineer - Freelance",
@@ -2766,7 +3436,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Senior Data Scientist",
@@ -2786,7 +3461,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Senior Data Scientist H/F",
@@ -2807,7 +3487,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Senior Data Scientist H/F",
@@ -2828,7 +3513,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Senior Data Scientist, Knowledge Layer",
@@ -2848,7 +3538,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Senior Engineer, Machine Learning",
@@ -2869,7 +3564,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Senior Front-End Developer",
@@ -2889,7 +3589,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Senior Frontend Engineer - 100% Remote",
@@ -2909,7 +3614,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Senior Frontend Engineer - Acquisition",
@@ -2929,7 +3639,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Senior Full Stack Developer Java / React (F/H)",
@@ -2949,7 +3664,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Senior Full Stack Engineer",
@@ -2969,7 +3689,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Senior Full Stack Engineer Database",
@@ -2989,7 +3714,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Senior Full-Stack Python Engineer",
@@ -3010,7 +3740,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Senior FullStack Developer",
@@ -3030,7 +3765,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Senior Machine Learning Engineer",
@@ -3051,7 +3791,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Senior Sales Data Analyst",
@@ -3071,7 +3816,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Senior Software Engineer - Frontend - Consumer",
@@ -3091,7 +3841,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Senior Software Engineer - Javascript",
@@ -3111,7 +3866,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Senior Software Engineer - Rust - Backend",
@@ -3131,7 +3891,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Senior Staff Data Engineer",
@@ -3151,7 +3916,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Staff AI Engineer",
@@ -3171,7 +3941,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Staff Machine Learning Engineer",
@@ -3192,7 +3967,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Team Leader Full Stack",
@@ -3212,7 +3992,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Technical Lead Full Stack Java/Angular Senior (F/H)",
@@ -3232,7 +4017,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     },
     {
       "title": "Technical Lead Full Stack Java/Angular Senior (F/H)",
@@ -3252,7 +4042,12 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false
+      "is_student_friendly": false,
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": ""
     }
   ]
 }

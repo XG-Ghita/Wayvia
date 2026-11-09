@@ -340,6 +340,13 @@ def process_one_opportunity(opportunity):
 
     result = opportunity.copy()
 
+    # Application method and verification details
+    result["application_method"] = "jooble"
+    result["direct_application_url"] = ""
+    result["employer_email"] = ""
+    result["email_verified"] = False
+    result["application_source_url"] = ""
+
     result["domains"] = domain_matches
     result["opportunity_type"] = opportunity_type
     result["student_priority"] = priority

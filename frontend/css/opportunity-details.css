@@ -1,0 +1,169 @@
+.opportunity-details-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 24px 70px;
+    color: #f5f3ff;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 28px;
+    color: #c77dff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.back-link:hover {
+    color: #e0aaff;
+}
+
+.details-card {
+    background: #171329;
+    border: 1px solid rgba(199, 125, 255, 0.2);
+    border-radius: 20px;
+    padding: 36px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
+}
+
+.details-header {
+    margin-bottom: 28px;
+}
+
+.details-header h1 {
+    margin: 0 0 12px;
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+    line-height: 1.2;
+}
+
+.details-company {
+    color: #c4b5fd;
+    font-size: 1.1rem;
+}
+
+.details-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.details-badge {
+    padding: 7px 13px;
+    border-radius: 30px;
+    background: rgba(199, 125, 255, 0.12);
+    border: 1px solid rgba(199, 125, 255, 0.25);
+    color: #e0aaff;
+    font-size: 0.85rem;
+}
+
+.details-meta {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    margin: 28px 0;
+}
+
+.details-meta-item {
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 12px;
+}
+
+.details-meta-item span {
+    display: block;
+    margin-bottom: 6px;
+    color: #a89dbd;
+    font-size: 0.85rem;
+}
+
+.details-meta-item strong {
+    color: #fff;
+}
+
+.details-description {
+    margin-top: 30px;
+    line-height: 1.8;
+    color: #d6d0e3;
+    overflow-wrap: anywhere;
+}
+
+.details-description h2 {
+    color: #fff;
+    margin-bottom: 14px;
+}
+
+.details-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 32px;
+}
+
+.details-actions button,
+.details-actions a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 46px;
+    padding: 12px 22px;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.track-button {
+    border: 1px solid #c77dff;
+    background: transparent;
+    color: #e0aaff;
+}
+
+.track-button:hover {
+    background: rgba(199, 125, 255, 0.12);
+}
+
+.external-apply-button {
+    border: none;
+    background: linear-gradient(135deg, #7b2cbf, #c77dff);
+    color: #fff;
+}
+
+.external-apply-button:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+.details-notice {
+    margin-top: 18px;
+    color: #a89dbd;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.details-error {
+    padding: 24px;
+    border-radius: 12px;
+    background: rgba(255, 100, 100, 0.08);
+    color: #ffb4b4;
+}
+
+@media (max-width: 600px) {
+    .opportunity-details-page {
+        padding: 24px 16px 50px;
+    }
+
+    .details-card {
+        padding: 22px;
+    }
+
+    .details-actions {
+        flex-direction: column;
+    }
+
+    .details-actions button,
+    .details-actions a {
+        width: 100%;
+    }
+}

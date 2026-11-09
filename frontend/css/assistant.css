@@ -867,6 +867,66 @@ body {
     color: var(--text);
 }
 
+/* CV ATTACHMENT BUTTON */
+
+.attach-button {
+    width: 27px;
+    height: 27px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 7px;
+    background: #f3efff;
+    color: #6c3cff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-right: 7px;
+}
+
+.attach-button:hover {
+    background: #6c3cff;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+/* ATTACHMENT PREVIEW */
+
+.attachment-preview {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: fit-content;
+    max-width: 100%;
+    margin-bottom: 8px;
+    padding: 7px 11px;
+    border: 1px solid #e4dcff;
+    border-radius: 8px;
+    background: #f8f6ff;
+    color: #6c3cff;
+    font-size: 11px;
+}
+
+.attachment-preview[hidden] {
+    display: none;
+}
+
+#attachmentFileName {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#removeAttachmentButton {
+    border: none;
+    background: transparent;
+    color: #6c3cff;
+    font-size: 17px;
+    cursor: pointer;
+    line-height: 1;
+}
 
 .input-wrapper input::placeholder {
 

@@ -138,6 +138,17 @@ const cityChart =
 const technologyLegend =
     document.getElementById("technologyLegend");
 
+const technologyTotal =
+    document.getElementById("technologyTotal");
+
+const technologyMarketData = [
+    { name: "Generative AI", count: 47, percentage: 12 },
+    { name: "Python", count: 33, percentage: 8.2 },
+    { name: "SQL", count: 31, percentage: 7.7 },
+    { name: "Azure", count: 22, percentage: 5.5 },
+    { name: "Machine Learning", count: 13, percentage: 3.2 }
+];
+
 const sectorList =
     document.getElementById("sectorList");
 
@@ -215,47 +226,31 @@ function renderCities() {
    ========================================================= */
 
 function renderTechnologies() {
-
     technologyLegend.innerHTML = "";
 
-    const dotClasses = [
-        "purple",
-        "blue",
-        "cyan",
-        "violet",
-        "gray"
-    ];
+    // Total job postings in the JobRise snapshot
+    technologyTotal.textContent = "401";
 
-    insightsData.technologies.forEach(
-        (technology, index) => {
+    technologyMarketData.forEach((technology, index) => {
+        const item = document.createElement("div");
+        item.className = "legend-item";
 
-            const item =
-                document.createElement("div");
+        const dot = document.createElement("span");
+        dot.className = "legend-dot";
+        dot.style.background = getTechnologyColor(index);
 
-            item.className =
-                "legend-item";
+        const name = document.createElement("span");
+        name.className = "legend-name";
+        name.textContent = technology.name;
 
-            item.innerHTML = `
-                <span
-                    class="legend-dot"
-                    style="
-                        background:
-                        ${getTechnologyColor(index)}
-                    "
-                ></span>
+        const value = document.createElement("span");
+        value.className = "legend-value";
+        value.textContent =
+            `${technology.count} postings · ${technology.percentage}%`;
 
-                <span class="legend-name">
-                    ${technology.name}
-                </span>
-
-                <span class="legend-value">
-                    ${technology.percentage}%
-                </span>
-            `;
-
-            technologyLegend.appendChild(item);
-        }
-    );
+        item.append(dot, name, value);
+        technologyLegend.appendChild(item);
+    });
 }
 
 

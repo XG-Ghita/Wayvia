@@ -742,6 +742,24 @@
     transition: all 0.2s ease;
 }
 
+.analyze-opportunity-button {
+    padding: 8px 14px;
+    border: 1px solid #6c3cff;
+    border-radius: 8px;
+    background: #f3efff;
+    color: #6c3cff;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.analyze-opportunity-button:hover {
+    background: #6c3cff;
+    color: #ffffff;
+    box-shadow: 0 3px 10px rgba(108, 60, 255, 0.2);
+}
+
 .save-opportunity-button:hover:not(:disabled) {
     background: #6c3cff;
     color: #ffffff;

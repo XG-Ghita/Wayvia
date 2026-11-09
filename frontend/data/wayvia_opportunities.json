@@ -9,45 +9,45 @@
       "web",
       "networking"
     ],
-    "collected_at": "2026-11-08T18:47:31.760904+00:00",
-    "total_opportunities": 160,
+    "collected_at": "2026-11-09T15:11:13.888666+00:00",
+    "total_opportunities": 159,
     "summary": {
-      "raw_count": 694,
-      "processed_count": 160,
+      "raw_count": 693,
+      "processed_count": 159,
       "removed_count": 534,
       "internship_pfe": 7,
       "junior_entry_level": 5,
-      "other_relevant": 148,
-      "experienced": 55,
-      "previous_published_count": 159,
-      "newly_collected_count": 160,
-      "final_published_count": 160
+      "other_relevant": 147,
+      "experienced": 56,
+      "previous_published_count": 160,
+      "newly_collected_count": 159,
+      "final_published_count": 159
     },
     "collection_report": [
       {
         "domain": "ai",
-        "fetched": 219,
+        "fetched": 220,
         "successful_queries": 15,
         "failed_queries": 0,
         "status": "success"
       },
       {
         "domain": "data",
-        "fetched": 148,
+        "fetched": 151,
         "successful_queries": 12,
         "failed_queries": 0,
         "status": "success"
       },
       {
         "domain": "web",
-        "fetched": 157,
+        "fetched": 154,
         "successful_queries": 12,
         "failed_queries": 0,
         "status": "success"
       },
       {
         "domain": "networking",
-        "fetched": 170,
+        "fetched": 168,
         "successful_queries": 12,
         "failed_queries": 0,
         "status": "success"
@@ -438,26 +438,6 @@
       "is_student_friendly": false
     },
     {
-      "title": "ANGULAR Developer (M/F)",
-      "company": "AFRICASHORE",
-      "location": "Agadir",
-      "description": "&nbsp;...We are looking for  ANGULAR <b>Developer </b> profiles / CVs to pass on to our clients for their future recruitment campaigns. \r\n \r\n Mission...&nbsp;&nbsp;...HTML5, CSS3, Bootstrap, SASS or LESS, Jquery etc. \r\n~ Excellent <b>Javascript </b>knowledge. \r\n~ Knowledge of JavaScript MV-VM/MVC frameworks...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/-7061066037978566854",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-09-29T00:00:00.0000000",
-      "source": "Jooble",
-      "domain_searched": "web",
-      "search_query": "JavaScript developer",
-      "domains": [
-        "web"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "not_specified",
-      "is_student_friendly": false
-    },
-    {
       "title": "Architecte Data & IA (H/F)",
       "company": "Devoteam",
       "location": "Casablanca",
@@ -481,14 +461,14 @@
       "title": "Backend Engineer",
       "company": "GitLab",
       "location": "Télétravail",
-      "description": "&nbsp;...Limited are not affiliated with, and do not endorse products or services of GitLab. \r\n About the role \r\n As an Intermediate Backend <b>Engineer,</b> you will take backend features and improvements from clarifying the problem through shipping them and following up in production....&nbsp;",
+      "description": "&nbsp;...About the role \r\n As an Intermediate Backend <b>Engineer,</b> you will take backend features and...&nbsp;&nbsp;...a platform used by millions of users. \r\n <b>Learning </b>and Growth :  You’ll work alongside your...&nbsp;&nbsp;...backend language. We value the ability to <b>learn </b>and adapt over mastery of a single language...&nbsp;",
       "application_url": "https://ma.jooble.org/jdp/158258873544274949",
       "salary": "",
       "employment_type": "",
       "published_at": "2026-11-04T14:50:03.3485265+00:00",
       "source": "Jooble",
       "domain_searched": "ai",
-      "search_query": "NLP engineer",
+      "search_query": "machine learning engineer",
       "domains": [
         "web"
       ],
@@ -679,26 +659,6 @@
       "is_student_friendly": false
     },
     {
-      "title": "Data Analyst (F/H)",
-      "company": "CGI",
-      "location": "Rabat",
-      "description": "&nbsp;...Position Description: Dans le cadre de la montée en charge de nos équipes, nous recherchons des <b>Data Analysts </b>capables de transformer les besoins métiers en analyses, indicateurs et tableaux de bord utiles à la décision.\n Your future duties and responsibilities: \r\n Recueillir...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/1966517980724592736",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-11-06T08:51:10.3202793+00:00",
-      "source": "Jooble",
-      "domain_searched": "data",
-      "search_query": "data analyst",
-      "domains": [
-        "data"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "not_specified",
-      "is_student_friendly": false
-    },
-    {
       "title": "Data & BI Engineer",
       "company": "NCC Casablanca",
       "location": "Casablanca",
@@ -770,26 +730,6 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "data scientist",
-      "domains": [
-        "data"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "not_specified",
-      "is_student_friendly": false
-    },
-    {
-      "title": "Data Engineer Confirmé (F/H)",
-      "company": "CGI",
-      "location": "Casablanca",
-      "description": "&nbsp;...Position Description: Dans le cadre de la montée en charge de nos équipes Data, nous recherchons des Data <b>Engineers </b>capables de concevoir, industrialiser et maintenir des pipelines de données robustes et scalables dans des environnements Cloud & Data exigeants.\n Your future...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/3440562797391081203",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-11-03T10:35:45.8530000",
-      "source": "Jooble",
-      "domain_searched": "ai",
-      "search_query": "NLP engineer",
       "domains": [
         "data"
       ],
@@ -902,14 +842,14 @@
       "title": "Data Scientist",
       "company": "ALTEN",
       "location": "Fez",
-      "description": "&nbsp;...Pipeline Data sous Data Bricks \r\n Développement et maintenance des Dashboard PowerBI \r\n Conception et amélioration des modèles <b>machine learning </b>\r\n Interfaçage avec les équipes métier \r\n Documentation technique des solutions \r\n Formation utilisateurs des applications...&nbsp;",
+      "description": "&nbsp;...seront les suivantes : \r\n Développement et maintenance des Pipeline <b>Data </b>sous Data Bricks \r\n Développement et maintenance des Dashboard...&nbsp;&nbsp;...applications  \r\n  Qualifications \r\n\r\n\r\n Profil :  Bac+5 en Data <b>science </b>(Data engineer/ Data scientist)\r\n Expérience : 1 à 3 ans \r\n Comp...&nbsp;",
       "application_url": "https://ma.jooble.org/jdp/6551060240590133968",
       "salary": "",
       "employment_type": "",
       "published_at": "2026-10-26T18:00:02.8721816+00:00",
       "source": "Jooble",
       "domain_searched": "ai",
-      "search_query": "stage machine learning",
+      "search_query": "stage data science",
       "domains": [
         "data"
       ],
@@ -1061,6 +1001,26 @@
     },
     {
       "title": "Développeur Full Stack Java Vue JS",
+      "company": "Devoteam Morocco",
+      "location": "Rabat",
+      "description": "Description de l'entreprise \r\n\r\n Chez Devoteam, nous sommes des « Digital Transformakers ». Le respect, la franchise et la passion animent chaque jour notre tribu. \r\n Ensemble, nous aidons nos clients à remporter la bataille du Digital : du conseil à la mise en œuvre de...",
+      "application_url": "https://ma.jooble.org/jdp/-6579745766117048425",
+      "salary": "",
+      "employment_type": "",
+      "published_at": "2026-10-16T15:43:16.6004504+00:00",
+      "source": "Jooble",
+      "domain_searched": "web",
+      "search_query": "full stack developer",
+      "domains": [
+        "web"
+      ],
+      "opportunity_type": "other_relevant",
+      "student_priority": 3,
+      "experience_level": "not_specified",
+      "is_student_friendly": false
+    },
+    {
+      "title": "Développeur Full Stack Java Vue JS",
       "company": "Devoteam",
       "location": "Rabat",
       "description": "Description de l'entreprise Chez Devoteam, nous sommes des « Digital Transformakers ». Le respect, la franchise et la passion animent chaque jour notre tribu. \nEnsemble, nous aidons nos clients à remporter la bataille du Digital : du conseil à la mise en œuvre de technologies...",
@@ -1070,7 +1030,7 @@
       "published_at": "2026-11-03T10:35:41.5430000",
       "source": "Jooble",
       "domain_searched": "web",
-      "search_query": "full stack developer",
+      "search_query": "stage full stack developer",
       "domains": [
         "web"
       ],
@@ -1226,14 +1186,14 @@
       "title": "DS - Data Engineer Confirmé",
       "company": "Orange",
       "location": "El Jadida",
-      "description": "&nbsp;...Dans le cadre du renforcement de l’équipe en charge de la mise en place de la plateforme <b>Data </b>de notre client, fondée sur une architecture Lakehouse, nous cherchons un Data <b>Engineer </b>confirmé. L’intervenant conçoit, développe, industrialise et maintient les flux d’...&nbsp;",
+      "description": "&nbsp;...opportunities.\n À propos du rôle \r\n Contexte Dans le cadre du renforcement de l’équipe en charge de la mise en place de la plateforme <b>Data </b>de notre client, fondée sur une architecture Lakehouse, nous cherchons un Data Engineer confirmé. L’intervenant conçoit, développe,...&nbsp;",
       "application_url": "https://ma.jooble.org/jdp/1683422331926408105",
       "salary": "",
       "employment_type": "",
       "published_at": "2026-11-03T10:35:45.9030000",
       "source": "Jooble",
-      "domain_searched": "data",
-      "search_query": "data engineer",
+      "domain_searched": "ai",
+      "search_query": "stage data science",
       "domains": [
         "data"
       ],
@@ -1343,6 +1303,26 @@
       "is_student_friendly": false
     },
     {
+      "title": "Frontend Developer (React)",
+      "company": "Codekeeper",
+      "location": "Télétravail",
+      "description": "&nbsp;...Frontend <b>Developer </b>(React) Are you a skilled Front End Developer who loves turning ideas into elegant, high-performing <b>web </b>applications? Do you get energized by fast-paced environments where your code ships quickly and makes a real, visible impact? Are you the kind of...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/3575416735189094058",
+      "salary": "",
+      "employment_type": "",
+      "published_at": "2026-11-09T14:55:17.9231260+00:00",
+      "source": "Jooble",
+      "domain_searched": "web",
+      "search_query": "web developer",
+      "domains": [
+        "web"
+      ],
+      "opportunity_type": "other_relevant",
+      "student_priority": 3,
+      "experience_level": "not_specified",
+      "is_student_friendly": false
+    },
+    {
       "title": "Full-Stack Developer",
       "company": "Direct Agents",
       "location": "Télétravail",
@@ -1371,6 +1351,26 @@
       "salary": "",
       "employment_type": "",
       "published_at": "2025-11-13T16:36:05.6130000",
+      "source": "Jooble",
+      "domain_searched": "web",
+      "search_query": "full stack developer",
+      "domains": [
+        "web"
+      ],
+      "opportunity_type": "other_relevant",
+      "student_priority": 3,
+      "experience_level": "not_specified",
+      "is_student_friendly": false
+    },
+    {
+      "title": "Full Stack Developer (Javascript)",
+      "company": "Codekeeper",
+      "location": "Télétravail",
+      "description": "&nbsp;...<b>Full Stack Developer </b>(JavaScript) Are you an experienced Full-Stack JavaScript Developer who enjoys crafting clean, efficient, and scalable code? Excited by the opportunity to make a meaningful impact in the fast-evolving software escrow industry?\r\n Codekeeper is looking...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/1313184408477267989",
+      "salary": "",
+      "employment_type": "",
+      "published_at": "2026-11-08T00:00:00.0000000",
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "full stack developer",
@@ -1605,9 +1605,9 @@
     {
       "title": "JAVA Developer (M/F)",
       "company": "AFRICASHORE",
-      "location": "Errachidia",
+      "location": "Béni Mellal-Khénifra Region",
       "description": "&nbsp;...We are looking for  JAVA <b>Developer </b> profiles / CVs to pass on to our clients for their future recruitment campaigns. \r\n \r\n Mission:...&nbsp;&nbsp;...like Oracle, MySQL etc. \r\n~ Experience working with Bootstrap, <b>JavaScript,</b> jQuery & HTML. \r\n~ API development experience. \r\n~ Experience...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/5742095659667016640",
+      "application_url": "https://ma.jooble.org/jdp/5753849749747250170",
       "salary": "",
       "employment_type": "",
       "published_at": "2026-09-29T00:00:00.0000000",
@@ -1625,9 +1625,9 @@
     {
       "title": "JAVA JEE Developer (M/F)",
       "company": "AFRICASHORE",
-      "location": "Béni Mellal-Khénifra Region",
+      "location": "Mohammedia",
       "description": "&nbsp;...We are looking for  JAVA JEE <b>Developer </b> profiles / CVs to pass on to our clients for their future recruitment campaigns. \r\n \r\n Mission...&nbsp;&nbsp;...HTML, CSS, Maven, WebLogic Server, Angular JS,(or above) and <b>Javascript,</b> as well as any other standard web technologies. \r\n~ Experience...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/8606768855321562138",
+      "application_url": "https://ma.jooble.org/jdp/-7697270165860145462",
       "salary": "",
       "employment_type": "",
       "published_at": "2026-09-29T00:00:00.0000000",
@@ -1703,6 +1703,26 @@
       "is_student_friendly": false
     },
     {
+      "title": "Linux Kernel Engineer",
+      "company": "Canonical",
+      "location": "Télétravail",
+      "description": "&nbsp;...here if you are an exceptional software <b>engineer </b>who wants to work on both stable and cutting...&nbsp;&nbsp;...Virtualisation or abstraction <b>engines </b>\r\n Container technology \r\n Security with...&nbsp;&nbsp;...AppArmor, SECCOMP, namespaces and more \r\n <b>Networking </b>- in particular performance and security...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/1748878435426671865",
+      "salary": "",
+      "employment_type": "",
+      "published_at": "2026-10-29T00:00:00.0000000",
+      "source": "Jooble",
+      "domain_searched": "networking",
+      "search_query": "Cisco network engineer",
+      "domains": [
+        "networking"
+      ],
+      "opportunity_type": "other_relevant",
+      "student_priority": 3,
+      "experience_level": "not_specified",
+      "is_student_friendly": false
+    },
+    {
       "title": "MLOps Engineer",
       "company": "Giantlink",
       "location": "Fès Prefecture",
@@ -1765,9 +1785,9 @@
     {
       "title": "NODE.JS Developer (M/F)",
       "company": "AFRICASHORE",
-      "location": "Mohammedia",
+      "location": "Dakhla",
       "description": "&nbsp;...We are looking for  NODE.JS <b>Developer </b> profiles / CVs to pass on to our clients for their future recruitment campaigns. \r\n \r\n Mission...&nbsp;&nbsp;...Rich user interface development experience with HTML5, CSS3 and <b>JavaScript </b>frameworks like AngularJS, JQuery, w3css/bootstrap etc. \r\n~...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/2305819133485020174",
+      "application_url": "https://ma.jooble.org/jdp/4487862102421526598",
       "salary": "",
       "employment_type": "",
       "published_at": "2026-09-29T00:00:00.0000000",
@@ -1785,9 +1805,9 @@
     {
       "title": "OBJECTIVE-C Developer (M/F)",
       "company": "AFRICASHORE",
-      "location": "Agadir",
+      "location": "Laayoune",
       "description": "&nbsp;...We are looking for  OBJECTIVE-C <b>Developer </b> profiles / CVs to pass on to our clients for their future recruitment campaigns. \r\n \r\n Mission...&nbsp;&nbsp;...APIs and Web Services. \r\n~ Strong experience with XML, JSON, <b>JavaScript/</b>jQuery, HTML/CSS. \r\n~ Excellent understanding of optimization...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/-3675418877620059090",
+      "application_url": "https://ma.jooble.org/jdp/-6433173796169998347",
       "salary": "",
       "employment_type": "",
       "published_at": "2026-09-29T00:00:00.0000000",
@@ -1845,36 +1865,15 @@
     {
       "title": "PYTHON Developer (M/F)",
       "company": "AFRICASHORE",
-      "location": "Oujda",
-      "description": "&nbsp;...We are looking for  PYTHON <b>Developer </b> profiles / CVs to pass on to our clients for their future recruitment campaigns. \r\n \r\n Mission:...&nbsp;&nbsp;...development experience with Python based web servers. \r\n~ Backend & <b>Frontend </b>API creation using Tornado / Django / Flask etc. \r\n~ Good...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/-1311672926231193804",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-09-29T00:00:00.0000000",
-      "source": "Jooble",
-      "domain_searched": "web",
-      "search_query": "frontend developer",
-      "domains": [
-        "data",
-        "web"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "not_specified",
-      "is_student_friendly": false
-    },
-    {
-      "title": "PYTHON Developer (M/F)",
-      "company": "AFRICASHORE",
       "location": "Casablanca",
-      "description": "&nbsp;...We are looking for  PYTHON <b>Developer </b> profiles / CVs to pass on to our clients for their future recruitment campaigns. \r\n \r\n Mission:...&nbsp;&nbsp;...application development experience with Python based web servers. \r\n~ <b>Backend </b>& Frontend API creation using Tornado / Django / Flask etc. \r\n~...&nbsp;",
+      "description": "&nbsp;...We are looking for  PYTHON <b>Developer </b> profiles / CVs to pass on to our clients for their future recruitment campaigns. \r\n \r\n Mission:...&nbsp;&nbsp;...development experience with Python based web servers. \r\n~ Backend & <b>Frontend </b>API creation using Tornado / Django / Flask etc. \r\n~ Good...&nbsp;",
       "application_url": "https://ma.jooble.org/jdp/719004721841383329",
       "salary": "",
       "employment_type": "",
       "published_at": "2026-09-29T00:00:00.0000000",
       "source": "Jooble",
       "domain_searched": "web",
-      "search_query": "backend developer",
+      "search_query": "frontend developer",
       "domains": [
         "data",
         "web"
@@ -1896,26 +1895,6 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "web developer",
-      "domains": [
-        "web"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "not_specified",
-      "is_student_friendly": false
-    },
-    {
-      "title": "REACT Developer (M/F)",
-      "company": "AFRICASHORE",
-      "location": "Fès Prefecture",
-      "description": "&nbsp;...We are looking for  REACT <b>Developer </b> profiles / CVs to pass on to our clients for their future recruitment campaigns. \r\n \r\n Mission:...&nbsp;&nbsp;...React and Redux, design and develop user interface components for <b>JavaScript-</b>based online and mobile apps. \r\n Develop new user-facing...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/-4722349750328692377",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-09-29T00:00:00.0000000",
-      "source": "Jooble",
-      "domain_searched": "web",
-      "search_query": "JavaScript developer",
       "domains": [
         "web"
       ],
@@ -2145,26 +2124,6 @@
       "is_student_friendly": false
     },
     {
-      "title": "TECHNICAL CONSULTANT FULL STACK PHP/SYMFONY- REACT TYPE...",
-      "company": "ChapsVision",
-      "location": "Casablanca",
-      "description": "&nbsp;...mes : \r\n· Windows Server / Linux (selon les environnements clients ou projets). \r\n Architecture logicielle : \r\n· Applications web <b>full-stack,</b> API REST, microservices, intégration de services tiers. \r\n Profil recherché \r\n Hard Skills : \r\n· Maîtrise du développement...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/2729397159153717663",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-10-09T02:16:02.5200000",
-      "source": "Jooble",
-      "domain_searched": "web",
-      "search_query": "full stack developer",
-      "domains": [
-        "web"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "not_specified",
-      "is_student_friendly": false
-    },
-    {
       "title": "WEB Frontend development",
       "company": "Babel",
       "location": "Casablanca",
@@ -2216,26 +2175,6 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "AI engineer",
-      "domains": [
-        "ai"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "experienced",
-      "is_student_friendly": false
-    },
-    {
-      "title": "AI Engineering Sénior",
-      "company": "Devoteam",
-      "location": "Casablanca",
-      "description": "&nbsp;...Concevoir, intégrer et déployer des briques et modèles d'<b>Intelligence Artificielle </b>au cœur du nouveau système d'encaissement pour optimiser...&nbsp;&nbsp;...via l'IA :  Intégration de fonctionnalités d'assistance <b>intelligente </b>sur les interfaces de caisse pour fluidifier les parcours...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/-6089828696335271828",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-11-03T10:35:47.8570000",
-      "source": "Jooble",
-      "domain_searched": "ai",
-      "search_query": "PFE intelligence artificielle",
       "domains": [
         "ai"
       ],
@@ -2370,14 +2309,14 @@
       "title": "Data Science Consultant Casablanca",
       "company": "Management Solutions",
       "location": "Casablanca",
-      "description": "&nbsp;...You will be working in key projects for leading organizations in <b>data </b>mining & knowledge Discovery, predictive modeling, trend modeling, Simulation models (Monte Carlo), Review of credit rating and scoring models and quant support to the business and R&D projects.\n Requirements...&nbsp;",
+      "description": "&nbsp;...You will be working in key projects for leading organizations in <b>data </b>mining & knowledge Discovery, predictive modeling, trend...&nbsp;&nbsp;...studies and/or specialised courses are an asset, especially in Data <b>Science,</b> Quantitative Finance or similar. \r\n Knowledge of other languages...&nbsp;",
       "application_url": "https://ma.jooble.org/jdp/-8507742926422677613",
       "salary": "",
       "employment_type": "",
       "published_at": "2026-11-04T10:35:41.7970000",
       "source": "Jooble",
       "domain_searched": "ai",
-      "search_query": "data scientist",
+      "search_query": "stage data science",
       "domains": [
         "ai",
         "data"
@@ -2463,26 +2402,6 @@
       "domains": [
         "data",
         "web"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "experienced",
-      "is_student_friendly": false
-    },
-    {
-      "title": "Développeur IA - H/F",
-      "company": "L3M Holding",
-      "location": "Casablanca",
-      "description": "&nbsp;...rigueur et innovation. \r\n\r\n MISSIONS PRINCIPALES : \r\n• Concevoir, entraîner et optimiser des modèles d’intelligence artificielle (<b>machine learning </b>/ deep learning)\r\n• Collecter, nettoyer et structurer les données pour garantir leur qualité \r\n• Développer et intégrer des...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/4318834635011214045",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-10-08T02:15:54.6470000",
-      "source": "Jooble",
-      "domain_searched": "ai",
-      "search_query": "stage machine learning",
-      "domains": [
-        "ai"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
@@ -2891,6 +2810,27 @@
       "is_student_friendly": false
     },
     {
+      "title": "Senior Data Scientist H/F",
+      "company": "Devoteam Morocco",
+      "location": "Casablanca",
+      "description": "&nbsp;...innovantes, jusqu’à l’adoption des usages. \r\n Cloud, Cybersecurity, <b>Data,</b> DevOps, Fullstack Dev, Low Code, RPA n’ont plus aucun secret...&nbsp;&nbsp;...churn, augmenter le taux de conversion) en problématiques Data <b>Science.</b> \r\n Interpréter les résultats des modèles et communiquer les insights...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/3628307068289658181",
+      "salary": "",
+      "employment_type": "",
+      "published_at": "2026-10-29T17:53:59.4950902+00:00",
+      "source": "Jooble",
+      "domain_searched": "ai",
+      "search_query": "stage data science",
+      "domains": [
+        "data",
+        "networking"
+      ],
+      "opportunity_type": "other_relevant",
+      "student_priority": 3,
+      "experience_level": "experienced",
+      "is_student_friendly": false
+    },
+    {
       "title": "Senior Data Scientist, Knowledge Layer",
       "company": "TRM Labs",
       "location": "Télétravail",
@@ -3032,6 +2972,26 @@
       "is_student_friendly": false
     },
     {
+      "title": "Senior Full Stack Engineer Database",
+      "company": "Grafana Labs",
+      "location": "Télétravail",
+      "description": "&nbsp;...and open standards and designed for interoperability across any <b>stack,</b> Grafana Cloud brings AI to observability and observability to...&nbsp;&nbsp;...through demos and technical discussions. \r\n We invest heavily in <b>developer </b>productivity. You can use modern AI coding assistants as part...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/5061768546323378003",
+      "salary": "",
+      "employment_type": "",
+      "published_at": "2026-11-08T20:50:43.8496682+00:00",
+      "source": "Jooble",
+      "domain_searched": "web",
+      "search_query": "full stack developer",
+      "domains": [
+        "web"
+      ],
+      "opportunity_type": "other_relevant",
+      "student_priority": 3,
+      "experience_level": "experienced",
+      "is_student_friendly": false
+    },
+    {
       "title": "Senior Full-Stack Python Engineer",
       "company": "Stack Builders",
       "location": "Télétravail",
@@ -3097,14 +3057,14 @@
       "title": "Senior Sales Data Analyst",
       "company": "",
       "location": "Casablanca",
-      "description": "&nbsp;...importantly working well for their needs. \r\n\r\n Position Overview: \r\n We are seeking a highly skilled and detail-oriented  Senior Sales <b>Data </b>Analyst  to join our team. This role is pivotal in analyzing large amounts of sensitive data, ensuring data governance, and...&nbsp;",
+      "description": "&nbsp;...importantly working well for their needs. \r\n\r\n Position Overview: \r\n We are seeking a highly skilled and detail-oriented  Senior Sales <b>Data Analyst </b> to join our team. This role is pivotal in analyzing large amounts of sensitive data, ensuring data governance, and delivering...&nbsp;",
       "application_url": "https://ma.jooble.org/jdp/-4013688900679239064",
       "salary": "",
       "employment_type": "",
       "published_at": "2026-11-05T19:13:18.0770306+00:00",
       "source": "Jooble",
-      "domain_searched": "ai",
-      "search_query": "data scientist",
+      "domain_searched": "data",
+      "search_query": "data analyst",
       "domains": [
         "data"
       ],
@@ -3207,6 +3167,27 @@
       "search_query": "AI engineer",
       "domains": [
         "ai"
+      ],
+      "opportunity_type": "other_relevant",
+      "student_priority": 3,
+      "experience_level": "experienced",
+      "is_student_friendly": false
+    },
+    {
+      "title": "Staff Machine Learning Engineer",
+      "company": "ODG by MCG",
+      "location": "Télétravail",
+      "description": "&nbsp;...and the security, stability, and resources of our parent company, Hearst, with over 100 years of experience.\n The  Staff <b>Machine Learning Engineer </b> is a senior individual contributor responsible for building and evolving the machine learning engineering capabilities that...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/2492849899993554733",
+      "salary": "",
+      "employment_type": "",
+      "published_at": "2026-11-08T20:50:47.6442026+00:00",
+      "source": "Jooble",
+      "domain_searched": "ai",
+      "search_query": "machine learning engineer",
+      "domains": [
+        "ai",
+        "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,

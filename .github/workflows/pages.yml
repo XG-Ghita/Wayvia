@@ -1,39 +1,186 @@
 
-name: Deploy WayVia to GitHub Pages
+name: WayVia Collection and GitHub Pages Deployment
 
 on:
   push:
     branches: ["master"]
+
   workflow_dispatch:
 
+  schedule:
+    - cron: "0 */6 * * *"
+
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     runs-on: ubuntu-latest
 
     steps:
+      # 1. Get the repository
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
+      # 2. Install Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # 3. Check whether 72 hours have elapsed
+      - name: Check collection schedule
+        id: collection_gate
+        if: github.event_name == 'schedule'
+        run: |
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          from datetime import datetime, timezone, timedelta
+
+          timestamp_file = Path(
+              "backend/job_opportunities/last_successful_collection.txt"
+          )
+
+          should_run = True
+
+          if timestamp_file.exists():
+              try:
+                  last_run = datetime.fromisoformat(
+                      timestamp_file.read_text(encoding="utf-8").strip()
+                  )
+
+                  if last_run.tzinfo is None:
+                      last_run = last_run.replace(tzinfo=timezone.utc)
+
+                  elapsed = datetime.now(timezone.utc) - last_run
+                  should_run = elapsed >= timedelta(hours=72)
+
+                  print(f"Last successful collection: {last_run}")
+                  print(f"Hours elapsed: {elapsed.total_seconds() / 3600:.2f}")
+
+              except (ValueError, OSError) as error:
+                  print(f"Could not read timestamp: {error}")
+                  print("A new collection will be attempted.")
+
+          else:
+              print("No previous successful collection timestamp.")
+              print("The first scheduled run will collect immediately.")
+
+          with open(os.environ["GITHUB_OUTPUT"], "a") as output:
+              output.write(
+                  f"should_run={'true' if should_run else 'false'}\n"
+              )
+
+          print(f"Collection due: {should_run}")
+          PY
+
+      # 4. Install the collector dependency
+      - name: Install collector dependencies
+        if: github.event_name == 'schedule' && steps.collection_gate.outputs.should_run == 'true'
+        run: |
+          python -m pip install --upgrade pip
+          pip install python-dotenv==1.2.2
+
+      # 5. Collect and process opportunities
+      - name: Run WayVia opportunity collection
+        if: github.event_name == 'schedule' && steps.collection_gate.outputs.should_run == 'true'
+        env:
+          JOOBLE_API_KEY: ${{ secrets.JOOBLE_API_KEY }}
+        run: |
+          python -m backend.job_opportunities.opportunities_manager
+
+      # 6. Update timestamp only if all four domains succeeded
+      - name: Record successful collection
+        if: github.event_name == 'schedule' && steps.collection_gate.outputs.should_run == 'true'
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from datetime import datetime, timezone
+
+          dataset_path = Path(
+              "frontend/data/wayvia_opportunities.json"
+          )
+
+          timestamp_path = Path(
+              "backend/job_opportunities/last_successful_collection.txt"
+          )
+
+          with open(dataset_path, "r", encoding="utf-8") as file:
+              dataset = json.load(file)
+
+          report = dataset.get("metadata", {}).get(
+              "collection_report", []
+          )
+
+          expected_domains = {"ai", "data", "web", "networking"}
+
+          successful_domains = {
+              item.get("domain")
+              for item in report
+              if item.get("status") == "success"
+          }
+
+          if successful_domains == expected_domains and len(report) == 4:
+              timestamp_path.write_text(
+                  datetime.now(timezone.utc).isoformat() + "\n",
+                  encoding="utf-8"
+              )
+              print("All four domains succeeded.")
+              print("The 72-hour timer has been reset.")
+          else:
+              print("Collection was incomplete.")
+              print("The previous successful timestamp is preserved.")
+              print("The next scheduled check can retry.")
+          PY
+
+      # 7. Commit refreshed data and timestamp
+      - name: Commit updated opportunities
+        if: github.event_name == 'schedule' && steps.collection_gate.outputs.should_run == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add frontend/data/wayvia_opportunities.json
+
+          if [ -f backend/job_opportunities/last_successful_collection.txt ]; then
+            git add backend/job_opportunities/last_successful_collection.txt
+          fi
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update WayVia opportunities"
+            git push
+          fi
+
+      # 8. Configure GitHub Pages
       - name: Setup Pages
         uses: actions/configure-pages@v5
+        if: github.event_name != 'schedule' || steps.collection_gate.outputs.should_run == 'true'
 
+      # 9. Upload frontend
       - name: Upload website files
         uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'schedule' || steps.collection_gate.outputs.should_run == 'true'
         with:
           path: frontend
 
+      # 10. Deploy website
       - name: Deploy website
         id: deployment
         uses: actions/deploy-pages@v4
+        if: github.event_name != 'schedule' || steps.collection_gate.outputs.should_run == 'true'

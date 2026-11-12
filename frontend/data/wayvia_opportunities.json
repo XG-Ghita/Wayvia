@@ -9,45 +9,45 @@
       "web",
       "networking"
     ],
-    "collected_at": "2026-11-09T15:11:13.888666+00:00",
-    "total_opportunities": 159,
+    "collected_at": "2026-11-12T23:13:23.476615+00:00",
+    "total_opportunities": 152,
     "summary": {
-      "raw_count": 693,
-      "processed_count": 159,
-      "removed_count": 534,
-      "internship_pfe": 7,
-      "junior_entry_level": 5,
-      "other_relevant": 147,
-      "experienced": 56,
-      "previous_published_count": 160,
-      "newly_collected_count": 159,
-      "final_published_count": 159
+      "raw_count": 689,
+      "processed_count": 152,
+      "removed_count": 537,
+      "internship_pfe": 10,
+      "junior_entry_level": 4,
+      "other_relevant": 138,
+      "experienced": 55,
+      "previous_published_count": 159,
+      "newly_collected_count": 152,
+      "final_published_count": 152
     },
     "collection_report": [
       {
         "domain": "ai",
-        "fetched": 220,
+        "fetched": 223,
         "successful_queries": 15,
         "failed_queries": 0,
         "status": "success"
       },
       {
         "domain": "data",
-        "fetched": 151,
+        "fetched": 148,
         "successful_queries": 12,
         "failed_queries": 0,
         "status": "success"
       },
       {
         "domain": "web",
-        "fetched": 154,
+        "fetched": 152,
         "successful_queries": 12,
         "failed_queries": 0,
         "status": "success"
       },
       {
         "domain": "networking",
-        "fetched": 168,
+        "fetched": 166,
         "successful_queries": 12,
         "failed_queries": 0,
         "status": "success"
@@ -67,18 +67,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "machine learning engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "internship_pfe",
       "student_priority": 1,
       "experience_level": "not_specified",
-      "is_student_friendly": true,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": true
     },
     {
       "title": "Delivery AI Data Engineer​ing Intern",
@@ -92,18 +92,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "AI engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "internship_pfe",
       "student_priority": 1,
       "experience_level": "not_specified",
-      "is_student_friendly": true,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": true
     },
     {
       "title": "Delivery AI Science Intern",
@@ -117,18 +117,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "stage data science",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "internship_pfe",
       "student_priority": 1,
       "experience_level": "not_specified",
-      "is_student_friendly": true,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": true
     },
     {
       "title": "PFE en Data science",
@@ -142,6 +142,11 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "data scientist",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "ai",
         "data"
@@ -149,12 +154,33 @@
       "opportunity_type": "internship_pfe",
       "student_priority": 1,
       "experience_level": "not_specified",
-      "is_student_friendly": true,
-      "application_method": "external_portal",
-      "direct_application_url": "https://jobs.smartrecruiters.com/Inetum2/744000157819899-pfe-en-data-science",
+      "is_student_friendly": true
+    },
+    {
+      "title": "PFE en Data science",
+      "company": "Inetum Maroc",
+      "location": "Casablanca",
+      "description": "&nbsp;...adaptés au besoin. \r\n Préparer, nettoyer et structurer les jeux de <b>données </b>nécessaires à l’entraînement. \r\n Participer à l’entraînement,...&nbsp;&nbsp;...Notions en API REST et en développement backend. \r\n Esprit d’<b>analyse,</b> rigueur, autonomie et capacité à résoudre des problèmes. \r\n Curiosit...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/1934001135030620259",
+      "salary": "",
+      "employment_type": "",
+      "published_at": "2026-10-26T17:51:48.0789610+00:00",
+      "source": "Jooble",
+      "domain_searched": "data",
+      "search_query": "PFE analyse de données",
+      "application_method": "jooble",
+      "direct_application_url": "",
       "employer_email": "",
       "email_verified": false,
-      "application_source_url": "https://www.inetum.com/fr/accueil/carrieres/e542145b-7318-474e-8986-024d6c539cad.html"
+      "application_source_url": "",
+      "domains": [
+        "ai",
+        "data"
+      ],
+      "opportunity_type": "internship_pfe",
+      "student_priority": 1,
+      "experience_level": "not_specified",
+      "is_student_friendly": true
     },
     {
       "title": "Stage PFE : Consultants ( Cloud, Databricks, Talend, DevOps,BI... ) (F/H)",
@@ -168,18 +194,68 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "stage intelligence artificielle",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "networking"
       ],
       "opportunity_type": "internship_pfe",
       "student_priority": 1,
       "experience_level": "not_specified",
-      "is_student_friendly": true,
-      "application_method": "external_portal",
-      "direct_application_url": "https://app.stagiaires.ma/offres-de-stages-et-premier-emploi-maroc/7367-stage-pfe-consultants-cloud-databricks-talend-devops-bi-f-h",
+      "is_student_friendly": true
+    },
+    {
+      "title": "Stage PFE - Développeur DevOps / Pega",
+      "company": "Société Générale",
+      "location": "Casablanca",
+      "description": "&nbsp;...les environnements DevOps, souhaitant contribuer à des projets d’automatisation et d’innovation à forte valeur ajoutée.\nL’objectif du <b>stage </b>est de participer à la conception et à la mise en œuvre de solutions permettant d’automatiser des processus métiers, de fiabiliser...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/-310521902608153623",
+      "salary": "",
+      "employment_type": "",
+      "published_at": "2026-11-12T08:54:29.1658373+00:00",
+      "source": "Jooble",
+      "domain_searched": "ai",
+      "search_query": "stage intelligence artificielle",
+      "application_method": "jooble",
+      "direct_application_url": "",
       "employer_email": "",
       "email_verified": false,
-      "application_source_url": "https://www.stagiaires.ma/stage-emploi-maroc/7367-stage-pfe-consultants-cloud-databricks-talend-devops-bi-f-h"
+      "application_source_url": "",
+      "domains": [
+        "networking"
+      ],
+      "opportunity_type": "internship_pfe",
+      "student_priority": 1,
+      "experience_level": "not_specified",
+      "is_student_friendly": true
+    },
+    {
+      "title": "Stage PFE - Initial Margin & Equities (Python)",
+      "company": "Société Générale",
+      "location": "Casablanca",
+      "description": "L’équipe Quantitative Solutions du département ARD recherche un(e) stagiaire en finance quantitative pour contribuer au développement de solutions de calcul de Marge Initiale dans le cadre de la réglementation UMR pour les produits Equity. \nVos missions \n Identifier les...",
+      "application_url": "https://ma.jooble.org/jdp/3198616145744913918",
+      "salary": "",
+      "employment_type": "",
+      "published_at": "2026-11-11T08:53:34.3152388+00:00",
+      "source": "Jooble",
+      "domain_searched": "ai",
+      "search_query": "stage data science",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
+      "domains": [
+        "data"
+      ],
+      "opportunity_type": "internship_pfe",
+      "student_priority": 1,
+      "experience_level": "not_specified",
+      "is_student_friendly": true
     },
     {
       "title": "Stagiaire PFE - Data Analyst / Reporting IT (ServiceNow & Support)",
@@ -193,18 +269,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "PFE intelligence artificielle",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "internship_pfe",
       "student_priority": 1,
       "experience_level": "not_specified",
-      "is_student_friendly": true,
-      "application_method": "external_portal",
-      "direct_application_url": "https://jobs.smartrecruiters.com/Inetum2/744000116903752-stagiaire-pfe-data-analyst-reporting-it-servicenow-support-",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": "https://www.inetum.com/fr/accueil/carrieres/8a2c3210-9144-4f04-9b5a-1ab02a2830c4.html"
+      "is_student_friendly": true
     },
     {
       "title": "Stage Développeur(se) Web PHP",
@@ -218,18 +294,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "stage intelligence artificielle",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "internship_pfe",
       "student_priority": 1,
       "experience_level": "experienced",
-      "is_student_friendly": true,
-      "application_method": "external_portal",
-      "direct_application_url": "https://jobs.iris.ma/index.php/jobs/20/postuler",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": "https://jobs.iris.ma/index.php/jobs/20"
+      "is_student_friendly": true
     },
     {
       "title": "DataOps Engineer Junior",
@@ -243,43 +319,43 @@
       "source": "Jooble",
       "domain_searched": "data",
       "search_query": "junior data analyst",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "junior_entry_level",
       "student_priority": 2,
       "experience_level": "not_specified",
-      "is_student_friendly": true,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": true
     },
     {
       "title": "DS - DevOps junior",
       "company": "Orange",
       "location": "El Jadida",
-      "description": "&nbsp;...our customers operate. With over 30,000 employees across Asia, the Americas, Africa, and Europe, we offer a dynamic environment to <b>develop </b>and perfect your skills in a field filled with exciting challenges and opportunities.\n Contexte du poste Dans le cadre de missions...&nbsp;",
+      "description": "Publication date :  Oct 15, 2026, 12:00AM\nJoin us at Orange Business!\nWe are a network and digital integrator that understands the entire value chain of the digital world, freeing our customers to focus on the strategic initiatives that shape their business.\nEvery day,...",
       "application_url": "https://ma.jooble.org/jdp/6730852728636303993",
       "salary": "",
       "employment_type": "",
       "published_at": "2026-11-04T10:35:42.3000000",
       "source": "Jooble",
-      "domain_searched": "web",
-      "search_query": "junior frontend developer",
+      "domain_searched": "ai",
+      "search_query": "junior machine learning engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "networking"
       ],
       "opportunity_type": "junior_entry_level",
       "student_priority": 2,
       "experience_level": "not_specified",
-      "is_student_friendly": true,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": true
     },
     {
       "title": "Junior Data Engineer - Casablanca",
@@ -293,18 +369,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "junior machine learning engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "junior_entry_level",
       "student_priority": 2,
       "experience_level": "not_specified",
-      "is_student_friendly": true,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": true
     },
     {
       "title": "Junior Data Scientist - Casablanca",
@@ -317,44 +393,19 @@
       "published_at": "2026-11-02T14:36:32.1930000",
       "source": "Jooble",
       "domain_searched": "ai",
-      "search_query": "data scientist",
+      "search_query": "junior data scientist",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "junior_entry_level",
       "student_priority": 2,
       "experience_level": "not_specified",
-      "is_student_friendly": true,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
-    },
-    {
-      "title": "Junior Linux Kernel Engineer - Ubuntu",
-      "company": "Canonical",
-      "location": "Télétravail",
-      "description": "&nbsp;...such as public cloud, data science, AI, <b>engineering </b>innovation, and IoT. Our customers include...&nbsp;&nbsp;...growing. \r\n Every year we select new <b>junior </b>professionals into the Canonical Kernel...&nbsp;&nbsp;...proactively with a globally distributed team \r\n <b>Learn </b>from senior mentors to demystify the...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/-3600625339224926129",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-10-29T00:00:00.0000000",
-      "source": "Jooble",
-      "domain_searched": "ai",
-      "search_query": "junior machine learning engineer",
-      "domains": [
-        "networking"
-      ],
-      "opportunity_type": "junior_entry_level",
-      "student_priority": 2,
-      "experience_level": "experienced",
-      "is_student_friendly": true,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": true
     },
     {
       "title": "Administrateur Base de Données SQL Oracle",
@@ -368,18 +419,18 @@
       "source": "Jooble",
       "domain_searched": "data",
       "search_query": "PFE analyse de données",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Administrateur Linux N3",
@@ -393,18 +444,18 @@
       "source": "Jooble",
       "domain_searched": "networking",
       "search_query": "network administrator",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "networking"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Administrateur Réseau N3",
@@ -418,18 +469,18 @@
       "source": "Jooble",
       "domain_searched": "networking",
       "search_query": "network administrator",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "networking"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "AI Engineer",
@@ -443,6 +494,11 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "machine learning engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "ai",
         "data"
@@ -450,12 +506,7 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "AI Engineer",
@@ -469,18 +520,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "AI engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "ai"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "AI Research Engineer",
@@ -494,18 +545,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "machine learning engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "ai"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "ANGULAR Developer (M/F)",
@@ -519,18 +570,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "web developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Architecte Data & IA (H/F)",
@@ -544,18 +595,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "stage data science",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "networking"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Backend Engineer",
@@ -569,43 +620,43 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "machine learning engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Backend Engineer",
       "company": "GRID esports",
       "location": "Télétravail",
-      "description": "&nbsp;...eSports and gaming. \r\n The ability to thrive in a fast-paced software startup that has incredible potential \r\n A passion for software <b>engineering </b>while writing clean, well-tested code \r\n Enthusiasm for working in a Lean, fully Agile environment \r\n Comfortable using AI...&nbsp;",
+      "description": "&nbsp;...our engineers ship daily, allowing you to make impact on the product from day one with peace of mind \r\n Agile & Inclusively: We’ve <b>developed </b>our own kanban-based way of working that is constantly being improved and adapted by the self-organizing product-engineering teams...&nbsp;",
       "application_url": "https://ma.jooble.org/jdp/5392037176727335485",
       "salary": "",
       "employment_type": "",
       "published_at": "2026-11-05T00:00:00.0000000",
       "source": "Jooble",
-      "domain_searched": "ai",
-      "search_query": "NLP engineer",
+      "domain_searched": "web",
+      "search_query": "backend developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Backend / Integration Developers",
@@ -619,18 +670,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "artificial intelligence developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Backend Software Engineer - Python/Postgres",
@@ -644,6 +695,11 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "computer vision engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data",
         "web"
@@ -651,12 +707,32 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
+      "is_student_friendly": false
+    },
+    {
+      "title": "BI Data Analyst",
+      "company": "",
+      "location": "Casablanca",
+      "description": "&nbsp;...importantly working well for their needs.  \r\n  \r\n  Position Overview: \r\n We are seeking a highly skilled and detail-oriented BI <b>Data Analyst </b>to join our team. This role is pivotal in analyzing large amounts of sensitive data, ensuring data governance, and delivering actionable...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/4377153095721954194",
+      "salary": "",
+      "employment_type": "",
+      "published_at": "2026-11-12T19:14:39.5169858+00:00",
+      "source": "Jooble",
+      "domain_searched": "data",
+      "search_query": "stage data analyst",
       "application_method": "jooble",
       "direct_application_url": "",
       "employer_email": "",
       "email_verified": false,
-      "application_source_url": ""
+      "application_source_url": "",
+      "domains": [
+        "data"
+      ],
+      "opportunity_type": "other_relevant",
+      "student_priority": 3,
+      "experience_level": "not_specified",
+      "is_student_friendly": false
     },
     {
       "title": "Business Analyst Data - Finance (Microsoft Fabric / Power BI)",
@@ -670,43 +746,18 @@
       "source": "Jooble",
       "domain_searched": "data",
       "search_query": "data analyst",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
-    },
-    {
-      "title": "Candidatures spontanées - Forum Geni Entreprises",
-      "company": "Inetum Maroc",
-      "location": "Casablanca",
-      "description": "&nbsp;...RH...)\r\n Développement Java \r\n Développement .NET \r\n Business <b>Intelligence </b>(BI)\r\n Data Engineering, Data Science & Data Analytics)\r\n DevOps...&nbsp;&nbsp;...Informations supplémentaires \r\n Type de contrat  : CDI ou stage <b>PFE </b>selon profil. \r\n Localisation  : Casablanca. \r\n Événement  :...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/-7737064204896859481",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-10-22T15:57:08.4189220+00:00",
-      "source": "Jooble",
-      "domain_searched": "ai",
-      "search_query": "PFE intelligence artificielle",
-      "domains": [
-        "data"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Cloud Computing and Virtualization Engineer (M/F)",
@@ -720,18 +771,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "computer vision engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "networking"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Cloud System Administrator (M/F)",
@@ -745,18 +796,18 @@
       "source": "Jooble",
       "domain_searched": "networking",
       "search_query": "network administrator",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "networking"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Cyber Security Engineer (M/F)",
@@ -770,18 +821,18 @@
       "source": "Jooble",
       "domain_searched": "networking",
       "search_query": "network security",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "networking"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Data Analyst (F/H)",
@@ -795,18 +846,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "data scientist",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Data & BI Engineer",
@@ -820,43 +871,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "machine learning engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
-    },
-    {
-      "title": "Data Engineer",
-      "company": "ElevenLabs",
-      "location": "Télétravail",
-      "description": "&nbsp;...not located near one of our main hubs, we offer a monthly co-working stipend. \r\n ABOUT THE ROLE \r\n We’re looking for an experienced <b>Data </b>Engineer to join our Data team. You will build and scale our data pipelines, establish best practices, ensure data quality, and enable...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/-5029661666943516642",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-10-27T00:00:00.0000000",
-      "source": "Jooble",
-      "domain_searched": "ai",
-      "search_query": "data scientist",
-      "domains": [
-        "data"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Data Engineer Confirmé",
@@ -870,18 +896,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "data scientist",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Data Engineer Confirmé (F/H)",
@@ -895,18 +921,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "data scientist",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Data Engineer Confirmé (Microsoft Fabric)",
@@ -920,43 +946,94 @@
       "source": "Jooble",
       "domain_searched": "data",
       "search_query": "data engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
+      "is_student_friendly": false
+    },
+    {
+      "title": "Data Engineer DBT SQL (H/F)",
+      "company": "Devoteam",
+      "location": "Rabat",
+      "description": "&nbsp;...bataille du Digital : du conseil à la mise en œuvre de technologies innovantes, jusqu’à l’adoption des usages.\nCloud, Cybersecurity, <b>Data,</b> DevOps, Fullstack Dev, Low Code, RPA n’ont plus aucun secret pour notre tribu ! \nNos 10 000+ collaborateurs sont certifiés, form...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/6676146965044252553",
+      "salary": "",
+      "employment_type": "",
+      "published_at": "2026-11-02T14:29:24.2900000",
+      "source": "Jooble",
+      "domain_searched": "ai",
+      "search_query": "data scientist",
       "application_method": "jooble",
       "direct_application_url": "",
       "employer_email": "",
       "email_verified": false,
-      "application_source_url": ""
+      "application_source_url": "",
+      "domains": [
+        "data",
+        "networking"
+      ],
+      "opportunity_type": "other_relevant",
+      "student_priority": 3,
+      "experience_level": "not_specified",
+      "is_student_friendly": false
+    },
+    {
+      "title": "Data Engineer (Global)",
+      "company": "Beehiiv",
+      "location": "Télétravail",
+      "description": "&nbsp;...our rapidly growing product suite and incredibly strong brand position us for the next stage of hypergrowth. \r\n We are looking for a <b>Data </b>Engineer to help build, grow, and maintain our data models, and backend data infrastructure. You will sit at the crossroads of Data...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/3646232916493553956",
+      "salary": "",
+      "employment_type": "",
+      "published_at": "2026-11-12T20:50:02.2554411+00:00",
+      "source": "Jooble",
+      "domain_searched": "ai",
+      "search_query": "data scientist",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
+      "domains": [
+        "data"
+      ],
+      "opportunity_type": "other_relevant",
+      "student_priority": 3,
+      "experience_level": "not_specified",
+      "is_student_friendly": false
     },
     {
       "title": "Data Engineer (H/F)",
       "company": "Smile",
       "location": "Marrakech",
-      "description": "&nbsp;...Source, dans une ambiance à taille humaine.\nNous cherchons un(e) <b>Data </b>Engineer qui peut nous aider à évaluer la qualité, l'exactitude...&nbsp;&nbsp;...(Airflow, dbt, etc.). \r\n Travailler étroitement avec les Data <b>Scientists </b>et Analystes pour rendre les données prêtes à l’analyse....&nbsp;",
+      "description": "&nbsp;...dans une ambiance à taille humaine.\nNous cherchons un(e) Data <b>Engineer </b>qui peut nous aider à évaluer la qualité, l'exactitude et l'...&nbsp;&nbsp;...tes à l’analyse. \r\n Contribuer à l’intégration des modèles de <b>Machine Learning </b>et d’analyses avancées dans les pipelines. \r\n Documenter et...&nbsp;",
       "application_url": "https://ma.jooble.org/jdp/-595621600036915002",
       "salary": "",
       "employment_type": "",
       "published_at": "2026-11-04T10:35:40.9430000",
       "source": "Jooble",
       "domain_searched": "ai",
-      "search_query": "data scientist",
+      "search_query": "machine learning engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Data Engineer Java / Scala Expérimenté - Data Platform",
@@ -970,43 +1047,18 @@
       "source": "Jooble",
       "domain_searched": "data",
       "search_query": "data engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
-    },
-    {
-      "title": "Data FinOps Engineer",
-      "company": "Devoteam",
-      "location": "Casablanca",
-      "description": "&nbsp;...bataille du Digital : du conseil à la mise en œuvre de technologies innovantes, jusqu’à l’adoption des usages.\nCloud, Cybersecurity, <b>Data,</b> DevOps, Fullstack Dev, Low Code, RPA n’ont plus aucun secret pour notre tribu ! \nNos 10 000+ collaborateurs sont certifiés, form...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/3711307938678089550",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-11-02T14:34:50.1070000",
-      "source": "Jooble",
-      "domain_searched": "ai",
-      "search_query": "data scientist",
-      "domains": [
-        "networking"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Data Scientist",
@@ -1020,43 +1072,43 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "data scientist",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
-      "title": "Data Scientist",
-      "company": "ALTEN",
-      "location": "Fez",
-      "description": "&nbsp;...seront les suivantes : \r\n Développement et maintenance des Pipeline <b>Data </b>sous Data Bricks \r\n Développement et maintenance des Dashboard...&nbsp;&nbsp;...applications  \r\n  Qualifications \r\n\r\n\r\n Profil :  Bac+5 en Data <b>science </b>(Data engineer/ Data scientist)\r\n Expérience : 1 à 3 ans \r\n Comp...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/6551060240590133968",
+      "title": "Delivery AI Scientist",
+      "company": "Boston Consulting Group",
+      "location": "Casablanca",
+      "description": "&nbsp;...GitHub) is preferred \r\nYOU BRING (EXPERIENCE & QUALIFICATIONS) :\n Bachelor's / Master's degree related to computer science, data <b>engineering,</b> data science, statistics, mathematics, or economics is required \r\n Previous experience in the domain of Advanced Analytics (internships...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/4187480841835730184",
       "salary": "",
       "employment_type": "",
-      "published_at": "2026-10-26T18:00:02.8721816+00:00",
+      "published_at": "2026-11-04T10:35:34.8170000",
       "source": "Jooble",
       "domain_searched": "ai",
-      "search_query": "stage data science",
+      "search_query": "AI engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Développement d’un tableau de bord stratégique Power BI pour l’analyse de la performance opérationnelle des BU.",
@@ -1070,18 +1122,18 @@
       "source": "Jooble",
       "domain_searched": "data",
       "search_query": "stage Power BI",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Développement, industrialisation et MLOps d'un modèle de Machine Learning prédictif intégré dans Microsoft Fabric",
@@ -1095,6 +1147,11 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "MLOps engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "ai",
         "data"
@@ -1102,12 +1159,7 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Développeur .NET",
@@ -1121,18 +1173,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "stage développeur web",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Développeur Full Stack",
@@ -1146,18 +1198,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "full stack developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Développeur Full Stack",
@@ -1171,18 +1223,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "full stack developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Développeur Full stack",
@@ -1196,18 +1248,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "full stack developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Développeur Full Stack",
@@ -1221,43 +1273,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "full stack developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
-    },
-    {
-      "title": "Développeur Full Stack Java Vue JS",
-      "company": "Devoteam Morocco",
-      "location": "Rabat",
-      "description": "Description de l'entreprise \r\n\r\n Chez Devoteam, nous sommes des « Digital Transformakers ». Le respect, la franchise et la passion animent chaque jour notre tribu. \r\n Ensemble, nous aidons nos clients à remporter la bataille du Digital : du conseil à la mise en œuvre de...",
-      "application_url": "https://ma.jooble.org/jdp/-6579745766117048425",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-10-16T15:43:16.6004504+00:00",
-      "source": "Jooble",
-      "domain_searched": "web",
-      "search_query": "full stack developer",
-      "domains": [
-        "web"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Développeur Full Stack Java Vue JS",
@@ -1270,19 +1297,19 @@
       "published_at": "2026-11-03T10:35:41.5430000",
       "source": "Jooble",
       "domain_searched": "web",
-      "search_query": "stage full stack developer",
+      "search_query": "full stack developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Développeur Full Stack PHP",
@@ -1296,18 +1323,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "full stack developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Développeur Java - Angular (H/F)",
@@ -1321,18 +1348,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "stage développeur web",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Développeur Power BI (H/F)",
@@ -1346,18 +1373,18 @@
       "source": "Jooble",
       "domain_searched": "data",
       "search_query": "stage Power BI",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Développeur Python",
@@ -1371,6 +1398,11 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "stage développeur web",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data",
         "web"
@@ -1378,12 +1410,7 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Développeur Python",
@@ -1397,44 +1424,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "stage développeur web",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
-    },
-    {
-      "title": "Développeur Python IA",
-      "company": "ALTEN",
-      "location": "Fez",
-      "description": "&nbsp;...Artificielle en Python. \r\n Développer et industrialiser des pipelines de données sur Azure. \r\n Concevoir et entraîner des modèles de <b>Machine Learning </b>et Deep Learning. \r\n Déployer et optimiser les solutions IA en environnement Cloud. \r\n Collaborer avec les équipes métiers...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/-8182408522566954672",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-10-15T15:52:32.7530077+00:00",
-      "source": "Jooble",
-      "domain_searched": "ai",
-      "search_query": "stage machine learning",
-      "domains": [
-        "ai",
-        "data"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Développeurs Full Stack Python / TypeScript",
@@ -1448,6 +1449,11 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "full stack developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data",
         "web"
@@ -1455,37 +1461,32 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "DS - Data Engineer Confirmé",
       "company": "Orange",
       "location": "El Jadida",
-      "description": "&nbsp;...opportunities.\n À propos du rôle \r\n Contexte Dans le cadre du renforcement de l’équipe en charge de la mise en place de la plateforme <b>Data </b>de notre client, fondée sur une architecture Lakehouse, nous cherchons un Data Engineer confirmé. L’intervenant conçoit, développe,...&nbsp;",
+      "description": "&nbsp;...Dans le cadre du renforcement de l’équipe en charge de la mise en place de la plateforme <b>Data </b>de notre client, fondée sur une architecture Lakehouse, nous cherchons un Data <b>Engineer </b>confirmé. L’intervenant conçoit, développe, industrialise et maintient les flux d’...&nbsp;",
       "application_url": "https://ma.jooble.org/jdp/1683422331926408105",
       "salary": "",
       "employment_type": "",
       "published_at": "2026-11-03T10:35:45.9030000",
       "source": "Jooble",
-      "domain_searched": "ai",
-      "search_query": "stage data science",
+      "domain_searched": "data",
+      "search_query": "data engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "DS - Data Engineer Confirmé",
@@ -1499,18 +1500,18 @@
       "source": "Jooble",
       "domain_searched": "data",
       "search_query": "data engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "DS - Développeur Fullstack Java Angular Confirmé",
@@ -1524,43 +1525,43 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "stage développeur web",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
+      "is_student_friendly": false
+    },
+    {
+      "title": "Expert Big Data SI RAN",
+      "company": "ALTEN",
+      "location": "Rabat",
+      "description": "&nbsp;...amené à : \r\n Analyser et exploiter de grands volumes de données télécoms. \r\n Participer à la conception et à l'évolution d'outils Big <b>Data.</b> \r\n Développer des requêtes et traitements de données complexes. \r\n Produire des tableaux de bord et indicateurs de performance....&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/-6940690671651930278",
+      "salary": "",
+      "employment_type": "",
+      "published_at": "2026-11-10T00:00:00.0000000",
+      "source": "Jooble",
+      "domain_searched": "ai",
+      "search_query": "data scientist",
       "application_method": "jooble",
       "direct_application_url": "",
       "employer_email": "",
       "email_verified": false,
-      "application_source_url": ""
-    },
-    {
-      "title": "DS - DevOps Confirmé",
-      "company": "Orange",
-      "location": "El Jadida",
-      "description": "&nbsp;...profils juniors et partager les bonnes pratiques. \r\n Participer à l’intégration de services de données, d’API et de solutions d’<b>intelligence artificielle.</b> \r\n Compétences techniques attendues \r\n Environ 4 ans d’expérience dans un rôle DevOps ou infrastructure. \r\n Expérience...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/-1273885832708614193",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-11-04T10:35:42.3070000",
-      "source": "Jooble",
-      "domain_searched": "ai",
-      "search_query": "PFE intelligence artificielle",
+      "application_source_url": "",
       "domains": [
-        "networking"
+        "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Expert CISCO ACI Core Network",
@@ -1574,43 +1575,18 @@
       "source": "Jooble",
       "domain_searched": "networking",
       "search_query": "network engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "networking"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
-    },
-    {
-      "title": "Frontend Developer - G2i Talent Pool",
-      "company": "G2i Inc.",
-      "location": "Télétravail",
-      "description": "&nbsp;...after profile review. \r\n Participate in client projects when matched based on skills, client needs, and location. \r\n Requirements \r\n <b>Frontend </b>development or another background in software, data, AI/ML, infrastructure, security, design, QA, or product. \r\n Experienced...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/-5654456986387402227",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-10-28T20:50:03.3346872+00:00",
-      "source": "Jooble",
-      "domain_searched": "web",
-      "search_query": "frontend developer",
-      "domains": [
-        "web"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Frontend Developer (React)",
@@ -1624,18 +1600,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "web developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Full-Stack Developer",
@@ -1649,18 +1625,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "artificial intelligence developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Full stack developer - IT Administrator",
@@ -1674,18 +1650,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "full stack developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Full Stack Developer (Javascript)",
@@ -1699,43 +1675,43 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "full stack developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
-      "title": "Full Stack Engineer (Backend Focused)",
-      "company": "Zartis",
+      "title": "Full Stack Engineer - Growth & Experimentation",
+      "company": "Kraken",
       "location": "Télétravail",
-      "description": "&nbsp;...Full Stack Engineer (<b>Backend </b>focused) The company and our mission: \r\n Zartis is a global AI transformation and technology consulting...&nbsp;&nbsp;...trust and innovation. \r\n You will be part of a distributed team <b>developing </b>new technologies to solve real business problems and add some...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/-5853007742427233764",
+      "description": "&nbsp;...staking, and OTC services, with products built for both individual investors and institutional clients. \r\n \r\n We’re looking for a <b>Full Stack </b>Engineer to join a small, dedicated growth and experimentation team within Krak, focused on accelerating acquisition, activation,...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/-2252304797533711741",
       "salary": "",
       "employment_type": "",
-      "published_at": "2026-10-29T00:00:00.0000000",
+      "published_at": "2026-11-10T00:00:00.0000000",
       "source": "Jooble",
       "domain_searched": "web",
-      "search_query": "backend developer",
+      "search_query": "full stack developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Full-Stack Software Engineer - Normal",
@@ -1749,18 +1725,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "full stack developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "FullStack Developer",
@@ -1774,43 +1750,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "artificial intelligence developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
-    },
-    {
-      "title": "Implementation Engineer",
-      "company": "Expel",
-      "location": "Télétravail",
-      "description": "&nbsp;...platform.\n That’s where you come in. \r\n As an Implementation <b>Engineer,</b> you’ll own the first 30–60 days of the customer journey, taking...&nbsp;&nbsp;...enterprise security operations. \r\n~ A solid understanding of <b>networking </b>fundamentals, including the OSI model, DNS, firewalls, and proxies...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/5946434534606566840",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-10-28T00:00:00.0000000",
-      "source": "Jooble",
-      "domain_searched": "networking",
-      "search_query": "network engineer",
-      "domains": [
-        "networking"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Ingénieur d'Infrastructure de Virtualisation Réseau",
@@ -1824,18 +1775,18 @@
       "source": "Jooble",
       "domain_searched": "networking",
       "search_query": "stage réseaux informatiques",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "networking"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Ingénieur Data expérimenté Java / Kafka",
@@ -1849,18 +1800,18 @@
       "source": "Jooble",
       "domain_searched": "data",
       "search_query": "data analytics",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "networking"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Ingénieur DevOps",
@@ -1874,18 +1825,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "ingénieur intelligence artificielle",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "networking"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Ingénieur DevOps",
@@ -1899,18 +1850,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "ingénieur intelligence artificielle",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "networking"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Ingénieur Devops",
@@ -1924,43 +1875,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "ingénieur intelligence artificielle",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "networking"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
-    },
-    {
-      "title": "Ingénieur Devops/ Databricks (F/H)",
-      "company": "CGI",
-      "location": "Rabat",
-      "description": "&nbsp;...Position Description: Pour notre développement, nous recrutons un <b>ingénieur </b>Devops ayant minimum 5 ans d’expériences.\n Your future duties and responsibilities: \r\n Proposer des solutions de changement d'architecture AWS Databricks \r\n Concevoir, déployer et maintenir les...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/717544829349955641",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-11-02T14:35:45.8430000",
-      "source": "Jooble",
-      "domain_searched": "ai",
-      "search_query": "ingénieur intelligence artificielle",
-      "domains": [
-        "networking"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Ingénieur IA / NLP juridique",
@@ -1974,18 +1900,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "NLP engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "ai"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "JAVA Developer (M/F)",
@@ -1999,43 +1925,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "JavaScript developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
-    },
-    {
-      "title": "JAVA JEE Developer (M/F)",
-      "company": "AFRICASHORE",
-      "location": "Mohammedia",
-      "description": "&nbsp;...We are looking for  JAVA JEE <b>Developer </b> profiles / CVs to pass on to our clients for their future recruitment campaigns. \r\n \r\n Mission...&nbsp;&nbsp;...HTML, CSS, Maven, WebLogic Server, Angular JS,(or above) and <b>Javascript,</b> as well as any other standard web technologies. \r\n~ Experience...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/-7697270165860145462",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-09-29T00:00:00.0000000",
-      "source": "Jooble",
-      "domain_searched": "web",
-      "search_query": "JavaScript developer",
-      "domains": [
-        "web"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "JAVASCRIPT Developer (M/F)",
@@ -2049,18 +1950,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "web developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "LARAVEL Developer (M/F)",
@@ -2074,18 +1975,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "JavaScript developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Le PLM augmenté par l'IA : Intégration d'assistants intelligents (LLM) sous PTC Windchill pour capitaliser la donnée industrielle et optimiser les flux métiers",
@@ -2099,43 +2000,43 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "ingénieur intelligence artificielle",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "ai"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
+      "is_student_friendly": false
+    },
+    {
+      "title": "Middle Data Engineer",
+      "company": "Genesis",
+      "location": "Télétravail",
+      "description": "&nbsp;...будувати продукти з довготривалим впливом — системні, масштабні та здатні залишатися актуальними десятиліттями.  Зараз ми шукаємо  Middle <b>Data </b>Engineer  в наш флагманський продукт   JustDone    —  AI асистент для академічної аудиторії  , який допомагає краще працювати з...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/-257056591428091084",
+      "salary": "",
+      "employment_type": "",
+      "published_at": "2026-11-11T00:00:00.0000000",
+      "source": "Jooble",
+      "domain_searched": "ai",
+      "search_query": "data scientist",
       "application_method": "jooble",
       "direct_application_url": "",
       "employer_email": "",
       "email_verified": false,
-      "application_source_url": ""
-    },
-    {
-      "title": "Linux Kernel Engineer",
-      "company": "Canonical",
-      "location": "Télétravail",
-      "description": "&nbsp;...here if you are an exceptional software <b>engineer </b>who wants to work on both stable and cutting...&nbsp;&nbsp;...Virtualisation or abstraction <b>engines </b>\r\n Container technology \r\n Security with...&nbsp;&nbsp;...AppArmor, SECCOMP, namespaces and more \r\n <b>Networking </b>- in particular performance and security...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/1748878435426671865",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-10-29T00:00:00.0000000",
-      "source": "Jooble",
-      "domain_searched": "networking",
-      "search_query": "Cisco network engineer",
+      "application_source_url": "",
       "domains": [
-        "networking"
+        "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "MLOps Engineer",
@@ -2149,18 +2050,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "MLOps engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "networking"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Mobile Core Network Engineer",
@@ -2174,18 +2075,18 @@
       "source": "Jooble",
       "domain_searched": "networking",
       "search_query": "network engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "networking"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Node.JS Developer",
@@ -2199,43 +2100,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "artificial intelligence developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
-    },
-    {
-      "title": "NODE.JS Developer (M/F)",
-      "company": "AFRICASHORE",
-      "location": "Dakhla",
-      "description": "&nbsp;...We are looking for  NODE.JS <b>Developer </b> profiles / CVs to pass on to our clients for their future recruitment campaigns. \r\n \r\n Mission...&nbsp;&nbsp;...Rich user interface development experience with HTML5, CSS3 and <b>JavaScript </b>frameworks like AngularJS, JQuery, w3css/bootstrap etc. \r\n~...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/4487862102421526598",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-09-29T00:00:00.0000000",
-      "source": "Jooble",
-      "domain_searched": "web",
-      "search_query": "JavaScript developer",
-      "domains": [
-        "web"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "OBJECTIVE-C Developer (M/F)",
@@ -2249,18 +2125,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "JavaScript developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "OCP Networking Architect",
@@ -2274,18 +2150,18 @@
       "source": "Jooble",
       "domain_searched": "networking",
       "search_query": "network engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "networking"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "PHP Developer (M/F)",
@@ -2299,31 +2175,86 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "JavaScript developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
+      "is_student_friendly": false
+    },
+    {
+      "title": "PowerBI Developer",
+      "company": "Quetica Consulting & Engineering",
+      "location": "Télétravail",
+      "description": "&nbsp;...Quetica is seeking one full-time Power BI <b>Developer </b>to support a project for the State of Minnesota. Responsibilities include writing and extracting SQL queries; validating student loan data from multiple sources; developing Power BI visualizations, custom UI components...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/1978453110812810969",
+      "salary": "",
+      "employment_type": "",
+      "published_at": "2026-11-09T20:49:53.7592470+00:00",
+      "source": "Jooble",
+      "domain_searched": "ai",
+      "search_query": "artificial intelligence developer",
       "application_method": "jooble",
       "direct_application_url": "",
       "employer_email": "",
       "email_verified": false,
-      "application_source_url": ""
+      "application_source_url": "",
+      "domains": [
+        "data"
+      ],
+      "opportunity_type": "other_relevant",
+      "student_priority": 3,
+      "experience_level": "not_specified",
+      "is_student_friendly": false
     },
     {
       "title": "PYTHON Developer (M/F)",
       "company": "AFRICASHORE",
       "location": "Casablanca",
-      "description": "&nbsp;...We are looking for  PYTHON <b>Developer </b> profiles / CVs to pass on to our clients for their future recruitment campaigns. \r\n \r\n Mission:...&nbsp;&nbsp;...development experience with Python based web servers. \r\n~ Backend & <b>Frontend </b>API creation using Tornado / Django / Flask etc. \r\n~ Good...&nbsp;",
+      "description": "&nbsp;...We are looking for  PYTHON <b>Developer </b> profiles / CVs to pass on to our clients for their future recruitment campaigns. \r\n \r\n Mission:...&nbsp;&nbsp;...debugging and trouble-shooting issues. \r\n Create test suites for <b>web </b>applications. \r\n Profil recherché pour le poste : PYTHON Developer...&nbsp;",
       "application_url": "https://ma.jooble.org/jdp/719004721841383329",
       "salary": "",
       "employment_type": "",
       "published_at": "2026-09-29T00:00:00.0000000",
       "source": "Jooble",
       "domain_searched": "web",
+      "search_query": "web developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
+      "domains": [
+        "data"
+      ],
+      "opportunity_type": "other_relevant",
+      "student_priority": 3,
+      "experience_level": "not_specified",
+      "is_student_friendly": false
+    },
+    {
+      "title": "PYTHON Developer (M/F)",
+      "company": "AFRICASHORE",
+      "location": "Oujda",
+      "description": "&nbsp;...We are looking for  PYTHON <b>Developer </b> profiles / CVs to pass on to our clients for their future recruitment campaigns. \r\n \r\n Mission:...&nbsp;&nbsp;...development experience with Python based web servers. \r\n~ Backend & <b>Frontend </b>API creation using Tornado / Django / Flask etc. \r\n~ Good...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/-1311672926231193804",
+      "salary": "",
+      "employment_type": "",
+      "published_at": "2026-09-29T00:00:00.0000000",
+      "source": "Jooble",
+      "domain_searched": "web",
       "search_query": "frontend developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data",
         "web"
@@ -2331,12 +2262,7 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "REACT Developer (M/F)",
@@ -2350,18 +2276,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "web developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Regulatory Reporting Data Analyst",
@@ -2375,43 +2301,18 @@
       "source": "Jooble",
       "domain_searched": "data",
       "search_query": "data analyst",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
-    },
-    {
-      "title": "Remote Full Stack Developer",
-      "company": "G2i Inc.",
-      "location": "Télétravail",
-      "description": "&nbsp;...skills and may involve software, data, AI/ML, infrastructure, security, design, QA, or product work. \r\n Requirements \r\n Experience or <b>developing </b>skills in technology-related work is welcome. \r\n Fresh graduates and candidates just starting their careers are welcome....&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/5591142120476928173",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-10-31T14:50:18.1830604+00:00",
-      "source": "Jooble",
-      "domain_searched": "web",
-      "search_query": "full stack developer",
-      "domains": [
-        "web"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Salesforce CRM Developer",
@@ -2425,43 +2326,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "JavaScript developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
-    },
-    {
-      "title": "Software Engineer - AI Tooling Infrastructure",
-      "company": "Supabase",
-      "location": "Télétravail",
-      "description": "&nbsp;...Responsibilities \r\n Build and operate production backend services for Supabase’s <b>AI </b>products, including deployment, scaling, configuration, and releases for the MCP server. \r\n Own service architecture and evolve or split services to improve safety, reliability, and maintainability...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/-5279835879511959506",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-11-01T00:00:00.0000000",
-      "source": "Jooble",
-      "domain_searched": "ai",
-      "search_query": "AI engineer",
-      "domains": [
-        "networking"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Software Engineer - AI Tooling Infrastructure",
@@ -2475,43 +2351,43 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "AI engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "networking"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
-      "title": "Software Engineer: Full stack",
-      "company": "Capgemini",
-      "location": "Casablanca",
-      "description": "&nbsp;...leurs activités en tirant profit de toute la puissance de la technologie et des innovations dans les domaines en perpétuelle évolution tels que le cloud, la data, l’<b>Intelligence Artificielle,</b> la connectivité, les logiciels, l’ingénierie digitale ou les plateformes....&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/-8772675873399951943",
+      "title": "Software Engineer - AI Tooling Infrastructure",
+      "company": "Supabase",
+      "location": "Télétravail",
+      "description": "&nbsp;...Responsibilities \r\n Build and operate production backend services for Supabase’s <b>AI </b>products, including deployment, scaling, configuration, and releases for the MCP server. \r\n Own service architecture and evolve or split services to improve safety, reliability, and maintainability...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/-5279835879511959506",
       "salary": "",
       "employment_type": "",
       "published_at": "2026-11-01T00:00:00.0000000",
       "source": "Jooble",
       "domain_searched": "ai",
-      "search_query": "PFE intelligence artificielle",
-      "domains": [
-        "web"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "not_specified",
-      "is_student_friendly": false,
+      "search_query": "AI engineer",
       "application_method": "jooble",
       "direct_application_url": "",
       "employer_email": "",
       "email_verified": false,
-      "application_source_url": ""
+      "application_source_url": "",
+      "domains": [
+        "networking"
+      ],
+      "opportunity_type": "other_relevant",
+      "student_priority": 3,
+      "experience_level": "not_specified",
+      "is_student_friendly": false
     },
     {
       "title": "Software Engineer : Full Stack",
@@ -2525,43 +2401,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "full stack developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
-    },
-    {
-      "title": "Software Engineer - Solutions Engineering",
-      "company": "Canonical",
-      "location": "Télétravail",
-      "description": "&nbsp;...enterprise initiatives such as public cloud, data science, AI, <b>engineering </b>innovation, and IoT. Our customers include the world's...&nbsp;&nbsp;..., and an interest in the entire Linux stack - from kernel to <b>networking </b>to virtualization and containers. \r\n What you will do \r\n Work...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/2195455545192250045",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-10-28T00:00:00.0000000",
-      "source": "Jooble",
-      "domain_searched": "networking",
-      "search_query": "network engineer",
-      "domains": [
-        "networking"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Software Engineer - Sustaining Engineering",
@@ -2575,18 +2426,18 @@
       "source": "Jooble",
       "domain_searched": "networking",
       "search_query": "network engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "networking"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Spécialiste en Intelligence Artificielle (IA)",
@@ -2600,18 +2451,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "ingénieur intelligence artificielle",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "ai"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Supply Chain Data Analyst",
@@ -2625,18 +2476,18 @@
       "source": "Jooble",
       "domain_searched": "data",
       "search_query": "data analyst",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "WEB Frontend development",
@@ -2650,43 +2501,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "web developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
-    },
-    {
-      "title": "Web Frontend Engineer",
-      "company": "Canonical",
-      "location": "Télétravail",
-      "description": "&nbsp;...around the world, to align on strategy and execution.\n The company is founder-led, profitable and growing. \r\n We are hiring a <b>Web/</b>UI Engineer to <b>develop </b>a data-rich and reliable user experience. These frontends are constructed using JS, CSS, React, and Flutter, and serve as...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/-315598769541719406",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-10-28T00:00:00.0000000",
-      "source": "Jooble",
-      "domain_searched": "web",
-      "search_query": "web developer",
-      "domains": [
-        "web"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "not_specified",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "AI Engineering Back & Mobile Lead",
@@ -2700,18 +2526,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "AI engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "ai"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "AI/ML Engineer - Senior",
@@ -2725,6 +2551,11 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "machine learning engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "ai",
         "data"
@@ -2732,12 +2563,7 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Backend Developer (Node.js)",
@@ -2751,43 +2577,43 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "backend developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
+      "is_student_friendly": false
+    },
+    {
+      "title": "Consultant Senior BI & Microsoft Fabric (H/F)",
+      "company": "Inetum Maroc",
+      "location": "Casablanca",
+      "description": "&nbsp;...de données, modèles sémantiques et architectures décisionnelles. \r\n Développer des tableaux de bord et rapports interactifs sous  <b>Power BI </b> . \r\n Réaliser les développements  DAX  ,  Power Query (M) et  SQL  . \r\n Participer à l'intégration et à la transformation des donn...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/-8849731757295788258",
+      "salary": "",
+      "employment_type": "",
+      "published_at": "2026-11-09T00:00:00.0000000",
+      "source": "Jooble",
+      "domain_searched": "data",
+      "search_query": "stage Power BI",
       "application_method": "jooble",
       "direct_application_url": "",
       "employer_email": "",
       "email_verified": false,
-      "application_source_url": ""
-    },
-    {
-      "title": "Containerization & Virtualisation Engineer",
-      "company": "Canonical",
-      "location": "Télétravail",
-      "description": "&nbsp;...enterprise initiatives such as public cloud, data science, AI, <b>engineering </b>innovation and IoT. Our customers include the world's leading...&nbsp;&nbsp;...source VMM or container technology, or related open source <b>networking </b>and storage. \r\n Container, virtualisation and cloud infrastructure...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/-8097929485237868336",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-10-30T00:00:00.0000000",
-      "source": "Jooble",
-      "domain_searched": "networking",
-      "search_query": "network engineer",
+      "application_source_url": "",
       "domains": [
-        "networking"
+        "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Data Analyst - Senior",
@@ -2801,18 +2627,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "data scientist",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Data Business Analyst & Adoption Lead",
@@ -2826,18 +2652,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "data scientist",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Data Engineer Spark Scala Senior | Devoteam Maroc Nearshore",
@@ -2851,6 +2677,11 @@
       "source": "Jooble",
       "domain_searched": "data",
       "search_query": "data engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data",
         "networking"
@@ -2858,25 +2689,25 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Data Science Consultant Casablanca",
       "company": "Management Solutions",
       "location": "Casablanca",
-      "description": "&nbsp;...You will be working in key projects for leading organizations in <b>data </b>mining & knowledge Discovery, predictive modeling, trend...&nbsp;&nbsp;...studies and/or specialised courses are an asset, especially in Data <b>Science,</b> Quantitative Finance or similar. \r\n Knowledge of other languages...&nbsp;",
+      "description": "&nbsp;...You will be working in key projects for leading organizations in <b>data </b>mining & knowledge Discovery, predictive modeling, trend modeling, Simulation models (Monte Carlo), Review of credit rating and scoring models and quant support to the business and R&D projects.\n Requirements...&nbsp;",
       "application_url": "https://ma.jooble.org/jdp/-8507742926422677613",
       "salary": "",
       "employment_type": "",
       "published_at": "2026-11-04T10:35:41.7970000",
       "source": "Jooble",
       "domain_searched": "ai",
-      "search_query": "stage data science",
+      "search_query": "data scientist",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "ai",
         "data"
@@ -2884,12 +2715,7 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Developer lead (.net + angular)",
@@ -2903,18 +2729,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "JavaScript developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Développeur Backend sénior Java (F/H)-Rabat (Maroc)",
@@ -2928,18 +2754,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "stage développeur backend",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Développeur confirmé PHP / SQL",
@@ -2953,6 +2779,11 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "stage développeur web",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data",
         "web"
@@ -2960,12 +2791,7 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Développeur Full Stack Senior - Laravel 12+, Vue.js et PostgreSQL",
@@ -2979,6 +2805,11 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "full stack developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data",
         "web"
@@ -2986,12 +2817,7 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Développeur Java ReactJS",
@@ -3005,18 +2831,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "stage développeur web",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Développeur(se) Senior Java BackEnd",
@@ -3030,18 +2856,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "backend developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Embedded Linux Senior Software Engineer",
@@ -3055,18 +2881,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "computer vision engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "networking"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Engineering Manager - Frontend - Krak",
@@ -3080,18 +2906,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "frontend developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Full Stack Software Engineer",
@@ -3105,18 +2931,43 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "full stack developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
+      "is_student_friendly": false
+    },
+    {
+      "title": "Ingénieur IA Sénior (AI Engineering)",
+      "company": "ALTEN",
+      "location": "Rabat",
+      "description": "&nbsp;...du développement professionnel des <b>ingénieurs.</b> \r\n Notre mission :  Répondre aux ambitions...&nbsp;&nbsp;...déployer des briques et modèles d’<b>Intelligence Artificielle </b> au cœur d'un nouveau système d’...&nbsp;&nbsp;...gration de fonctionnalités d’assistance <b>intelligente </b>sur les interfaces de caisse pour...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/-4935895912055409651",
+      "salary": "",
+      "employment_type": "",
+      "published_at": "2026-11-09T00:00:00.0000000",
+      "source": "Jooble",
+      "domain_searched": "ai",
+      "search_query": "ingénieur intelligence artificielle",
       "application_method": "jooble",
       "direct_application_url": "",
       "employer_email": "",
       "email_verified": false,
-      "application_source_url": ""
+      "application_source_url": "",
+      "domains": [
+        "ai"
+      ],
+      "opportunity_type": "other_relevant",
+      "student_priority": 3,
+      "experience_level": "experienced",
+      "is_student_friendly": false
     },
     {
       "title": "Le PLM augmenté par l'IA : Intégration d'assistants intelligents (LLM) sous PTC Windchill pour capitaliser la donnée industrielle et optimiser les flux métiers",
@@ -3130,18 +2981,43 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "stage intelligence artificielle",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "ai"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
+      "is_student_friendly": false
+    },
+    {
+      "title": "Lead Full Stack Engineer",
+      "company": "Fivetran",
+      "location": "Télétravail",
+      "description": "&nbsp;...and ready to query, with no <b>engineering </b>or maintenance required. We’re...&nbsp;&nbsp;...across the systems, clouds, <b>engines,</b> and tools they rely on. dbt...&nbsp;&nbsp;...large, cross-team projects \r\n~ <b>Deep </b>experience designing distributed...&nbsp;&nbsp;...Click  here  to <b>learn </b>more about Fivetran’s Benefits...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/8528682784503670149",
+      "salary": "",
+      "employment_type": "",
+      "published_at": "2026-11-10T14:51:14.5132929+00:00",
+      "source": "Jooble",
+      "domain_searched": "ai",
+      "search_query": "deep learning engineer",
       "application_method": "jooble",
       "direct_application_url": "",
       "employer_email": "",
       "email_verified": false,
-      "application_source_url": ""
+      "application_source_url": "",
+      "domains": [
+        "web"
+      ],
+      "opportunity_type": "other_relevant",
+      "student_priority": 3,
+      "experience_level": "experienced",
+      "is_student_friendly": false
     },
     {
       "title": "Lead Software Engineer: Full stack agentic IA",
@@ -3155,18 +3031,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "full stack developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Manager Data Engineer - Casablanca",
@@ -3180,43 +3056,43 @@
       "source": "Jooble",
       "domain_searched": "data",
       "search_query": "data engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
+      "is_student_friendly": false
+    },
+    {
+      "title": "Manager Data Scientist - Casablanca",
+      "company": "Artefact",
+      "location": "Casablanca",
+      "description": "&nbsp;...Who we are Artefact is a new generation of a <b>data </b>service provider, specialising in data consulting and data-driven digital marketing, dedicated to transforming data into business impact across the entire value chain of organisations. We are proud to say we’re enjoying...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/-4071492465238517851",
+      "salary": "",
+      "employment_type": "",
+      "published_at": "2026-11-02T14:36:32.1970000",
+      "source": "Jooble",
+      "domain_searched": "ai",
+      "search_query": "data scientist",
       "application_method": "jooble",
       "direct_application_url": "",
       "employer_email": "",
       "email_verified": false,
-      "application_source_url": ""
-    },
-    {
-      "title": "Principal Engineer - - Full-Stack TypeScript",
-      "company": "HOOK",
-      "location": "Télétravail",
-      "description": "&nbsp;...THE ROLE \r\n We’re looking for a senior <b>full-stack </b>engineer who lives in TypeScript. You write...&nbsp;&nbsp;...and occasionally direct freelance <b>developers </b>\r\n Evaluate and recommend tools, frameworks...&nbsp;&nbsp;...tools, workflow automation, or <b>developer/</b>creative productivity platforms \r\n Familiarity...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/4815587876801695684",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-10-30T20:50:03.4207315+00:00",
-      "source": "Jooble",
-      "domain_searched": "web",
-      "search_query": "full stack developer",
+      "application_source_url": "",
       "domains": [
-        "web"
+        "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Principal Full Stack Software Engineer",
@@ -3230,43 +3106,68 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "full stack developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
+      "is_student_friendly": false
+    },
+    {
+      "title": "Senior AI Engineer (AI Automation)",
+      "company": "TRM Labs",
+      "location": "Télétravail",
+      "description": "&nbsp;...BUILD A SAFER WORLD.  TRM Labs provides <b>AI-</b>powered intelligence solutions that help public and private sector agencies investigate...&nbsp;&nbsp;...TRM to make the world safer and more secure. \r\n As a Senior AI <b>Engineer,</b> you will be the embedded AI automation engineer for Product, building...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/-2560641705433741431",
+      "salary": "",
+      "employment_type": "",
+      "published_at": "2026-11-11T20:50:02.8956557+00:00",
+      "source": "Jooble",
+      "domain_searched": "ai",
+      "search_query": "AI engineer",
       "application_method": "jooble",
       "direct_application_url": "",
       "employer_email": "",
       "email_verified": false,
-      "application_source_url": ""
-    },
-    {
-      "title": "Python Engineer",
-      "company": "Canonical",
-      "location": "Télétravail",
-      "description": "&nbsp;...enterprise initiatives such as public cloud, data science, AI, <b>engineering </b>innovation, and IoT. Our customers include the world's leading...&nbsp;&nbsp;...both high school and university \r\n Undergraduate degree in <b>Computer </b>Science or STEM, or a compelling narrative about your alternative...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/-6266274146696226215",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-10-28T00:00:00.0000000",
-      "source": "Jooble",
-      "domain_searched": "ai",
-      "search_query": "computer vision engineer",
+      "application_source_url": "",
       "domains": [
-        "data"
+        "ai"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
+      "is_student_friendly": false
+    },
+    {
+      "title": "Senior AI Engineer / Java Spring Boot (H/F)",
+      "company": "CGI",
+      "location": "Casablanca",
+      "description": "&nbsp;...Position Description: Dans le cadre d'un programme de modernisation d'un système d'encaissement, nous recherchons un Senior <b>AI Engineer </b>pour concevoir, intégrer et déployer des composants et modèles d'intelligence artificielle.\nVous interviendrez sur des problématiques...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/8988549662434138540",
+      "salary": "",
+      "employment_type": "",
+      "published_at": "2026-11-12T08:54:29.1779510+00:00",
+      "source": "Jooble",
+      "domain_searched": "ai",
+      "search_query": "AI engineer",
       "application_method": "jooble",
       "direct_application_url": "",
       "employer_email": "",
       "email_verified": false,
-      "application_source_url": ""
+      "application_source_url": "",
+      "domains": [
+        "ai"
+      ],
+      "opportunity_type": "other_relevant",
+      "student_priority": 3,
+      "experience_level": "experienced",
+      "is_student_friendly": false
     },
     {
       "title": "Senior Ai/ML Engineer",
@@ -3280,43 +3181,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "machine learning engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "ai"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
-    },
-    {
-      "title": "Senior AI/ML Engineer",
-      "company": "Recare",
-      "location": "Télétravail",
-      "description": "&nbsp;...opportunity to solve the industry’s most pressing challenges with <b>AI.</b> With most German acute hospitals now using the Recare platform,...&nbsp;&nbsp;...it all the way into production. As one of our most experienced <b>engineers,</b> you will mentor others, help shape our AI technical strategy,...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/-5627002811150704683",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-10-27T00:00:00.0000000",
-      "source": "Jooble",
-      "domain_searched": "ai",
-      "search_query": "AI engineer",
-      "domains": [
-        "ai"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Senior Back-End Developer",
@@ -3330,18 +3206,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "web developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Senior Backend Developer",
@@ -3355,18 +3231,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "artificial intelligence developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Senior Data Analyst",
@@ -3380,18 +3256,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "data scientist",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Senior Data Engineer - Casablanca",
@@ -3405,18 +3281,18 @@
       "source": "Jooble",
       "domain_searched": "data",
       "search_query": "data engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Senior Data Engineer - Freelance",
@@ -3430,43 +3306,18 @@
       "source": "Jooble",
       "domain_searched": "data",
       "search_query": "data engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
-    },
-    {
-      "title": "Senior Data Scientist",
-      "company": "Parser",
-      "location": "Télétravail",
-      "description": "&nbsp;...Senior <b>Data Scientist </b>\r\n Who is Parser?\r\n Technology alone does not create impact—the right teams do. Founded in 2018, Parser is a boutique technology services and consulting firm helping global organisations solve complex business challenges through digital transformation...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/1946196196596648410",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-10-28T00:00:00.0000000",
-      "source": "Jooble",
-      "domain_searched": "ai",
-      "search_query": "data scientist",
-      "domains": [
-        "data"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Senior Data Scientist H/F",
@@ -3480,6 +3331,11 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "data scientist",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data",
         "networking"
@@ -3487,38 +3343,7 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
-    },
-    {
-      "title": "Senior Data Scientist H/F",
-      "company": "Devoteam Morocco",
-      "location": "Casablanca",
-      "description": "&nbsp;...innovantes, jusqu’à l’adoption des usages. \r\n Cloud, Cybersecurity, <b>Data,</b> DevOps, Fullstack Dev, Low Code, RPA n’ont plus aucun secret...&nbsp;&nbsp;...churn, augmenter le taux de conversion) en problématiques Data <b>Science.</b> \r\n Interpréter les résultats des modèles et communiquer les insights...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/3628307068289658181",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-10-29T17:53:59.4950902+00:00",
-      "source": "Jooble",
-      "domain_searched": "ai",
-      "search_query": "stage data science",
-      "domains": [
-        "data",
-        "networking"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Senior Data Scientist, Knowledge Layer",
@@ -3532,18 +3357,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "data scientist",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Senior Engineer, Machine Learning",
@@ -3557,6 +3382,11 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "machine learning engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "ai",
         "data"
@@ -3564,12 +3394,7 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Senior Front-End Developer",
@@ -3583,118 +3408,143 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "backend developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
+      "is_student_friendly": false
+    },
+    {
+      "title": "Senior Frontend Developer",
+      "company": "Social Discovery Group",
+      "location": "Télétravail",
+      "description": "&nbsp;...minded people and IT professionals who specialize in creating and <b>developing </b>globally impactful social discovery products. Our...&nbsp;&nbsp;...Jobs (FlexJobs, 2025). \r\n We are looking for a Senior Frontend <b>Developer.</b> \r\n  Your main tasks will be: \r\n Development of new functionality...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/-4162384572397878826",
+      "salary": "$1000 per year",
+      "employment_type": "",
+      "published_at": "2026-11-12T14:49:56.0079660+00:00",
+      "source": "Jooble",
+      "domain_searched": "ai",
+      "search_query": "artificial intelligence developer",
       "application_method": "jooble",
       "direct_application_url": "",
       "employer_email": "",
       "email_verified": false,
-      "application_source_url": ""
+      "application_source_url": "",
+      "domains": [
+        "web"
+      ],
+      "opportunity_type": "other_relevant",
+      "student_priority": 3,
+      "experience_level": "experienced",
+      "is_student_friendly": false
+    },
+    {
+      "title": "Senior Frontend Engineer",
+      "company": "TeamSnap",
+      "location": "Télétravail",
+      "description": "&nbsp;...First Places to Work.”\r\n TeamSnap is seeking a Senior Frontend <b>Engineer </b>interested in working across the stack to join our fully distributed...&nbsp;&nbsp;...or secondary)\r\n• 100% premium coverage of medical/dental/<b>vision </b>for you and your family \r\n• 401K to help you invest for the future...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/-5472201480011883130",
+      "salary": "$1500 per year",
+      "employment_type": "",
+      "published_at": "2026-11-10T20:51:11.7774700+00:00",
+      "source": "Jooble",
+      "domain_searched": "ai",
+      "search_query": "computer vision engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
+      "domains": [
+        "web"
+      ],
+      "opportunity_type": "other_relevant",
+      "student_priority": 3,
+      "experience_level": "experienced",
+      "is_student_friendly": false
     },
     {
       "title": "Senior Frontend Engineer - 100% Remote",
       "company": "Hostaway",
       "location": "Télétravail",
-      "description": "&nbsp;...property managers worldwide, Hostaway is an industry leading, AI-<b>powered </b>vacation rental management platform designed for professional...&nbsp;&nbsp;...Property Management System unicorn . Join us at our most exciting <b>stage </b>yet! Learn more about our recent valuation and story here. \r\n About...&nbsp;",
+      "description": "&nbsp;...recent valuation and story here. \r\n About the role \r\n As a Senior <b>Frontend </b>Engineer at Hostaway, you’ll take ownership of building and...&nbsp;&nbsp;...features, and reusable libraries that support our design system. \r\n <b>Develop </b>intuitive, performant, accessible, and responsive user...&nbsp;",
       "application_url": "https://ma.jooble.org/jdp/4442451655979038632",
       "salary": "",
       "employment_type": "",
       "published_at": "2026-11-08T14:49:58.1102368+00:00",
       "source": "Jooble",
-      "domain_searched": "data",
-      "search_query": "stage Power BI",
-      "domains": [
-        "web"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
-    },
-    {
-      "title": "Senior Frontend Engineer - Acquisition",
-      "company": "Alpaca",
-      "location": "Télétravail",
-      "description": "&nbsp;...vibrant community, continuously enhancing our award-winning, <b>developer-</b>friendly API and the robust infrastructure behind it. \r\n Alpaca...&nbsp;&nbsp;...impact, we encourage you to apply. \r\n Your Role: \r\n As a Senior <b>Frontend </b>Engineer, you will be responsible for designing, implementing,...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/-8693579448493233572",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-10-29T14:50:06.1631097+00:00",
-      "source": "Jooble",
       "domain_searched": "web",
       "search_query": "frontend developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Senior Full Stack Developer Java / React (F/H)",
-      "company": "",
+      "company": "CGI",
       "location": "Rabat",
-      "description": "Senior <b>Full Stack Developer </b>Java / React (F/H) \r\n Description de poste \r\n Nous recherchons un(e) Senior Full Stack Developer Java / React pour rejoindre nos équipes et participer au développement, à l’évolution et à la maintenance d’applications web dans des environnements...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/2636440779406768391",
+      "description": "&nbsp;...Position Description: Nous recherchons un(e) Senior <b>Full Stack Developer </b>Java / React pour rejoindre nos équipes et participer au développement, à l’évolution et à la maintenance d’applications web dans des environnements exigeants.\nVous interviendrez aussi bien sur le...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/-5314205716024137187",
       "salary": "",
       "employment_type": "",
-      "published_at": "2026-10-08T00:00:00.0000000",
+      "published_at": "2026-11-04T10:35:39.1870000",
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "full stack developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
-      "title": "Senior Full Stack Engineer",
-      "company": "CookUnity",
-      "location": "Télétravail",
-      "description": "&nbsp;...and cared for long after checkout. \r\n The role: \r\n As a Senior <b>Full Stack </b>Engineer, you will play a pivotal role in our Post-Orders...&nbsp;&nbsp;...within our Backend-for-Frontend (BFF) architecture, as well as <b>developing </b>and maintaining backend services and databases. \r\n Responsibilities...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/-5666869121181363345",
+      "title": "Senior Full Stack Developer Java / React (F/H)",
+      "company": "CGI",
+      "location": "Fès Prefecture",
+      "description": "&nbsp;...Position Description: Nous recherchons un(e) Senior <b>Full Stack Developer </b>Java / React pour rejoindre nos équipes et participer au développement, à l’évolution et à la maintenance d’applications web dans des environnements exigeants.\nVous interviendrez aussi bien sur le...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/2031301735069942828",
       "salary": "",
       "employment_type": "",
-      "published_at": "2026-10-30T00:00:00.0000000",
+      "published_at": "2026-11-04T10:35:39.1870000",
       "source": "Jooble",
       "domain_searched": "web",
-      "search_query": "full stack developer",
+      "search_query": "stage full stack developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Senior Full Stack Engineer Database",
@@ -3708,18 +3558,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "full stack developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Senior Full-Stack Python Engineer",
@@ -3733,6 +3583,11 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "full stack developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data",
         "web"
@@ -3740,88 +3595,32 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
-    },
-    {
-      "title": "Senior FullStack Developer",
-      "company": "G2i",
-      "location": "Télétravail",
-      "description": "&nbsp;...SENIOR FULL STACK <b>DEVELOPER </b>— WEB3 Remote — International | Full-time \r\n Salary – up to 90k USD \r\n ABOUT THE OPPORTUNITY \r\n G2i is...&nbsp;&nbsp;...recruiting a Senior Full Stack Developer for Moonberg, a Zug-based <b>intelligence </b>lab building proprietary market intelligence and...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/888434724659966460",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-10-28T20:49:59.0989139+00:00",
-      "source": "Jooble",
-      "domain_searched": "ai",
-      "search_query": "artificial intelligence developer",
-      "domains": [
-        "web"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
-    },
-    {
-      "title": "Senior Machine Learning Engineer",
-      "company": "TRM Labs",
-      "location": "Télétravail",
-      "description": "&nbsp;...secure. \r\n We’re looking for a Full Stack Data Scientist / <b>Machine Learning Engineer </b>to join our Knowledge Layer team, a group focused on extracting...&nbsp;&nbsp;...to apply — we hire for slope, judgment, and the will to <b>learn </b>fast. \r\n TRM is a Series C company with $220M in total...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/3721880323689789308",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-10-30T00:00:00.0000000",
-      "source": "Jooble",
-      "domain_searched": "ai",
-      "search_query": "machine learning engineer",
-      "domains": [
-        "ai",
-        "data"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Senior Sales Data Analyst",
       "company": "",
       "location": "Casablanca",
-      "description": "&nbsp;...importantly working well for their needs. \r\n\r\n Position Overview: \r\n We are seeking a highly skilled and detail-oriented  Senior Sales <b>Data Analyst </b> to join our team. This role is pivotal in analyzing large amounts of sensitive data, ensuring data governance, and delivering...&nbsp;",
+      "description": "&nbsp;...importantly working well for their needs. \r\n\r\n Position Overview: \r\n We are seeking a highly skilled and detail-oriented  Senior Sales <b>Data </b>Analyst  to join our team. This role is pivotal in analyzing large amounts of sensitive data, ensuring data governance, and...&nbsp;",
       "application_url": "https://ma.jooble.org/jdp/-4013688900679239064",
       "salary": "",
       "employment_type": "",
       "published_at": "2026-11-05T19:13:18.0770306+00:00",
       "source": "Jooble",
-      "domain_searched": "data",
-      "search_query": "data analyst",
+      "domain_searched": "ai",
+      "search_query": "data scientist",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "data"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Senior Software Engineer - Frontend - Consumer",
@@ -3835,18 +3634,68 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "frontend developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
+      "is_student_friendly": false
+    },
+    {
+      "title": "Senior Software Engineer, Full Stack",
+      "company": "Raya",
+      "location": "Télétravail",
+      "description": "&nbsp;...We are seeking a Senior <b>Full Stack </b>Engineer with experience in iOS and backend services to join the Places team to build and elevate member-facing experiences across the Places iOS app. Places is a separate consumer iOS app within Raya. You will work on the whole app,...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/5605830303654384633",
+      "salary": "$50 per day",
+      "employment_type": "",
+      "published_at": "2026-11-12T20:49:57.8490210+00:00",
+      "source": "Jooble",
+      "domain_searched": "web",
+      "search_query": "full stack developer",
       "application_method": "jooble",
       "direct_application_url": "",
       "employer_email": "",
       "email_verified": false,
-      "application_source_url": ""
+      "application_source_url": "",
+      "domains": [
+        "web"
+      ],
+      "opportunity_type": "other_relevant",
+      "student_priority": 3,
+      "experience_level": "experienced",
+      "is_student_friendly": false
+    },
+    {
+      "title": "Senior Software Engineer, Full Stack",
+      "company": "Raya",
+      "location": "Télétravail",
+      "description": "&nbsp;...We are seeking a Senior <b>Full Stack </b>Engineer with experience in iOS and backend services to join the Places team to build and elevate member-facing experiences across the Places iOS app. Places is a separate consumer iOS app within Raya. You will work on the whole app,...&nbsp;",
+      "application_url": "https://ma.jooble.org/jdp/1690202348495650695",
+      "salary": "$50 per day",
+      "employment_type": "",
+      "published_at": "2026-11-11T00:00:00.0000000",
+      "source": "Jooble",
+      "domain_searched": "web",
+      "search_query": "full stack developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
+      "domains": [
+        "web"
+      ],
+      "opportunity_type": "other_relevant",
+      "student_priority": 3,
+      "experience_level": "experienced",
+      "is_student_friendly": false
     },
     {
       "title": "Senior Software Engineer - Javascript",
@@ -3860,18 +3709,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "JavaScript developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Senior Software Engineer - Rust - Backend",
@@ -3885,43 +3734,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "backend developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
-    },
-    {
-      "title": "Senior Staff Data Engineer",
-      "company": "Cohere",
-      "location": "Télétravail",
-      "description": "&nbsp;...they drive for our customers. Cohere is a team of researchers, <b>engineers,</b> designers, and more, who are all passionate about their craft....&nbsp;&nbsp;..., and most curious people to help us do it. As the head of the <b>Data </b>Foundation pillar of our Analytics and Data Insights team, you’...&nbsp;",
-      "application_url": "https://ma.jooble.org/jdp/-942708063308491621",
-      "salary": "",
-      "employment_type": "",
-      "published_at": "2026-10-28T20:50:03.3229637+00:00",
-      "source": "Jooble",
-      "domain_searched": "data",
-      "search_query": "data engineer",
-      "domains": [
-        "data"
-      ],
-      "opportunity_type": "other_relevant",
-      "student_priority": 3,
-      "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Staff AI Engineer",
@@ -3935,18 +3759,18 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "AI engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "ai"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Staff Machine Learning Engineer",
@@ -3960,6 +3784,11 @@
       "source": "Jooble",
       "domain_searched": "ai",
       "search_query": "machine learning engineer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "ai",
         "data"
@@ -3967,12 +3796,7 @@
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Team Leader Full Stack",
@@ -3986,18 +3810,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "full stack developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Technical Lead Full Stack Java/Angular Senior (F/H)",
@@ -4011,18 +3835,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "full stack developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     },
     {
       "title": "Technical Lead Full Stack Java/Angular Senior (F/H)",
@@ -4036,18 +3860,18 @@
       "source": "Jooble",
       "domain_searched": "web",
       "search_query": "full stack developer",
+      "application_method": "jooble",
+      "direct_application_url": "",
+      "employer_email": "",
+      "email_verified": false,
+      "application_source_url": "",
       "domains": [
         "web"
       ],
       "opportunity_type": "other_relevant",
       "student_priority": 3,
       "experience_level": "experienced",
-      "is_student_friendly": false,
-      "application_method": "jooble",
-      "direct_application_url": "",
-      "employer_email": "",
-      "email_verified": false,
-      "application_source_url": ""
+      "is_student_friendly": false
     }
   ]
 }
